@@ -1,2 +1,2 @@
 # composition
-Study comparing text categorization models 
+Study of semantic compositionality by comparing text categorization models 
