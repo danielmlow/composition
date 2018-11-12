@@ -12,15 +12,15 @@ Study of semantic compositionality by comparing text categorization models
 # Files / scripts
 - MA_3120155_DM_Low
 
-    Thesis
+        Thesis
 
 - Xtrain_w2v_mean.npy (832MB) Xtest_w2v_mean.npy (184MB) 
 
-    Request if you want to run any of the logreg_w2v models.
+        Request if you want to run any of the logreg_w2v models.
 
 - stopwords-it2.txt
 
-    These are stopwords which can be removed from avg. word embeddings. 
+        These are stopwords which can be removed from avg. word embeddings. 
 
 
 ### Stimuli Design
@@ -43,23 +43,23 @@ Study of semantic compositionality by comparing text categorization models
 
 - rsm.py
 
-After training a model, I plot RSMs/RDMs with dendrograms between the sentences.
+        After training a model, I plot RSMs/RDMs with dendrograms between the sentences.
 
 - rsa_similarity_experiment.py
 
-Functions to do RSA between feature vectors of different models and human responses
+        Functions to do RSA between feature vectors of different models and human responses
 
 - corr_between_layers.py
 
-To build RSMs at each layer and then correlate them, to see how similar/redundant layers are. 
+        To build RSMs at each layer and then correlate them, to see how similar/redundant layers are. 
 
 - probing.py
 
-Evaluate what's in the vectors by probing (see Sent Eval and thesis).
+        Evaluate what's in the vectors by probing (see Sent Eval and thesis).
 
 - rouge.py
 
-Rouge is a nice metric to see whether two sentences are superficially similar. We used it to show the layer1 in the CNN has higher rouge than layer 3 (where sentences are similar because they belong to the same category), proving the CNN is doing abstraction. See thesis and 
+        Rouge is a nice metric to see whether two sentences are superficially similar. We used it to show the layer1 in the CNN has higher rouge than layer 3 (where sentences are similar because they belong to the same category), proving the CNN is doing abstraction. See thesis and 
 
 https://github.com/pltrdy/rouge
 
