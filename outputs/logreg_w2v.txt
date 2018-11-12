@@ -1,0 +1,31 @@
+logreg_w2v.py
+18-07-18-00-24-06
+
+76799=================
+time: 1663.91
+Top-1 Accuracy: 0.6713
+Top-2 Accuracy: 0.7947
+Top-3 Accuracy: 0.8487
+Top-5 Accuracy: 0.9012
+{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'max_iter': 100, 'multi_class': 'ovr', 'n_jobs': -1, 'penalty': 'l2', 'random_state': None, 'solver': 'liblinear', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+
+logreg_w2v.py
+18-07-18-00-24-06
+
+logreg_w2v.py
+18-07-18-00-24-06
+
+logreg_w2v.py
+18-07-18-00-24-06
+
+76799=================
+time: 1735.24
+Top-1 Accuracy: 0.6713
+Top-2 Accuracy: 0.7947
+Top-3 Accuracy: 0.8487
+Top-5 Accuracy: 0.9012
+{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'max_iter': 100, 'multi_class': 'ovr', 'n_jobs': -1, 'penalty': 'l2', 'random_state': None, 'solver': 'liblinear', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+
+logreg_w2v_cross_validation.py
+18-07-18-00-24-06
+

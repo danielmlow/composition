@@ -1,0 +1,193 @@
+﻿cluster_ids,ids,scaled_scores,unscaled_scores,s2_score_scaled,s4_score_scaled,s2_score,s4_score,s2_unscaled_score,s4_unscaled_score,category_id,category_name,sentences
+336,337824,-0.645,1.0,-0.92,-0.37,'1','1',1,1,56,SportsTeam,La nazionale egiziana si è qualificata per i Giochi vincendo il torneo preolimpico africano.
+337,339327,-0.645,1.0,-0.92,-0.37,'1','1',1,1,56,SportsTeam,Si tratta della rappresentativa più numerosa mai inviata da questo paese ai Giochi olimpici.
+344,340182,-0.645,1.0,-0.92,-0.37,'1','1',1,1,56,SportsTeam,"Il Comitato Olimpico del Qatar, creato nel 1979, venne riconosciuto dal CIO nel 1980."
+349,340114,-0.645,1.0,-0.92,-0.37,'1','1',1,1,56,SportsTeam,La nazionale australiana si è qualificata per i Giochi vincendo il campionato oceaniano del 2007.
+338,340711,-0.145,1.5,0.08,-0.37,'2','1',2,1,56,SportsTeam,"Il Comitato Olimpico Monegasco, fondato nel 1907, è stato ammesso al CIO nel 1953."
+339,341195,-0.145,1.5,0.08,-0.37,'2','1',2,1,56,SportsTeam,"Il Consiglio Olimpico della Malesia, creato nel 1953, venne riconosciuto dal CIO nel 1954."
+340,340719,-0.145,1.5,0.08,-0.37,'2','1',2,1,56,SportsTeam,La nazionale australiana si è qualificata per i Giochi vincendo il campionato mondiale del 2006.
+131,124825,-0.645,1.0,-0.92,-0.37,'1','1',1,1,20,Disease,Si dispone di un certo numero di farmaci che risultano efficaci contro la scabbia.
+125,122755,-0.145,1.5,0.08,-0.37,'2','1',2,1,20,Disease,A seguito alla diagnosi della sindrome non si rende necessario alcun tipo di follow up.
+126,122415,-0.145,1.5,0.08,-0.37,'2','1',2,1,20,Disease,"In altri testi invece, soprattutto quelli più recenti, è sviluppato ampiamente come entità nosologica."
+127,121066,-0.145,1.5,0.08,-0.37,'2','1',2,1,20,Disease,"Il virus parainfluenzale umano produce tipicamente un infiammazione del naso, della gola e dei bronchi."
+146,133069,-0.645,1.0,-0.92,-0.37,'1','1',1,1,22,EthnicGroup,"Nel 2002 si tenta di approvare la legge della Regione, che però fu respinta."
+145,136987,-0.145,1.5,0.08,-0.37,'2','1',2,1,22,EthnicGroup,"Gli usbechi, inoltre, fanno parte dei 56 gruppi etnici riconosciuti ufficialmente dalla Repubblica popolare cinese."
+16,12927,-0.645,1.0,-0.92,-0.37,'1','1',1,1,2,Album,"Tomorrowland è il quarto album in studio del cantautore statunitense Ryan Bingham, pubblicato nel 2012."
+18,13333,-0.645,1.0,-0.92,-0.37,'1','1',1,1,2,Album,"Dal disco vengono estratti tre singoli Sogno d estate, Anima di vento e L'orizzonte."
+109,111083,-0.645,1.0,-0.92,-0.37,'1','1',1,1,18,Decoration,L Ordine della Corona di Tonga è un ordine cavalleresco del regno di Tonga.
+107,110903,-0.145,1.5,0.08,-0.37,'2','1',2,1,18,Decoration,Questa medaglia è stata conferita anche ad alcuni membri delle forze piemontesi e francesi alleate.
+108,111075,-0.145,1.5,0.08,-0.37,'2','1',2,1,18,Decoration,L Ordine del re George Tupou I era un ordine cavalleresco del regno di Tonga.
+111,111182,-0.145,1.5,0.08,-0.37,'2','1',2,1,18,Decoration,Da questa dipende il corpo militare ausiliario comandato da un generale dell'Esercito Italiano.
+12,9100,-0.645,1.0,-0.92,-0.37,'1','1',1,1,1,Airport,Durante il 2017 ha svolto i primi voli passeggeri operati da Qatar Airways e Emirates.
+13,6273,-0.645,1.0,-0.92,-0.37,'1','1',1,1,1,Airport,Negli anni novanta l'Aeradria strinse accordi con la vicina Repubblica di San Marino.
+15,6459,-0.645,1.0,-0.92,-0.37,'1','1',1,1,1,Airport,L'aeroporto è aperto dalle 0500 alle 1900 esclusi il sabato e la domenica.
+6,11032,-0.14500000000000002,1.5,-0.92,0.63,'1','2',1,2,1,Airport,"Così era abbastanza lunga per i Jumbo Jet, il primo atterrò il 12 luglio 1970."
+4,7313,-0.145,1.5,0.08,-0.37,'2','1',2,1,1,Airport,"Nel 1960, venne votato come il più grande aeroporto del mondo dalla comunità mondiale aeronautica."
+7,11427,-0.145,1.5,0.08,-0.37,'2','1',2,1,1,Airport,L'aeroporto è collegato con il centro di Fukuoka attraverso la Linea Kūkō della metropolitana.
+306,308704,-0.645,1.0,-0.92,-0.37,'1','1',1,1,51,Software,Dal mese di dicembre del 2011 il sito del browser non è più disponibile.
+304,309308,-0.145,1.5,0.08,-0.37,'2','1',2,1,51,Software,MacPaint è stato il primo programma per disegnare basato su interfaccia grafica disponibile su Macintosh.
+305,309461,-0.145,1.5,0.08,-0.37,'2','1',2,1,51,Software,Include tools di gestione a riga di comando ed una GUI per le query.
+307,309766,-0.145,1.5,0.08,-0.37,'2','1',2,1,51,Software,"Synthesia inizia il suo debutto nel 29 dicembre del 2006, con il nome Piano Hero."
+24,21220,-0.645,1.0,-0.92,-0.37,'1','1',1,1,3,AmericanFootballPlayer,Stafford fu scelto nel corso del settimo giro del Draft 2013 dai Tennessee Titans.
+26,19476,-0.645,1.0,-0.92,-0.37,'1','1',1,1,3,AmericanFootballPlayer,Duper fu scelto nel corso del secondo giro del Draft 1982 dai Miami Dolphins.
+29,19629,-0.645,1.0,-0.92,-0.37,'1','1',1,1,3,AmericanFootballPlayer,"Il 4 maggio 2012, Crawford firmò con la franchigia della capitale nordamericana un contratto quadriennale."
+20,22228,-0.145,1.5,0.08,-0.37,'2','1',2,1,3,AmericanFootballPlayer,Ellington fu scelto nel corso del sesto giro del Draft 2013 dagli Arizona Cardinals.
+25,19451,-0.145,1.5,0.08,-0.37,'2','1',2,1,3,AmericanFootballPlayer,Wolff fu scelto nel corso del quinto giro del Draft 2013 dai Philadelphia Eagles.
+28,20280,-0.145,1.5,0.08,-0.37,'2','1',2,1,3,AmericanFootballPlayer,"Dopo la conquista del secondo anello, Elway decise per il ritiro dall'attività agonistica."
+105,103890,-0.645,1.0,-0.92,-0.37,'1','1',1,1,17,Cyclist,"Nel 1968 partecipò alla sua prima Vuelta a España, piazzandosi secondo in due tappe."
+101,105399,-0.145,1.5,0.08,-0.37,'2','1',2,1,17,Cyclist,"Nel 2005 corse la Classique des Alpes dove arrivò secondo, battuto solo da Alexandre Pliuschin."
+62,66987,-0.145,1.5,0.08,-0.37,'2','1',2,1,11,CelestialBody,"Heintz ha inoltre tentato una stima della massa totale del sistema, risultata 0,78 M."
+65,69876,-0.145,1.5,0.08,-0.37,'2','1',2,1,11,CelestialBody,"HD 72752 è una stella gigante arancione di magnitudine 6,5 situata nella costellazione delle Vele."
+63,68855,0.35500000000000004,2.0,1.08,-0.37,'3','1',3,1,11,CelestialBody,"61 Ceti è una stella gigante gialla di magnitudine 5,96 situata nella costellazione della Balena."
+64,66968,0.35500000000000004,2.0,1.08,-0.37,'3','1',3,1,11,CelestialBody,"HD 73599 è una stella gigante arancione di magnitudine 6,45 situata nella costellazione del Cancro."
+222,217321,-0.645,1.0,-0.92,-0.37,'1','1',1,1,36,Mountain,In un documento del 1062 è citata per la prima volta la Petra de Bismanto.
+223,218487,-0.645,1.0,-0.92,-0.37,'1','1',1,1,36,Mountain,Inoltre a Ronco Scrivia è stata istituita una commissione ambiente che ha dato parere favorevole.
+224,219613,-0.645,1.0,-0.92,-0.37,'1','1',1,1,36,Mountain,Ai piedi del monte vi è l'ex rifugio Melano conosciuto oggi come Casa Canada.
+226,218162,-0.645,1.0,-0.92,-0.37,'1','1',1,1,36,Mountain,La sola eruzione della quale si abbia notizia in epoca storica avvenne nel 1961.
+164,152501,-0.645,1.0,-0.92,-0.37,'1','1',1,1,25,Game,"Rappresentate da carte di forma quadrata, si distinguono in Fanteria, Artiglieria, Cavalleria e Aerei."
+167,150422,-0.645,1.0,-0.92,-0.37,'1','1',1,1,25,Game,"Questo mondo, detto Chancel, ospita sia i loro corpi fisici che il loro riflesso spirituale."
+191,190058,-0.645,1.0,-0.92,-0.37,'1','1',1,1,31,MilitaryPerson,Suo fratello si distinse anche lui nei combattimenti e venne nominato capitano di vascello.
+195,190612,-0.645,1.0,-0.92,-0.37,'1','1',1,1,31,MilitaryPerson,Dopo la fine delle guerre di liberazione fu inviato in molte missioni diplomatiche all'estero.
+47,53064,-0.645,1.0,-0.92,-0.37,'1','1',1,1,8,Book,Ayesha invita i suoi ospiti ad un ballo organizzato in loro onore la sera stessa.
+197,194997,-0.145,1.5,0.08,-0.37,'2','1',2,1,32,MilitaryUnit,"Nel 1449 si ribellarono per la prima volta, chiedendo e ottenendo paghe più alte."
+196,192903,0.855,2.5,-0.92,2.63,'1','4',1,4,32,MilitaryUnit,Con il 2o Reggimento genio guastatori alpino è uno dei due reggimenti guastatori alpini.
+371,375223,-0.645,1.0,-0.92,-0.37,'1','1',1,1,62,VideoGame,Come sempre spetta agli eroi l'ingrato compito di affrontare i mostri e sconfiggerli.
+374,375187,-0.645,1.0,-0.92,-0.37,'1','1',1,1,62,VideoGame,Inoltre sono presenti anche delle lezioni per imparare le nozioni di base del gioco.
+376,375194,-0.645,1.0,-0.92,-0.37,'1','1',1,1,62,VideoGame,La professoressa chiede alla ragazza di andare a cercare Ira che è scomparsa nel nulla.
+51,59990,-0.645,1.0,-0.92,-0.37,'1','1',1,1,9,Building,"Dopo gli anni del conflitto, il casinò riapri ufficialmente la sera del 31 dicembre 1945."
+50,58464,0.35500000000000004,2.0,1.08,-0.37,'3','1',3,1,9,Building,"Il portego, ossia il salone da ricevimento, si sviluppa in corrispondenza della polifora di destra."
+133,127824,-0.645,1.0,-0.92,-0.37,'1','1',1,1,21,Dog,Il cane da pastore di Vallée è un cane del gruppo pastori e bovari.
+135,127037,-0.645,1.0,-0.92,-0.37,'1','1',1,1,21,Dog,"In Gran Bretagna, per esempio, è consentito il possesso solo di esemplari registrati e castrati."
+137,130250,-0.645,1.0,-0.92,-0.37,'1','1',1,1,21,Dog,"La coda è moderatamente lunga e attaccata sulla linea del corpo, mai ricurva sul dorso."
+139,129448,-0.14500000000000002,1.5,-0.92,0.63,'1','2',1,2,21,Dog,Alcuni sostengono che i primi esemplari arrivarono in Inghilterra a seguito di tessitori fiamminghi.
+142,129915,-0.14500000000000002,1.5,-0.92,0.63,'1','2',1,2,21,Dog,Lo standard del Clube Português de Canicultura approvato dalla FCI è stato pubblicato il 04.11.2008.
+136,129237,-0.145,1.5,0.08,-0.37,'2','1',2,1,21,Dog,"L'unico colore ammesso è il bianco, mentre qualsiasi altra sfumatura viene rifiutata categoricamente."
+1,1589,-0.145,1.5,0.08,-0.37,'2','1',2,1,0,Aircraft,"Sull'aeroporto andarono distrutti al suolo ulteriori 14 aerei, mentre un altro D.510 rimase danneggiato."
+3,2757,-0.145,1.5,0.08,-0.37,'2','1',2,1,0,Aircraft,Così per una seconda volta Salvesen rallentò il suo apparecchio segnalando al caccia di allontanarsi.
+39,30216,-0.14500000000000002,1.5,-0.92,0.63,'1','2',1,2,5,AthleticsPlayer,"2014, due volte vicecampionessa agli invernali di lanci nel disco ed agli assoluti nel peso."
+40,35300,-0.145,1.5,0.08,-0.37,'2','1',2,1,5,AthleticsPlayer,Sul finire della stagione partecipò alla IAAF Grand Prix Final svoltasi questa volta a Milano.
+72,78030,-0.645,1.0,-0.92,-0.37,'1','1',1,1,13,ChristianBishop,Muore in un incidente stradale per collisione con un veicolo contromano il 20 novembre 1995.
+73,81492,-0.145,1.5,0.08,-0.37,'2','1',2,1,13,ChristianBishop,"Morì il 26 aprile 2005, consumato da un male che lo affliggeva da qualche tempo."
+158,149666,-0.645,1.0,-0.92,-0.37,'1','1',1,1,24,Film,Il giglio della palude è un film muto italiano del 1912 diretto da Roberto Danesi.
+160,149728,-0.645,1.0,-0.92,-0.37,'1','1',1,1,24,Film,La vergine dell harem è un film muto del 1926 diretto da Raoul Walsh.
+161,148091,-0.645,1.0,-0.92,-0.37,'1','1',1,1,24,Film,Polly of the Follies è un film muto del 1922 diretto da John Emerson.
+162,145920,-0.645,1.0,-0.92,-0.37,'1','1',1,1,24,Film,Where the Road Forks è un cortometraggio muto del 1913 diretto da Thomas Ricketts
+364,361774,-0.645,1.0,-0.92,-0.37,'1','1',1,1,60,TennisPlayer,"John McEnroe disse, invece, di lei che è una delle sportive più combattenti di sempre."
+365,360605,-0.645,1.0,-0.92,-0.37,'1','1',1,1,60,TennisPlayer,"Era ora un solitario, dichiarò Ted Schroeder, e sempre l'uomo più infelice della città."
+367,362550,-0.645,1.0,-0.92,-0.37,'1','1',1,1,60,TennisPlayer,"Al successivo Roma Open arriva ai quarti di finale, dove viene sconfitto da Yannick Maden."
+369,365028,-0.645,1.0,-0.92,-0.37,'1','1',1,1,60,TennisPlayer,Nel Grande Slam giocò due finali di singolo e vinse quattro titoli di doppio.
+31,27018,-0.645,1.0,-0.92,-0.37,'1','1',1,1,4,Artwork,Il paesaggio bucolico testimonia quel ritorno a temi giorgioneschi di Tiziano in quegli anni.
+32,25458,-0.645,1.0,-0.92,-0.37,'1','1',1,1,4,Artwork,"Di seguito, invece, si riporta il commento che lo stesso Gauguin fornì della sua opera"
+33,26562,-0.645,1.0,-0.92,-0.37,'1','1',1,1,4,Artwork,Come nell'altra opera però anche qui il panneggio appare pesante e quasi schiacciante.
+34,26094,-0.145,1.5,0.08,-0.37,'2','1',2,1,4,Artwork,Il monumento venne completato nel 1927 ed inaugurato il 28 luglio di quell'anno.
+285,286741,-0.645,1.0,-0.92,-0.37,'1','1',1,1,47,Road,La route nationale 77 in Francia è una strada che collega Auxerre a Troyes.
+290,286548,-0.645,1.0,-0.92,-0.37,'1','1',1,1,47,Road,La strada provinciale 23 della Principessa è una strada extraurbana nella provincia di Livorno.
+286,284647,-0.145,1.5,0.08,-0.37,'2','1',2,1,47,Road,Solamente nel 1984 l'autostrada A22 riuscì ad avere il suo primo utile di esercizio.
+288,282058,-0.145,1.5,0.08,-0.37,'2','1',2,1,47,Road,A questa diramazione la concessionaria ATIVA ha assegnato il soprannome di autostrada del Pinerolese.
+113,119815,-0.645,1.0,-0.92,-0.37,'1','1',1,1,19,Diocese,"Sede arcivescovile è la città di Besançon, dove si trova la cattedrale di San Giovanni."
+115,119568,-0.645,1.0,-0.92,-0.37,'1','1',1,1,19,Diocese,L 11 dicembre dello stesso anno ha assunto il nome attuale di diocesi di Ekiti.
+117,114580,-0.645,1.0,-0.92,-0.37,'1','1',1,1,19,Diocese,"Dopo l'ondata rivoluzionaria, principale compito dei vescovi nell'Ottocento fu la formazione dei preti."
+120,118052,-0.645,1.0,-0.92,-0.37,'1','1',1,1,19,Diocese,Il 15 luglio 1950 entrò a far parte della provincia ecclesiastica dell'arcidiocesi di Karachi.
+122,114877,-0.645,1.0,-0.92,-0.37,'1','1',1,1,19,Diocese,"Sede vescovile è la città di Rafaela, dove si trova la cattedrale di San Raffaele."
+116,116304,-0.145,1.5,0.08,-0.37,'2','1',2,1,19,Diocese,"Sede vescovile è la città di Palangkaraya, dove si trova la cattedrale di Santa Maria."
+238,231120,-0.645,1.0,-0.92,-0.37,'1','1',1,1,38,MusicalArtist,"La band ha pubblicato il loro secondo album, Animal'Attraction, il 5 ottobre 2011."
+241,229328,-0.645,1.0,-0.92,-0.37,'1','1',1,1,38,MusicalArtist,"Dall'album vennero estratti due singoli per il mercato britannico, Absolut e Kiss Like Ether."
+235,230299,-0.145,1.5,0.08,-0.37,'2','1',2,1,38,MusicalArtist,Nello stesso anno si esibiscono come pop rock band alla Casa Verdi di Milano.
+239,233266,-0.145,1.5,0.08,-0.37,'2','1',2,1,38,MusicalArtist,Nel 2013 escono altri due singoli firmati Ego Wild Child e Over my head.
+298,301290,-0.645,1.0,-0.92,-0.37,'1','1',1,1,50,SoccerPlayer,Nella stagione 2008-2009 passa prima in prestito al Nottingham Forest e poi al Middlesbrough.
+297,303691,-0.145,1.5,0.08,-0.37,'2','1',2,1,50,SoccerPlayer,"Debutta il 17 agosto 2014, nella partita persa 4-1 contro il Bordeaux al Chaban-Delmas."
+261,262116,-0.645,1.0,-0.92,-0.37,'1','1',1,1,43,RacingDriver,La squalifica di Prost gli permise comunque di ottenere il primo punto dell'anno.
+214,213636,-0.145,1.5,0.08,-0.37,'2','1',2,1,35,MotorcycleRider,"Nel 1971 ottenne la sua prima vittoria iridata, in occasione del GP di Spagna."
+216,212005,-0.145,1.5,0.08,-0.37,'2','1',2,1,35,MotorcycleRider,"Al termine della gara disputata su una Kawasaki, si è classificato in 11a posizione."
+217,213983,-0.145,1.5,0.08,-0.37,'2','1',2,1,35,MotorcycleRider,Dal 2012 ha ricoperto la carica di direttore sportivo del team Puccetti Racing Kawasaki.
+221,213614,-0.145,1.5,0.08,-0.37,'2','1',2,1,35,MotorcycleRider,Nel motomondiale si è laureato campione del mondo per 3 stagioni consecutive nella classe 50.
+231,223074,-0.645,1.0,-0.92,-0.37,'1','1',1,1,37,Museum,"Le dimensioni della tela, comunque, la vorrebbero più proveniente dall'altare di una piccola cappella."
+229,227062,0.355,2.0,0.08,0.63,'2','2',2,2,37,Museum,"Il Museo Doria nasce da un idea e sotto gli auspici, specialmente finanziari, del fondatore."
+271,274401,-0.645,1.0,-0.92,-0.37,'1','1',1,1,45,ReligiousBuilding,"Qui vennero ospitati, tra gli altri, Pietro Aretino, Giovanni Della Casa e Gaspara Stampa."
+275,272358,-0.645,1.0,-0.92,-0.37,'1','1',1,1,45,ReligiousBuilding,"Ad eccezione del prospetto parallelo al portico, con pietra a vista, esso è interamente intonacato."
+295,299004,-0.645,1.0,-0.92,-0.37,'1','1',1,1,49,Ship,"Inviato in seguito nell'oceano Pacifico, attraccò a Pearl Harbor il 14 aprile 1940."
+296,294635,-0.645,1.0,-0.92,-0.37,'1','1',1,1,49,Ship,Verso la metà degli anni 90 l'unità venne cancellata dal Lloyd s Register.
+248,241723,-0.645,1.0,-0.92,-0.37,'1','1',1,1,40,Newspaper,"Successivamente, i rilevanti costi di gestione impongono il termine dell'esperimento a fine luglio."
+250,242438,-0.645,1.0,-0.92,-0.37,'1','1',1,1,40,Newspaper,"Rilevò una testata che aveva chiuso in febbraio, e ne fece un quotidiano politico."
+359,359527,-0.645,1.0,-0.92,-0.37,'1','1',1,1,59,TelevisionShow,Dal 2010 partiranno anche una serie di trasmissioni in lingua italiana intitolate minoranze nel mondo.
+361,359244,-0.645,1.0,-0.92,-0.37,'1','1',1,1,59,TelevisionShow,Dal 25 settembre 2016 l'edizione della domenica viene sostituita da TG3 Nel mondo.
+149,138833,-0.645,1.0,-0.92,-0.37,'1','1',1,1,23,FictionalCharacter,Altro cambiamento dopo la terza stagione è la vistosa cicatrice sulla parte sinistra della gola.
+150,143821,-0.645,1.0,-0.92,-0.37,'1','1',1,1,23,FictionalCharacter,"Non avendo trovato nulla nella fattoria di Garrow, gli stranieri la distruggono e uccidono Garrow."
+153,138068,-0.645,1.0,-0.92,-0.37,'1','1',1,1,23,FictionalCharacter,Dopo una tempesta in aereo dove Meredith e Nathan stavano andando a un congresso.
+154,142218,-0.645,1.0,-0.92,-0.37,'1','1',1,1,23,FictionalCharacter,"Per provargli la sua lealtà, si strappò un occhio per somigliare a suo padre."
+278,278818,-0.645,1.0,-0.92,-0.37,'1','1',1,1,46,River,"Inoltre, il flusso varia su base stagionale a seconda del fabbisogno delle utenze agricole."
+284,278214,-0.645,1.0,-0.92,-0.37,'1','1',1,1,46,River,"Il Borulach è un fiume della Russia siberiana nordoccidentale, affluente di sinistra dell'Amga."
+277,281548,-0.145,1.5,0.08,-0.37,'2','1',2,1,46,River,"La Moma è un fiume della Russia siberiana nordorientale, affluente di destra della Indigirka."
+279,281103,-0.145,1.5,0.08,-0.37,'2','1',2,1,46,River,"Il Turuchan è un fiume della Russia siberiana nordoccidentale, affluente di sinistra dello Enisej."
+199,200544,0.855,2.5,2.08,-0.37,'4','1',4,1,33,Mineral,"Il minerale è stato trovato nella pegmatite di Skogböle, nella regione di Kimito in Finlandia."
+200,202068,0.855,2.5,2.08,-0.37,'4','1',4,1,33,Mineral,La ferri-katophorite è stata trovata sotto forma di cristalli prismatici lunghi fino a 7 mm.
+203,201966,0.855,2.5,2.08,-0.37,'4','1',4,1,33,Mineral,"La langite è un minerale, solfato basico e idrato di rame appartenente al gruppo omonimo."
+207,201546,0.855,2.5,2.08,-0.37,'4','1',4,1,33,Mineral,"In questo ambiente, oltre alla zugshunstite-, sono state scoperte anche la coskrenite- e la levinsonite-."
+209,204598,-0.645,1.0,-0.92,-0.37,'1','1',1,1,34,Monarch,"Il re morì il 31 luglio 1750, dopo più di quaranta anni di governo."
+210,209807,-0.645,1.0,-0.92,-0.37,'1','1',1,1,34,Monarch,"La pace tornò agli inizi del 1620, ma la tensione si trascinò negli anni successivi."
+211,208512,-0.645,1.0,-0.92,-0.37,'1','1',1,1,34,Monarch,Pio Franchi de Cavalieri nacque a Veroli da nobile famiglia romano-verolana il 31 agosto 1869.
+244,239687,-0.645,1.0,-0.92,-0.37,'1','1',1,1,39,MusicGenre,L'industrial rock degli anni ottanta pose i presupposti per lo sviluppo dell'industrial metal.
+245,236532,-0.145,1.5,0.08,-0.37,'2','1',2,1,39,MusicGenre,"Sembra che l'origine del bolero si debba ricercare nella contradanza, ballo del Settecento."
+246,235205,-0.145,1.5,0.08,-0.37,'2','1',2,1,39,MusicGenre,Pochi gruppi sono anche conosciuti per inglobare stili di generi estranei all heavy metal.
+76,84738,-0.145,1.5,0.08,-0.37,'2','1',2,1,14,Company,"TP-Link è stata fondata nel 1996 da due fratelli, Zhào Jiànjūn e Zhào Jiāxīng."
+77,84440,-0.145,1.5,0.08,-0.37,'2','1',2,1,14,Company,Nel 2002 Accenture è stata premiata per la sua operazione di rebranding dalla Arthur W.
+253,246495,-0.645,1.0,-0.92,-0.37,'1','1',1,1,41,Politician,"Sposò, il 22 gennaio 1614, Ana Enríquez de Cabrera, figlia di Luis Enríquez de Cabrera."
+254,246213,-0.645,1.0,-0.92,-0.37,'1','1',1,1,41,Politician,"Di origini italoamericane, LoBiondo lavorò per ventisei anni in un azienda a conduzione familiare."
+256,247643,-0.645,1.0,-0.92,-0.37,'1','1',1,1,41,Politician,"Così, l 8 ottobre 1835 i due si sposarono Raffaella aveva appena diciassette anni."
+81,91673,-0.645,1.0,-0.92,-0.37,'1','1',1,1,15,Country,Per la tutela della sicurezza la Romania si avvale di diverse forze di polizia
+84,90160,-0.645,1.0,-0.92,-0.37,'1','1',1,1,15,Country,"I conflitti militari, noti come le guerre persiane, furono guidati principalmente da Atene e Sparta."
+258,254686,-0.645,1.0,-0.92,-0.37,'1','1',1,1,42,PopulatedPlace,"Wayne è una contea dell'area sud-orientale dello Stato del Michigan, negli Stati Uniti."
+263,265633,-0.645,1.0,-0.92,-0.37,'1','1',1,1,44,RailwayStation,La stazione di Ornavasso è una fermata ferroviaria situata nell'omonimo comune in Piemonte.
+267,269908,-0.645,1.0,-0.92,-0.37,'1','1',1,1,44,RailwayStation,La stazione di Due Maestà era una fermata ferroviaria posta sulla linea Reggio Emilia-Sassuolo.
+268,267263,-0.645,1.0,-0.92,-0.37,'1','1',1,1,44,RailwayStation,Nel 1883 Annemasse venne collegata a La Roche-sur-Foron e l'anno dopo a Annecy.
+270,266317,-0.645,1.0,-0.92,-0.37,'1','1',1,1,44,RailwayStation,La stazione è costituita da 2 binari passanti in superficie con due marciapiedi laterali.
+308,314183,-0.645,1.0,-0.92,-0.37,'1','1',1,1,52,Song,"Viene respinto più volte e, alla fine, si siede da solo su un altalena."
+312,317488,-0.645,1.0,-0.92,-0.37,'1','1',1,1,52,Song,God Save the Queen è il brano tradizionalmente utilizzato come inno nazionale del Regno Unito.
+313,316766,-0.145,1.5,0.08,-0.37,'2','1',2,1,52,Song,"Il brano, sebbene composto interamente da Paul McCartney, è accreditato alla coppia John Lennon/Paul McCartney."
+330,332197,-0.645,1.0,-0.92,-0.37,'1','1',1,1,55,SportsSeason,Questa pagina raccoglie le informazioni riguardanti il Rimini Calcio nelle competizioni ufficiali della stagione 1993-1994.
+333,330104,-0.645,1.0,-0.92,-0.37,'1','1',1,1,55,SportsSeason,Questa pagina raccoglie le informazioni riguardanti il Mestre Calcio nelle competizioni ufficiali della stagione 2000-2001.
+332,335676,-0.145,1.5,0.08,-0.37,'2','1',2,1,55,SportsSeason,Questa voce raccoglie le informazioni riguardanti del Cosenza Calcio nelle competizioni ufficiali della stagione 2016-2017.
+329,335598,0.35500000000000004,2.0,1.08,-0.37,'3','1',3,1,55,SportsSeason,Questa voce raccoglie le informazioni riguardanti il LOSC Lille nelle competizioni ufficiali della stagione 2013-2014.
+41,36704,-0.645,1.0,-0.92,-0.37,'1','1',1,1,6,Automobile,Rispetto alla berlina a 2 porte si differenziava esteticamente per l'assenza del montante centrale.
+43,39742,-0.645,1.0,-0.92,-0.37,'1','1',1,1,6,Automobile,Il freno a mano era del tipo meccanico ed agiva sulle sole ruote posteriori.
+292,288350,-0.645,1.0,-0.92,-0.37,'1','1',1,1,48,Saint,"Ciò spinse Gelasio II ad andare ancora una volta in esilio, questa volta a Benevento."
+318,329368,-0.645,1.0,-0.92,-0.37,'1','1',1,1,54,SportFacility,"Lo stadio olimpico di Baku è uno stadio situato a Baku, capitale dell'Azerbaigian."
+319,326933,-0.645,1.0,-0.92,-0.37,'1','1',1,1,54,SportFacility,"Grazie alla sua capacità di 150.000 posti, è lo stadio più grande del mondo."
+321,325207,-0.645,1.0,-0.92,-0.37,'1','1',1,1,54,SportFacility,"Nel 2003 sono cominciati i lavori di risanamento, svolti con l'aiuto di giovani disoccupati."
+324,329130,-0.645,1.0,-0.92,-0.37,'1','1',1,1,54,SportFacility,Nello stadio Arechi sono state disputate tre partite della Nazionale di calcio dell'Italia
+325,326033,-0.645,1.0,-0.92,-0.37,'1','1',1,1,54,SportFacility,"Il Kenilworth Road è uno stadio di calcio a Luton, nel Bedfordshire, in Inghilterra."
+377,382764,-0.645,1.0,-0.92,-0.37,'1','1',1,1,63,VolleyballPlayer,Sono state però le stagioni 1978-79 e 1979-80 quelle della definitiva esplosione di Giulio Belletti.
+381,378128,-0.645,1.0,-0.92,-0.37,'1','1',1,1,63,VolleyballPlayer,La carriera di Paulina Prieto inizia a livello scolastico con la Palmer Trinity School.
+380,381773,-0.145,1.5,0.08,-0.37,'2','1',2,1,63,VolleyballPlayer,La carriera di Sonja Newcombe inizia nel'a livello giovanile col Laguna Beach Volleyball Club.
+383,378965,-0.145,1.5,0.08,-0.37,'2','1',2,1,63,VolleyballPlayer,Nella stagione 2015-16 è ancora nella Serie A1 italiana con il Power Volley Milano.
+169,159175,-0.645,1.0,-0.92,-0.37,'1','1',1,1,26,IceHockeyPlayer,"È nipote di un altro giocatore simbolo dell hockey su ghiaccio milanese, Giancarlo Agazzi."
+168,158742,0.35500000000000004,2.0,1.08,-0.37,'3','1',3,1,26,IceHockeyPlayer,"Vi restò per quattro stagioni fino al 2011, totalizzando 105 punti in 128 gare disputate."
+357,349462,-0.645,1.0,-0.92,-0.37,'1','1',1,1,58,TelevisionSeason,Il 12 maggio 2016 la serie è stata cancellata dopo una sola stagione prodotta.
+184,174370,-0.645,1.0,-0.92,-0.37,'1','1',1,1,29,MetroStation,"Avenue U è una fermata della metropolitana di New York, situata sulla linea BMT Brighton."
+185,174202,-0.645,1.0,-0.92,-0.37,'1','1',1,1,29,MetroStation,"È stata inaugurata il 15 giugno 1991, ed è stata capolinea fino al 1997."
+189,178663,-0.645,1.0,-0.92,-0.37,'1','1',1,1,29,MetroStation,"Milo è una stazione sotterranea della metropolitana di Catania, nel tratto tra Borgo e Nesima."
+183,175416,-0.145,1.5,0.08,-0.37,'2','1',2,1,29,MetroStation,"Alexanderplatz è una stazione della metropolitana di Berlino, sulle linee U2, U5 e U8."
+177,170891,-0.645,1.0,-0.92,-0.37,'1','1',1,1,28,Language,In giapponese il caso dei sostantivi è sempre espresso attraverso la posposizione di particelle.
+180,168155,-0.645,1.0,-0.92,-0.37,'1','1',1,1,28,Language,I verbi possono anche diventare aggettivi il participio presente si forma aggiungendo -nte al verbo.
+178,168213,-0.14500000000000002,1.5,-0.92,0.63,'1','2',1,2,28,Language,"È inoltre ufficiale, a livello regionale o comunale, in alcune aree di Croazia e Slovenia."
+317,319568,-0.645,1.0,-0.92,-0.37,'1','1',1,1,53,Species,La struttura interna della tribù non è ancora definita in modo univoco e sicuro.
+314,322857,-0.145,1.5,0.08,-0.37,'2','1',2,1,53,Species,"Essendo molto nutriente, l'avena integrale è ideale nelle convalescenze e durante l'allattamento."
+52,60597,-0.645,1.0,-0.92,-0.37,'1','1',1,1,10,Cardinal,Il 19 gennaio 1347 fu eletto da suo cugino papa Clemente VI arcivescovo di Saragozza.
+53,65998,-0.645,1.0,-0.92,-0.37,'1','1',1,1,10,Cardinal,Optò quindi per il titolo della Santissima Trinità al Monte Pincio dal 21 luglio 1653.
+54,61770,-0.645,1.0,-0.92,-0.37,'1','1',1,1,10,Cardinal,La sua salma venne inumata nella chiesa di San Carlo al Corso a Roma.
+55,60280,-0.645,1.0,-0.92,-0.37,'1','1',1,1,10,Cardinal,"Si formò presso l'università di Padova, di cui in seguito fu anche Riformatore."
+353,344217,-0.645,1.0,-0.92,-0.37,'1','1',1,1,57,Swimmer,"Specializzato nel dorso, ha vinto tre medaglie d oro ai mondiali in vasca corta."
+354,344826,-0.645,1.0,-0.92,-0.37,'1','1',1,1,57,Swimmer,"Nata a Kaunas il 19 marzo 1997, è figlia di Saulius Meilutis e Ingrida Meilutienė."
+172,166000,-0.645,1.0,-0.92,-0.37,'1','1',1,1,27,Island,Il terreno dell'isola è mediamente collinoso con numerose strade fangose e tratturi per pecore.
+174,167481,-0.645,1.0,-0.92,-0.37,'1','1',1,1,27,Island,"Dalla più settentrionale alla più meridionale, storicamente le isole dei Pinguini sono le seguenti"
+91,100164,-0.645,1.0,-0.92,-0.37,'1','1',1,1,16,CyclingCompetition,"I maggiori favoriti della corsa, soprattutto velocisti puri, sono di fatto esclusi dalla vittoria finale."
+92,101279,-0.645,1.0,-0.92,-0.37,'1','1',1,1,16,CyclingCompetition,"Partenza a Zagarolo con 104 ciclisti, dei quali 64 portarono a termine il percorso."
+94,100177,-0.645,1.0,-0.92,-0.37,'1','1',1,1,16,CyclingCompetition,"Fu vinta dal britannico Adam Blythe, al traguardo con il tempo di 4h16 50."
+96,99703,-0.645,1.0,-0.92,-0.37,'1','1',1,1,16,CyclingCompetition,"Fu vinta dal tedesco Erik Zabel, che terminò con il tempo di 7h11 29."
+100,99235,-0.645,1.0,-0.92,-0.37,'1','1',1,1,16,CyclingCompetition,"Fu vinta dall'italiano Alessandro Petacchi, al traguardo con il tempo di 4h53 00."
+87,99053,-0.145,1.5,0.08,-0.37,'2','1',2,1,16,CyclingCompetition,"Venne vinta dal kazako Aleksandr Vinokurov, al traguardo con il tempo di 6h37 48."
+88,97949,-0.145,1.5,0.08,-0.37,'2','1',2,1,16,CyclingCompetition,Partenza a Plouay con 128 ciclisti di cui 88 portarono a termine il percorso.
+89,101549,-0.145,1.5,0.08,-0.37,'2','1',2,1,16,CyclingCompetition,Partenza a Bruges con 245 corridori; 73 di essi portarono a termine il percorso.
+67,76153,-0.645,1.0,-0.92,-0.37,'1','1',1,1,12,ChemicalCompound,"Nell'industria dei derivati del petrolio viene aggiunto anche a vernici, lacche, resine e additivi."
+66,72726,-0.145,1.5,0.08,-0.37,'2','1',2,1,12,ChemicalCompound,"In tal modo viene inibita sia la formazione di trombina, sia lo sviluppo di trombi."
+68,74858,0.35500000000000004,2.0,1.08,-0.37,'3','1',3,1,12,ChemicalCompound,È una sostanza amara e si presenta sotto forma di polvere bianca e cristallina.

@@ -1,0 +1,385 @@
+cluster_ids	ids	response	scaled_scores	s1_score_scaled	s3_score_scaled	s1_score	s3_score	sentences				
+1	379	'4'	0.35	0.3	0.4	'4'	'3'	Molti di questi velivoli furono distrutti in questo tipo di attacchi nei mesi successivi.	plane	0		
+2	4317	'5'	0.85	1.3	0.4	'5'	'3'	Queste caratteristiche lo qualificarono più come un cacciabombardiere che non come un bombardiere medio.	plane	0		
+3	975	'1'	-0.65	-2.7	1.4	'1'	'4'	Posteriormente terminava in una coda dall impennaggio tradizionale monoderiva dagli ampi piani di coda.	plane	0		
+4	5566	'2'	-1.15	-1.7	-0.6	'2'	'2'	Il Portogallo ricevette ventiquattro Curtiss SB2C-5 insieme con parti di ricambio e accessori nel 1950.	plane	0		
+5	3864	'3'	0.85	-0.7	2.4	'3'	'5'	"I velivoli portavano, oltre alle coccarde ed alle insegne francesi, anche quella polacca in fusoliera."	plane	0		
+6	4945	'5'	0.85	1.3	0.4	'5'	'3'	Lo scopo dell XB-19 era quello di testare le caratteristiche di volo di bombardieri giganti.	plane	0		
+7	8273	'5'	0.35	1.3	-0.6	'5'	'2'	L autorità aeroportuale ha in concessione l aeroporto dalla città di New York dal 1947.	airport	1		
+8	6518	'5'	1.3	1.3		'5'	[]	Nel periodo estivo l aeroporto gestisce più di 60 voli di linea al giorno.	airport	1		
+9	9857	'1'	-2.15	-2.7	-1.6	'1'	'1'	L aeroporto è stato inaugurato nel 1940 con un volo con destinazione la capitale.	airport	1		
+10	6748	'5'	0.85	1.3	0.4	'5'	'3'	"Nel 1945 l aeroporto fu preso dagli Americani, che lo restituirono alla città nel 1949."	airport	1		
+11	6195	'4'	-0.15	0.3	-0.6	'4'	'2'	Il 10 settembre 2016 a Boscomantico si sono festeggiati i 100 anni dell aeroporto.	airport	1		
+12	9555	'3'	-0.15	-0.7	0.4	'3'	'3'	"Nel 1991 fu aperto ufficialmente l aeroporto ""Giuseppe Verdi"", realizzato tramite una società, la SO.GE.A.P."	airport	1		
+13	17025	'3'	-0.65	-0.7	-0.6	'3'	'2'	"La canzone è stata bandita in molte stazioni radio, tranne in quella del Dr."	song	2		
+14	15071	'5'	0.85	1.3	0.4	'5'	'3'	"Originariamente la canzone è stata scritta per l album d esordio ""The Scream"" del 1978."	song	2	-4	
+15	22930	'4'	0.85	0.3	1.4	'4'	'4'	"La sua prima stagione nel Maryland si chiuse con 31 tackle e 9,5 sack."	football	3		
+16	18780	'5'	0.35	1.3	-0.6	'5'	'2'	Il primo touchdown stagionale lo segnò nella vittoria della settimana 2 in casa dei Vikings.	football	3		
+17	21619	'3'	-0.15	-0.7	0.4	'3'	'3'	Nella settimana 8 fece registrare il primo intercetto stagionale nella vittoria sugli Atlanta Falcons.	football	3		
+18	23770	'4'	0.85	0.3	1.4	'4'	'4'	"Con essi disputò 37 gare su 41 come titolare, con 9 intercetti e un sack."	football	3		
+19	22181	'5'	0.85	1.3	0.4	'5'	'3'	Breeland fu scelto dai Washington Redskins nel corso del quarto giro del Draft 2014.	football	3		
+20	21927	'3'	-0.65	-0.7	-0.6	'3'	'2'	"Nel ""drive"" successivo, Hanie guidò i Bears a un secondo touchdown in soli 82 secondi."	football	3		
+21	25271	'1'	-0.65	-2.7	1.4	'1'	'4'	"Se il suo pendant, l"" Aurora"" è nell atto di svegliarsi, il ""Crepuscolo"" dovrebbe coricarsi."	artwork	4		
+22	29269	'3'	-0.65	-0.7	-0.6	'3'	'2'	"Lo stesso Doni aveva commissionato a Michelangelo il famoso ""Tondo Doni"", oggi agli Uffizi."	artwork	4		
+23	25579	'4'	0.35	0.3	0.4	'4'	'3'	"Viardot assegnò per primo l opera a Raffaello, seguito da Passavant, Morelli e Pulzky ."	artwork	4		
+24	25757	'4'	-0.15	0.3	-0.6	'4'	'2'	"Il dipinto ha subito una pulitura leggera, in occasione della mostra a Firenze nel 1922."	artwork	4		
+25	25965	'5'	-0.15	1.3	-1.6	'5'	'1'	"""Il bacio"" è un dipinto a olio su tela, alto 99 e largo 81 centimetri."	artwork	4		
+26	26185	'4'	-0.15	0.3	-0.6	'4'	'2'	"Gesti e sguardi si intrecciano tra i protagonisti, con un notevole senso di familiare naturalezza."	artwork	4		
+27	35224	'5'	0.85	1.3	0.4	'5'	'3'	Nel giugno del 2015 arriva secondo nell Europeo per nazioni svoltosi a Čeboksary in Russia.	gymnast	5		
+28	35875	'4'	0.35	0.3	0.4	'4'	'3'	"Dopo questo viaggio avventuroso di ventotto giorni, Airoldi, tuttavia, non poté partecipare alla maratona."	gymnast	5		
+29	34271	'4'	0.35	0.3	0.4	'4'	'3'	"Agli europei indoor di Atene del 1985 concluse terzo con un lancio a 21,23 metri."	gymnast	5		
+30	34567	'3'	-0.15	-0.7	0.4	'3'	'3'	Nel 2000 prese parte ai Giochi olimpici di Sydney ottenendo il quattordicesimo posto nell eptathlon.	gymnast	5		
+31	31262	'4'	-0.65	0.3	-1.6	'4'	'1'	"Figlia unica, ha cominciato a praticare atletica leggera all età di 12 anni nel 2003."	gymnast	5		
+32	33300	'3'	-0.15	-0.7	0.4	'3'	'3'	"Nel 2006, ad Atene, ha preso parte ai 3000 m piani della Coppa del Mondo."	gymnast	5		
+33	40074	'3'	-0.15	-0.7	0.4	'3'	'3'	Tale configurazione telaistica ha permesso l ottenimento di un peso inferiore ai 950 kg.	car	6		
+34	39554	'5'	0.85	1.3	0.4	'5'	'3'	Dal 2010 non viene più utilizzata ed è stata definitivamente sostituita dal nuovo telaio.	car	6		
+35	41627	'5'	1.35	1.3	1.4	'5'	'4'	Nel 1934 il telaio venne modificato per avere una carreggiata e un avantreno più larghi.	car	6		
+36	39716	'3'	-0.15	-0.7	0.4	'3'	'3'	Il motore era di cilindrata piuttosto bassa per essere un 8 cilindri: solo 1719 cm3.	car	6		
+37	41916	'4'	0.85	0.3	1.4	'4'	'4'	"La ""X300"", inoltre, fu il primo modello ""XJ"" ad adottare i paraurti completamente in plastica."	car	6		
+38	38297	'4'	0.35	0.3	0.4	'4'	'3'	"La più importante nel 1980 quando cambiarono i paraurti , i comandi e le finiture."	car	6		
+39	43065	'4'	0.35	0.3	0.4	'4'	'3'	Appena scelto fu scambiato dai Nuggets insieme a Rodney Rogers per arrivare a Antonio McDyess.	BasketballPlayer	7		
+40	46370	'1'	-0.65	-2.7	1.4	'1'	'4'	Con la ha preso parte ai Giochi olimpici 1980 e ai FIBA EuroBasket 1983 .	BasketballPlayer	7		
+41	43599	'5'	0.85	1.3	0.4	'5'	'3'	L 11 luglio 2017 rinnovò il suo contratto con i Pistons per altri 2 anni.	BasketballPlayer	7		
+42	44075	'4'	-0.15	0.3	-0.6	'4'	'2'	"Lasciati gli Hornets, dal 1991 al 2001 fu capo allenatore dei Golden State Warriors."	BasketballPlayer	7		
+43	45817	'5'	1.35	1.3	1.4	'5'	'4'	L 8 aprile 2009 DeRozan annuncia che entrerà a far parte del Draft NBA.	BasketballPlayer	7		
+44	42957	'3'	-0.65	-0.7	-0.6	'3'	'2'	"Terminò la carriera universitaria con 1.344 punti , 804 rimbalzi e con il 51,5% al tiro."	BasketballPlayer	7		
+45	49504	'1'	-1.15	-2.7	0.4	'1'	'3'	"Farrell, oltre ad essere un evidente omaggio a ""Uomini e topi"" di John Steinbeck."	Book	8		
+46	51680	'5'	0.35	1.3	-0.6	'5'	'2'	Joey è un ragazzo comune che frequenta le scuole superiori nella cittadina di Greenville.	Book	8		
+47	48769	'4'	0.85	0.3	1.4	'4'	'4'	Il romanzo si svolge nell arco degli ultimi sette giorni di gravidanza di Sara.	Book	8		
+48	51850	'4'	0.35	0.3	0.4	'4'	'3'	"Vento scomposto è il quarto romanzo di Simonetta Agnello Hornby, pubblicato in Italia nel 2009."	Book	8		
+49	52326	'2'	-1.15	-1.7	-0.6	'2'	'2'	"Un antica copia del ""Codex Amiatinus"" è tutt oggi la Bibbia personale del Papa."	Book	8		
+50	49566	'5'	0.35	1.3	-0.6	'5'	'2'	"Secondo Nielsen BookScan, il romanzo ha venduto ventinovemila copie tra il 2001 e il 2005."	Book	8		
+51	49018	'4'	-0.65	0.3	-1.6	'4'	'1'	"Fu rivisto e adattato agli altri racconti, quando fu inserito nella raccolta ""Mulliner Nights""."	Book	8		
+52	51090	'4'	0.85	0.3	1.4	'4'	'4'	Chiama la signorina Holland e la incarica di far spedire la missiva a T.	Book	8		
+53	53645	'2'	-1.15	-1.7	-0.6	'2'	'2'	"In questo caso si verificheranno contrapposizioni violente fra Stati, religioni, entità terroristiche e pirati privati."	Book	8	3	
+54	55957	'3'	-0.65	-0.7	-0.6	'3'	'2'	"È divisa in due parti, corrispondenti al salone a sinistra ed all albergo a destra."	Building	9		
+55	54167	'5'	0.35	1.3	-0.6	'5'	'2'	"Quindi, passando attraverso diversi proprietari, giunse ad essere la sede odierna della Guardia di Finanza."	Building	9		
+56	55580	'2'	-1.7	-1.7		'2'	[]	Oggi la villa ospita il Comando Militare Esercito Friuli Venezia Giulia con adiacente Circolo Ufficiali.	Building	9		
+57	57855	'4'	0.3	0.3		'4'	[]	"Kysor, era in origine un hotel e si trova al 430 di North Main Street."	Building	9		
+58	54949	'5'	0.85	1.3	0.4	'5'	'3'	"Il giardino, oggi ridotto e molto modificato rispetto al passato, fu progettato da Enrico Combi."	Building	9		
+59	60115	'5'	-0.15	1.3	-1.6	'5'	'1'	"Oltre all inglese e al filippino, conosce anche l italiano, lo spagnolo e il francese."	Cardinal	9		
+60	62794	'2'	-0.65	-1.7	0.4	'2'	'3'	"È sepolto nell atrio della Basilica di Santa Maria in Trastevere, suo titolo cardinalizio."	Cardinal	10		
+61	65305	'4'	-0.15	0.3	-0.6	'4'	'2'	Dopo pochi giorni rifiutò la promozione al cardinalato preferendo rimanere solo vescovo di Tropea.	Cardinal	10		
+62	60280	'3'	-0.15	-0.7	0.4	'3'	'3'	"Si formò presso l università di Padova, di cui in seguito fu anche Riformatore."	Cardinal	10		
+63	60637	'5'	0.85	1.3	0.4	'5'	'3'	Fu ordinato vescovo a Roma l 8 giugno 1549 dal cardinale Juan Álvarez de Toledo.	Cardinal	10		
+64	62888	'2'	-1.15	-1.7	-0.6	'2'	'2'	"Il 14 aprile 1577 fu eletto vescovo di Fermo, nonostante non fosse ancora stato ordinato."	Cardinal	10		
+65	68783	'4'	-0.15	0.3	-0.6	'4'	'2'	"Con una magnitudine apparente di +3,84 è la dodicesima stella più brillante della costellazione."	Star	11		
+66	69371	'3'	0.35	-0.7	1.4	'3'	'4'	"57 Ceti è una stella gigante rossa di magnitudine 5,46 situata nella costellazione della Balena."	Star	11		
+67	71958	'4'	0.85	0.3	1.4	'4'	'4'	"HD 197540 è una stella gigante gialla di magnitudine 6,5 situata nella costellazione del Capricorno."	Star	11		
+68	66347	'4'	0.35	0.3	0.4	'4'	'3'	"HD 30197 è una stella gigante arancione di magnitudine +5,99 situata nella costellazione del Toro."	Star	11		
+69	70680	'4'	-0.15	0.3	-0.6	'4'	'2'	"Phi1 Orionis è una stella gigante azzurra di magnitudine 4,4 situata nella costellazione di Orione."	Star	11		
+70	70585	'2'	-0.15	-1.7	1.4	'2'	'4'	"GO Andromedae è una stella variabile di magnitudine 6,12 situata nella costellazione di Andromeda."	Star	11		
+71	73125	'3'	-0.65	-0.7	-0.6	'3'	'2'	Il confronto con l urea ricavata dall urina lo convinse di aver sintetizzato quel composto.	ChemicalCompound	12		
+72	74564	'3'	-0.65	-0.7	-0.6	'3'	'2'	"Alprazolam è ampiamente metabolizzato nell organismo umano, in particolare grazie al citocromo P450 3A4 ."	ChemicalCompound	12		
+73	74179	'1'	-0.65	-2.7	1.4	'1'	'4'	È un sistema biciclico costituito da un anello ciclopentano fuso ad un anello ciclopropano.	ChemicalCompound	12		
+74	75586	'2'	-1.15	-1.7	-0.6	'2'	'2'	La biodisponibilità assoluta della molecola dopo somministrazione per os è all incirca del 70%.	ChemicalCompound	12		
+75	74697	'4'	-0.15	0.3	-0.6	'4'	'2'	La concentrazione plasmatica massima viene raggiunta in genere entro 2-4 ore dall assunzione della molecola.	ChemicalCompound	12		
+76	74639	'2'	-0.65	-1.7	0.4	'2'	'3'	"Esposizioni a lungo termine a solventi contenenti pseudocumene, può causare nervosia, tensione e bronchiti."	ChemicalCompound	12		
+77	80688	'4'	0.35	0.3	0.4	'4'	'3'	"Si sposò con Rosalind Turner , dalla quale ebbe due figli: James, scrittore, e Rebecca."	ChristianBishop	13		
+78	82891	'4'	0.35	0.3	0.4	'4'	'3'	Il 6 dicembre 2017 ha preso possesso del titolo cardinalizio di Santa Maria degli Angeli.	ChristianBishop	13		
+79	78469	'4'	-0.65	0.3	-1.6	'4'	'1'	"Nel 1909 è stato insignito di un ""Master of Arts"" ""honoris causa"" dall Hobart College."	ChristianBishop	13		
+80	80876	'3'	0.35	-0.7	1.4	'3'	'4'	Nel 1693 ricevette il suddiaconato e solo il 5 giugno 1700 prese gli ordini sacri.	ChristianBishop	13		
+81	86750	'4'	-0.65	0.3	-1.6	'4'	'1'	KG è un azienda di dolciumi tedesca con sede a Bonn nel quartiere Kessenich.	ChristianBishop	13	-1	
+82	89591	'1'	-2.15	-2.7	-1.6	'1'	'1'	Nel luglio del 2006 l intera azienda fu acquistata dal gruppo Perfetti Van Melle.	Company	14		
+83	84440	'3'	-0.15	-0.7	0.4	'3'	'3'	"Nel 2002 Accenture è stata premiata per la sua operazione di rebranding dalla ""Arthur W."	Company	14		
+84	89302	'4'	0.35	0.3	0.4	'4'	'3'	Dopo la rivoluzione di velluto del 1989 l azienda diventa società per azioni nel 1990.	Company	14		
+85	87586	'4'	-0.15	0.3	-0.6	'4'	'2'	La società viene fondata nel 1967 da Reinhold e Robert Spieldiener e da Ali Saiko.	Company	14		
+86	89720	'4'	0.35	0.3	0.4	'4'	'3'	L etichetta è stata chiusa nel mese di febbraio del 2009 per problemi finanziari.	Company	14		
+87	91446	'5'	0.35	1.3	-0.6	'5'	'2'	"In questo settore, come del resto in tanti altri, le privatizzazioni sono state limitate."	Company	14		
+88	93115	'3'	-0.15	-0.7	0.4	'3'	'3'	"Ne scaturì una sanguinosa guerra di secessione tra estoni, aiutati dagli Stati occidentali, e russi."	Country	15		
+89	94658	'2'	-1.15	-1.7	-0.6	'2'	'2'	"Il Paraguay è uno degli stati aderenti alla Banca del Sud, partecipando al suo capitale."	Country	15		
+90	94797	'5'	0.85	1.3	0.4	'5'	'3'	Si tratta di una storia d amore scritta intorno al 1600 da Vitsentzos Kornaros .	Country	15		
+91	93053	'5'	0.35	1.3	-0.6	'5'	'2'	"A sua volta ogni comune si divide in cantoni, attualmente sono presenti 989 cantoni."	Country	15		
+92	93254	'4'	0.35	0.3	0.4	'4'	'3'	"Storicamente, la RDC è stata dominata dalla politica del partito unico dell uomo forte."	Country	15		
+93	98506	'3'	0.35	-0.7	1.4	'3'	'4'	"I traguardi volanti hanno continuato ad assegnare abbuoni di 6 , 4 e 2 secondi ."	Country	15		
+94	97941	'4'	0.35	0.3	0.4	'4'	'3'	"Presero il via da Compiègne 186 ciclisti, 92 di essi portarono a termine la gara."	CyclingCompetition	16		
+95	100002	'3'	-0.15	-0.7	0.4	'3'	'3'	"Fu vinta dall italiano Daniele Contrini, al traguardo con il tempo di 4h19 41""."	CyclingCompetition	16		
+96	101156	'1'	-1.15	-2.7	0.4	'1'	'3'	A pochi km dal traguardo si forma un gruppo di una quindicina di corridori.	CyclingCompetition	16		
+97	96348	'5'	-0.15	1.3	-1.6	'5'	'1'	"Il tedesco Bert Grabsch dominò la gara, mantenendo una velocità media di 50 km/h."	CyclingCompetition	16		
+98	98529	'2'	-0.15	-1.7	1.4	'2'	'4'	Partenza a Sint-Niklaas con 185 corridori di cui 111 portarono a termine il percorso.	CyclingCompetition	16		
+99	107981	'5'	0.35	1.3	-0.6	'5'	'2'	"Nel 2012 ritorna in Spagna alla Movistar, che aveva lasciato al termine del 2008."	CyclingCompetition	16		
+100	104063	'4'	0.35	0.3	0.4	'4'	'3'	Sempre tra i dilettanti fece suo il titolo iridato della cronosquadre nel 1974 a Montréal.	Cyclist	17		
+101	106656	'5'	0.35	1.3	-0.6	'5'	'2'	La principale vittoria da professionista fu un tappa al Giro d Italia nel 1951.	Cyclist	17		
+102	106903	'1'	-0.65	-2.7	1.4	'1'	'4'	"Professionista tra il 1926 ed il 1930, conta la vittoria di una Tre Valli Varesine."	Cyclist	17		
+103	104720	'3'	-0.65	-0.7	-0.6	'3'	'2'	"Passò professionista all inizio del 2010, quando venne messo sotto contratto dalla Liquigas-Doimo, squadra ProTour."	Cyclist	17		
+104	106840	'5'	0.85	1.3	0.4	'5'	'3'	Vinse anche una tappa al Giro di Svizzera nel 1946 e la Zurigo-Losanna nel 1947.	Cyclist	17		
+105	108115	'3'	0.35	-0.7	1.4	'3'	'4'	L ordine dispone dell unica classe di membro che dà diritto al post nominale DUK.	Cyclist	17		
+106	112894	'5'	0.85	1.3	0.4	'5'	'3'	Tutte le medaglie vengono conferite in forma originale dal Dipartimento della Difesa degli Stati Uniti.	Decoration	18		
+107	112884	'3'	-0.65	-0.7	-0.6	'3'	'2'	"La prima regolamentazione organica dell onorificenza è stata approvata col ""Decret"" 22 giugno 2004, n."	Decoration	18		
+108	108700	'3'	-0.15	-0.7	0.4	'3'	'3'	Segue l elenco degli insigniti dell ordine di Massimiliano per le scienze e le arti.	Decoration	18		
+109	112714	'5'	-0.15	1.3	-1.6	'5'	'1'	L<nowiki> </nowiki>Ordine dei santi patroni d Italia fu un ordine cavalleresco della Repubblica sociale italiana.	Decoration	18		
+110	112553	'4'	-0.15	0.3	-0.6	'4'	'2'	Sul retro la medaglia presenta un gladio romano attorniato da una corona d alloro.	Decoration	18		
+111	113701	'1'	-1.65	-2.7	-0.6	'1'	'2'	Questi è oggi stato canonizzato dalla chiesa ortodossa ed è lodato come eroe nazionale.	Decoration	18		
+112	118531	'4'	-0.15	0.3	-0.6	'4'	'2'	"Sede vescovile è la città di Nyahururu, dove si trova la cattedrale di Maria Immacolata."	Diocese	19		
+113	117120	'5'	-0.15	1.3	-1.6	'5'	'1'	"Sede vescovile è la città di Litoměřice, dove si trova la cattedrale di Santo Stefano."	Diocese	19		
+114	117247	'5'	-0.15	1.3	-1.6	'5'	'1'	Il territorio della diocesi si estende su 43.110 km2 ed è suddiviso in 4 parrocchie.	Diocese	19		
+115	114247	'5'	0.35	1.3	-0.6	'5'	'2'	"Sede vescovile è la città di Oslo, dove si trova la cattedrale di Sant Olav."	Diocese	19		
+116	118574	'3'	-0.15	-0.7	0.4	'3'	'3'	"La diocesi comprende la città di Sebenico, dove si trova la cattedrale di San Giacomo."	Diocese	19		
+117	119373	'5'	-0.15	1.3	-1.6	'5'	'1'	"Sede vescovile è la città di Ica, dove si trova la cattedrale di San Gerolamo."	Diocese	19		
+118	121123	'3'	-0.65	-0.7	-0.6	'3'	'2'	Per quanto riguarda l origine della viremia esiste la suddivisione fra forma attiva e passiva:		20		
+119	123522	'5'	0.35	1.3	-0.6	'5'	'2'	In Danimarca l incidenza è più elevata e raggiunge i 41 casi per 100.000 persone.		20		
+120	125570	'5'	0.35	1.3	-0.6	'5'	'2'	La malattia di Crohn aumenta anche il rischio di cancro nella zona di infiammazione.		20		
+121	120550	'5'	0.35	1.3	-0.6	'5'	'2'	La prima descrizione nota di ipopituitarismo è stata fatta dal medico patologo tedesco Morris Simmonds.		20		
+122	122152	'4'	0.85	0.3	1.4	'4'	'4'	Il margine prossimale deve essere una zona del colon flessibile e senza ipertrofia o infiammazione.		20		
+123	120264	'2'	-0.65	-1.7	0.4	'2'	'3'	Nel caso che i villi coriali riescano a penetrare il miometrio viene definita placenta increta.		20		
+124	130126	'5'	0.85	1.3	0.4	'5'	'3'	Il cão de água português è una razza di cane d acqua di origine portoghese.		21		
+125	130678	'3'	-0.65	-0.7	-0.6	'3'	'2'	Il cane da orso della Carelia è un cane da caccia della famiglia degli spitz.		21		
+126	130479	'4'	-0.15	0.3	-0.6	'4'	'2'	Il Västgötaspets è un cane di piccole dimensioni ma con un carattere molto forte.		21		
+127	130302	'3'	0.85	-0.7	2.4	'3'	'5'	"Al passo molti springer ambiano: il che non è difetto, ma tipico della razza."		21		
+128	128022	'5'	0.35	1.3	-0.6	'5'	'2'	"Non necessita di particolari cure, una spazzolata periodica contribuisce ad eliminare il pelo morto."		21		
+129	131874	'5'	-0.15	1.3	-1.6	'5'	'1'	È un cane di piccola taglia caratterizzato da un lungo pelo liscio e pesante.		21		
+130	134823	'5'	0.85	1.3	0.4	'5'	'3'	I Rutuli sono un gruppo etnico situato in Daghestan e in alcune località dell Azerbaigian.	EthnicGroup	22		
+131	134281	'3'	-0.15	-0.7	0.4	'3'	'3'	Le elezioni al Kurultaj che coinvolgono tutta la popolazione tatara avvengono ogni cinque anni.	EthnicGroup	22		
+132	132960	'3'	-0.65	-0.7	-0.6	'3'	'2'	"Chiaramente, la tribù trae ancora grande orgoglio dalla sua prodezza e dal suo valore militari."	EthnicGroup	22		
+133	134137	'2'	-1.15	-1.7	-0.6	'2'	'2'	"Era comune praticare la poligamia e durante i primi anni di matrimonio, la residenza uxorilocale ."	EthnicGroup	22		
+134	136760	'5'	0.35	1.3	-0.6	'5'	'2'	L espandersi del fenomeno costrinse alla mobilitazione sia le autorità francesi che quelle siamesi.	EthnicGroup	22	-1	
+135	141928	[]	1.4		1.4	[]	'4'	"Nella prima scena dello ""Stage 1"" , C.C. osserva il piccolo Lelouch indossando proprio abiti giapponesi."	FictionalCharacter	23		
+136	139024	'5'	0.85	1.3	0.4	'5'	'3'	"Tuttavia, durante la guerra tra Rann e Thanagar, i due inizieranno una relazione sentimentale."	FictionalCharacter	23		
+137	140755	'3'	0.35	-0.7	1.4	'3'	'4'	Persino Ryuken lo ritiene dotato di grande talento pari a quello di Toki e Raoul.	FictionalCharacter	23		
+138	142153	'2'	-0.15	-1.7	1.4	'2'	'4'	"Questo difettò portò ad odiare il clone di Peter privo di difetti, Ben Reilly."	FictionalCharacter	23		
+139	138428	'4'	0.35	0.3	0.4	'4'	'3'	"L incontro con Jimmy Darmody durante una visita ai veterani, gli cambia la vita."	FictionalCharacter	23		
+140	143723	'5'	0.35	1.3	-0.6	'5'	'2'	"Il corno viene recuperato dai soldati di Gondor, spezzato in due, e portato dal Sovrintendente."	FictionalCharacter	23		
+141	143955	'5'	0.35	1.3	-0.6	'5'	'2'	Costruisce poi una nuova spada laser blu come simbolo della sua promozione al Consiglio Jedi .	FictionalCharacter	23		
+142	141664	'1'	-1.15	-2.7	0.4	'1'	'3'	"Per Nancy Enright, Boromir è lo stereotipo tradizionale del potere maschile, mentre Ralph C."	FictionalCharacter	23	2	
+143	146607	'5'	0.35	1.3	-0.6	'5'	'2'	La serpe di Zanzibar è un film muto del 1928 diretto da Tod Browning.	1	24		
+144	144631	'5'	1.35	1.3	1.4	'5'	'4'	Follie del cinema è un film del 1932 diretto da Clyde Bruckman. con Harold Lloyd. .	2	24		
+145	146536	'4'	-0.15	0.3	-0.6	'4'	'2'	By the Sad Sea Waves è un cortometraggio muto del 1917 diretto da Alfred J.	3	24		
+146	145516	'4'	-0.15	0.3	-0.6	'4'	'2'	Aida è un cortometraggio muto del 1911 diretto da Oscar Apfel e da J.	4	24		
+147	146038	'4'	-0.65	0.3	-1.6	'4'	'1'	"Distribuito dalla V-L-S-E, il film uscì nelle sale cinematografiche USA il 1o novembre 1915."	5	24		
+148	148253	'2'	-0.65	-1.7	0.4	'2'	'3'	Il film - un cortometraggio a una bobina - fu prodotto dalla Société des Etablissements L.	6	24		
+149	151201	'3'	-0.15	-0.7	0.4	'3'	'3'	"Infatti l edizione originale di ""D&D"" raccomandava al lettore il possesso di una copia ""Chainmail""."	1	25		
+150	151275	'4'	0.35	0.3	0.4	'4'	'3'	L ambientazione è stata concessa in licenza due volte per giochi di carte collezionabili.	2	25		
+151	151677	'3'	-0.65	-0.7	-0.6	'3'	'2'	"Nel 1990 la TSR pubblicò una seconda edizione del gioco, etichettandola erroneamente come terza edizione.."	3	25		
+152	151360	'4'	0.85	0.3	1.4	'4'	'4'	"Nel 1998 ""Delta Green"" vinse l Origins Award per il ""Best Roleplaying Supplement of 1997""."	4	25		
+153	152181	'4'	-0.15	0.3	-0.6	'4'	'2'	Il gioco è stato creato dal matematico Alain Rivollet e dall informatico Gaëtan Beaujannot.	5	25		
+154	154098	'3'	-0.65	-0.7	-0.6	'3'	'2'	La Grenadier Miniatures supportò il gioco con una linea di miniature prodotte su licenza.	6	25		
+155	156613	'5'	0.35	1.3	-0.6	'5'	'2'	Bathgate ritornò in NHL per un ultima stagione ancora con i Penguins nel 1971.	1	26		
+156	159039	'4'	-0.15	0.3	-0.6	'4'	'2'	Fu scelto nell Amateur Draft del 1963 dai Toronto Maple Leafs in ventunesima posizione.	2	26		
+157	160773	'4'	-0.15	0.3	-0.6	'4'	'2'	Il 20 luglio 2012 Fayne prolungò per altre due stagioni con i New Jersey Devils.	3	26		
+158	159661	'3'	-0.65	-0.7	-0.6	'3'	'2'	Il suo primo gol in NHL arrivò il 12 novembre 2005 contro i Dallas Stars.	4	26		
+159	157738	'3'	-0.15	-0.7	0.4	'3'	'3'	Con Viacheslav Fetisov abbatté la barriera che bloccava i giocatori sovietici dal giocare nella NHL.	5	26		
+160	158314	'5'	0.35	1.3	-0.6	'5'	'2'	Nella stagione successiva Hay e i Black Hawks raggiunsero la finale della Stanley Cup.	6	26		
+161	164306	'4'	0.35	0.3	0.4	'4'	'3'	"A nord l isola viene attraversata dal Ponte Massimiliano, che porta verso il Maximilianeum."	Island	27		
+162	164873	'3'	-0.15	-0.7	0.4	'3'	'3'	"Contrariamente alla vasta area coperta dall arcipelago, copre una superficie terrestre di soli 885 km2."	Island	27		
+163	166881	'5'	0.85	1.3	0.4	'5'	'3'	"La città più grande è Kaunakakai, che è anche uno dei due porti sull isola."	Island	27		
+164	166037	'4'	0.35	0.3	0.4	'4'	'3'	Negli ultimi anni il turismo si propone come fonte di sostentamento dell intera isola.	Island	27		
+165	166959	'5'	0.35	1.3	-0.6	'5'	'2'	Le isole Lupči sono un gruppo di quattro piccole isolette russe nel Mar Bianco.	Island	27		
+166	165037	'3'	-0.65	-0.7	-0.6	'3'	'2'	Diresse la piantagione con un pugno di ferro che portò al suo omicidio nel 1904.	Island	27		
+167	164509	'3'	-0.65	-0.7	-0.6	'3'	'2'	"I ""sadlermuit"" , come nella vicina isola di Southampton, si estinsero contraendo malattie dagli occidentali."	Island	27	1	
+168	168701	'3'	0.35	-0.7	1.4	'3'	'4'	L Ostniederdeutsch è un gruppo di dialetti parlati prevalentemente in Germania orientale e Polonia settentrionale.	Language	28		
+169	170486	'2'	-0.15	-1.7	1.4	'2'	'4'	Alcuni linguisti includono l alveniate in un gruppo dialettale alverno-limosino in comune con il limosino.	Language	28		
+170	172388	'1'	-1.15	-2.7	0.4	'1'	'3'	"Però, la frase nominativa incl. l articolo, nome e aggettivo mostra tutte le possibilità:"	Language	28		
+171	170821	'2'	-0.65	-1.7	0.4	'2'	'3'	"Discussione di alcuni principali processi fonologici, come di importanti allofoni o di regole di assimilazione."	Language	28		
+172	172120	'3'	-0.65	-0.7	-0.6	'3'	'2'	Il numero dei suoi locutori varia fortemente in funzione della metodologia impiegata per calcolarlo.	Language	28		
+173	169410	'4'	0.35	0.3	0.4	'4'	'3'	"Il vecchio alfabeto georgiano sembra sia stato derivato da quello aramaico, con influenze greche."	Language	28		
+174	173312	'4'	0.85	0.3	1.4	'4'	'4'	Numerosi esempi sono stati trovati nelle carte del notaio Giacomo Zabbara risalenti al 1486-1501.	Language	28	1	
+175	174722	'3'	-0.65	-0.7	-0.6	'3'	'2'	La Granja è una stazione della metropolitana di Valencia che serve la linea 4.	1	29		
+176	178047	'3'	0.35	-0.7	1.4	'3'	'4'	"Da allora la stazione è il capolinea dell attuale Linea Kachovskaya, staccatasi dalla Zamoskvoreckaja."	2	29		
+177	182025	'2'	-1.15	-1.7	-0.6	'2'	'2'	"Sull altro versante, da Vienna si insisteva con Gyulai per una condotta più energica."	3	29		
+178	181388	'5'	0.35	1.3	-0.6	'5'	'2'	La guerra contro le tribù germaniche degli anni precedenti ne aveva solo ritardato i piani.	4	29		
+179	184453	'4'	0.35	0.3	0.4	'4'	'3'	Il 23 agosto 1179 Saladino giunse al Guado di Giacobbe e diede inizio all assedio.	5	29		
+180	180344	'1'	-0.65	-2.7	1.4	'1'	'4'	"Giovanni occupava il tempio ed i dintorni, compreso l<nowiki> </nowiki>""Ophel"" e la valle del Cedron."	6	29		
+181	183987	'5'	0.85	1.3	0.4	'5'	'3'	"Tre settimane dopo, invece, avvenne il secondo scontro nel quale Bruto fu rovinosamente battuto."	1	30		
+182	181908	'4'	-0.15	0.3	-0.6	'4'	'2'	"I tedeschi, riconoscendo l indifendibilità della propria posizione, si ritirarono dalla Marna verso nord."	2	30		
+183	189748	'4'	-0.15	0.3	-0.6	'4'	'2'	"Infine, Belisario diventa generale nell esercito di Padway e gli assicura il controllo dell Italia."	3	30		
+184	189842	'5'	-0.15	1.3	-1.6	'5'	'1'	Ricevette il brevetto di sottotenente dell Esercito degli Stati Uniti il 1o luglio del 1830.	4	30		
+185	188343	'5'	-0.15	1.3	-1.6	'5'	'1'	Si arruolò come soldato nel 44° Reggimento di linea allo scoppio della guerra franco-prussiana.	5	30		
+186	190101	'5'	-0.15	1.3	-1.6	'5'	'1'	A causa della gravissima ferita fu posto in congedo assoluto il 15 gennaio 1918	6	30		
+187	186697	'4'	-0.15	0.3	-0.6	'4'	'2'	"Nel 1934, prese parte alla notte dei lunghi coltelli contro le ""Sturmabteilung"" di Ernst Röhm."	MilitaryPerson	31		
+188	186062	'3'	-0.65	-0.7	-0.6	'3'	'2'	"Novák, tuttavia, respinse l offerta e insieme a molti altri aviatori cecoslovacchi fuggì all estero."	MilitaryPerson	31		
+189	192890	'5'	0.85	1.3	0.4	'5'	'3'	"Il 28 agosto, la brigata venne trasferita in Estonia, nella zona del lago Peipus."	MilitaryUnit	31		
+190	197358	'3'	-0.15	-0.7	0.4	'3'	'3'	"Con la totale indipendenza norvegese,venne approvata una legislazione rafforzante del sistema introdotto nel 1885."	MilitaryUnit	31		
+191	197578	'4'	0.85	0.3	1.4	'4'	'4'	Con decreto del 12 novembre 1976 al battaglione fu assegnata la Bandiera di Guerra.	MilitaryUnit	31		
+192	192449	'4'	0.35	0.3	0.4	'4'	'3'	"I ""manipoli"" erano unità di 60/120 uomini, tutti provenienti da una medesima classe di fanteria."	MilitaryUnit	31		
+193	197558	'2'	-1.15	-1.7	-0.6	'2'	'2'	Il XIV SS-Armeekorps fu un unità militare formata nel novembre del 1944 nell Oberrhein.	MilitaryUnit	31		
+194	195644	'4'	0.35	0.3	0.4	'4'	'3'	In agosto la Volkspolizei fu posta sotto il comando del ministro dell interno tedesco.	MilitaryUnit	31		
+195	195541	'2'	-0.65	-1.7	0.4	'2'	'3'	"Panzer-Division nasce ufficialmente il 18 ottobre 1939 a Wuppertal in Vestfalia, da elementi della 1."	MilitaryUnit	31	1	
+196	198878	'3'	0.35	-0.7	1.4	'3'	'4'	"La ferrorhodsite è un minerale appartenente al gruppo della linnaeite, ha struttura analoga alla cuprorhodsite."	1	32		
+197	201755	'5'	0.85	1.3	0.4	'5'	'3'	La bukovskýite è un minerale che prende il nome dal chimico ceco Antonin Bukovsky .	2	32		
+198	202426	'4'	0.85	0.3	1.4	'4'	'4'	Il nome è in riferimento alla composizione chimica: è un minerale con prevalenza di cerio.	3	32		
+199	200003	'3'	-0.15	-0.7	0.4	'3'	'3'	"Inoltre la calcopirite è rinvenuta in gran quantità, raramente in forma cristallina, e meno fragile."	4	32		
+200	199805	'5'	0.35	1.3	-0.6	'5'	'2'	"Il nome del minerale è stato attribuito in onore di Pavel Ivanovich Stepanov, geologo russo."	5	32		
+201	201094	'4'	0.35	0.3	0.4	'4'	'3'	"La fullerite ultradura C ha una durezza molto elevata, superiore a quella del diamante."	6	32		
+202	208448	'5'	0.35	1.3	-0.6	'5'	'2'	"In mancanza di eredi, gli successe come era facile prevedere, il fratello minore Leopoldo."	1	33		
+203	209601	'3'	-0.65	-0.7	-0.6	'3'	'2'	"Il giovane re divenne succube del ""Phraya Kalahom"" e fu assassinato nell agosto del 1629."	2	33		
+204	207609	'2'	-1.15	-1.7	-0.6	'2'	'2'	"Tipu inviò una lettera il 19 gennaio 1790 al governatore di Bekal, Budruz Zuman Khan."	3	33		
+205	205859	'2'	0.35	-1.7	2.4	'2'	'5'	"Dopo la morte di Vittorio, sposò io 15 febbraio 1813 il barone Federico di Stein-Liebenstein-Barchfeld"	4	33		
+206	208696	'2'	-1.15	-1.7	-0.6	'2'	'2'	Aldobrandino d Este dopo la morte del padre ereditò il titolo di signore di Ferrara.	5	33		
+207	209239	'4'	-0.15	0.3	-0.6	'4'	'2'	È per questo motivo che questo clan ancora oggi in Burundi ha una pessima considerazione.	6	33		
+208	205145	'5'	0.85	1.3	0.4	'5'	'3'	"Fu la prima volta che l istituto del ""Palazzo Davanti"" arrivò a tanto potere."	Monarch	34		
+209	205505	'5'	-0.15	1.3	-1.6	'5'	'1'	"Morì di leucemia nella capitale egiziana nell autunno del 1988, all età di 67 anni."	Monarch	34		
+210	208695	'5'	-0.15	1.3	-1.6	'5'	'1'	"Il coimperatore, infatti, non volle mai consumare il matrimonio perché riteneva Sofia troppo brutta."	Monarch	34	-3	
+211	211665	'4'	0.35	0.3	0.4	'4'	'3'	"È ottavo nel 1998 e ancora nono l anno successivo, con una Yamaha YZF-R6."	MotocycleRider	35		
+212	214802	'4'	-0.65	0.3	-1.6	'4'	'1'	Nel 2003 si presenta al Campionato Italiano Velocità Superstock 1000 come campione in carica.	MotocycleRider	35		
+213	214815	'4'	0.35	0.3	0.4	'4'	'3'	"È ricordato come uno dei padri fondatori della specialità, avendo anche vinto cinque titoli francesi."	MotocycleRider	35		
+214	215833	'3'	-1.15	-0.7	-1.6	'3'	'1'	Nel 2016 è nello stesso team con un nuovo compagno di squadra: Franco Morbidelli.	MotocycleRider	35		
+215	213386	'5'	0.85	1.3	0.4	'5'	'3'	"Gareggiò poi nel Motomondiale, in varie classi fino al termine della stagione vittoriosa del 1955."	MotocycleRider	35		
+216	215464	'3'	0.35	-0.7	1.4	'3'	'4'	"Il 1969 vede il centauro ternano Campione Italiano Juniores della 250, sempre con una MotoBi."	MotocycleRider	35		
+217	214057	'5'	0.85	1.3	0.4	'5'	'3'	"In quella stagione si classificò quarto nella classifica finale del motomondiale, sua migliore prestazione ."	MotocycleRider	35	1	
+218	218537	'3'	0.35	-0.7	1.4	'3'	'4'	Nel seguente elenco sono riportati gli altri eventi più significativi riguardanti il Cho Oyu.		36		
+219	217896	'3'	-0.65	-0.7	-0.6	'3'	'2'	Sotto la vetta sono evidenti i resti del presidio austriaco della prima guerra mondiale.		36		
+220	216714	'5'	0.35	1.3	-0.6	'5'	'2'	La vetta del Nelion fu scalata la prima volta da Eric Shipton nel 1929.		36		
+221	218773	'4'	0.35	0.3	0.4	'4'	'3'	Il monte è collocato a nord-est di Cortina d Ampezzo e ad ovest di Misurina.		36		
+222	220533	'3'	-0.15	-0.7	0.4	'3'	'3'	"Nei pressi del ""Mönchjoch"", valico che lo separa dal Mönch si trova la Mönchsjochhütte."		36		
+223	218296	'5'	-0.15	1.3	-1.6	'5'	'1'	"In realtà la vetta più alta è il monte Popomanaseu, che tocca quota 2335 metri."		36		
+224	223085	'3'	-0.65	-0.7	-0.6	'3'	'2'	Il museo si trova in quella che un tempo era la centrale termoelettrica di Bankside .	Museum	37		
+225	225850	'5'	0.35	1.3	-0.6	'5'	'2'	Nel corso degli anni altre opere sono state accolte e esposte all interno del museo.	Museum	37		
+226	225952	'2'	-0.65	-1.7	0.4	'2'	'3'	Il progetto museografico è elaborato personalmente da Depero tra il 1957 e il 1959.	Museum	37		
+227	224691	'5'	-0.15	1.3	-1.6	'5'	'1'	La produzione della miniera oscillava tra le 56 e le 84 tonnellate di rame.	Museum	37		
+228	225351	'2'	-0.65	-1.7	0.4	'2'	'3'	"Negli anni 1983-1984 l esposizione venne riallestita, mutando e migliorando il percorso logico espositivo."	Museum	37	-1	
+229	228218	'4'	-0.15	0.3	-0.6	'4'	'2'	"Con ""My Chico"" al ""Festivalbar 1988"" venne premiata come ""Migliore Cantante Europea"" dell anno."		38		
+230	231994	'5'	0.85	1.3	0.4	'5'	'3'	"Peraza si esibì in tutti i locali delle zone circostanti, tra cui nel Manhole Shelley ."		38		
+231	231272	'3'	0.35	-0.7	1.4	'3'	'4'	Questo procurò alla band un tour in Europa insieme ai Gothminister come band di supporto.		38		
+232	228368	'4'	0.85	0.3	1.4	'4'	'4'	"Con l aiuto del padre ha aperto un ristorante in Odaiba, Tokyo chiamato "" Kamei-do""."		38		
+233	230429	'5'	0.35	1.3	-0.6	'5'	'2'	"Per l occasione Fukuyama forma un duo musicale con il coprotagonista di ""Galileo"", Kou Shibasaki."		38		
+234	231711	'4'	-0.15	0.3	-0.6	'4'	'2'	Per un periodo visse nella stessa pensione con Albert Ammons e Meade Lux Lewis.		38		
+235	236120	'4'	0.35	0.3	0.4	'4'	'3'	"Simile all early happy hardcore, definita da un battito più leggero e sonorità rave."		39		
+236	237894	'4'	-0.65	0.3	-1.6	'4'	'1'	"Questi nuovi complessi incorporavano gli elementi più commerciali di alternative rock, emo e post-hardcore."		39		
+237	238794	'4'	-0.65	0.3	-1.6	'4'	'1'	La Frenchcore è un sottogenere musicale molto veloce e ritmato proposto soprattutto in Francia.		39		
+238	237999	'2'	-0.15	-1.7	1.4	'2'	'4'	Originatori di questa tendenza sono stati probabilmente gli statunitensi Impetigo insieme ai conterranei Meat Shits.		39		
+239	234134	'3'	-0.15	-0.7	0.4	'3'	'3'	Il dansi si può considerare derivato dalla rumba congolese degli anni 30 e sessanta.		39		
+240	239655	[]	0.4		0.4	[]	'3'	L intero genere può creare diversi sottogeneri grazie alla sua combinazione fra ritmo e armonia.		39		
+241	245685	'4'	0.35	0.3	0.4	'4'	'3'	"Pohl scrisse egli stesso molte storie, per riempire la rivista e aumentare il suo stipendio."		40		
+242	241542	'2'	-1.15	-1.7	-0.6	'2'	'2'	"Nell ultimo numero c è un ""Referendum"" sullo stato di salute della rivista stessa ."		40		
+243	240966	'4'	0.35	0.3	0.4	'4'	'3'	"Alla fine dell anno avviene la defezione di Prezzolini, che si trasferisce a Roma."		40		
+244	244328	'3'	-0.65	-0.7	-0.6	'3'	'2'	"Il giornale venne venduto a Hearst Corporation nel 1972, che pubblicava il rivale ""American Record""."		40		
+245	241225	'5'	0.35	1.3	-0.6	'5'	'2'	Negli anni novanta la rivista continuò ad essere un punto di riferimento del settore.		40		
+246	243446	'3'	-0.15	-0.7	0.4	'3'	'3'	"Con questa squadra, trasformò le pagine di ""Vogue"" in un grande spettacolo artistico e sofisticato."		40		
+247	249372	'3'	-1.15	-0.7	-1.6	'3'	'1'	"Nel maggio 1970 Colonna di Paliano divenne presidente della catena di grandi magazzini ""La Rinascente""."	Politician	41		
+248	246941	'5'	1.35	1.3	1.4	'5'	'4'	Ciò rese l Estonia il primo paese ad avere relazioni con i sovietici bolscevichi.	Politician	41		
+249	248405	'4'	0.35	0.3	0.4	'4'	'3'	"L anno dopo fu al servizio della Spagna, per cui combatté in diverse battaglie."	Politician	41		
+250	250407	'2'	-0.65	-1.7	0.4	'2'	'3'	"Scrisse anche un contributo per la bibliografia del parlamento:""Perplessità e riserve sulla riforma dei bilanci""."	Politician	41		
+251	250187	'4'	-0.15	0.3	-0.6	'4'	'2'	"Era il figlio di Henry Brand, I visconte Hampden, e di sua moglie, Eliza Ellice."	Politician	41		
+252	247212	'5'	0.35	1.3	-0.6	'5'	'2'	Abelli è stato capogruppo di Forza Italia nel consiglio regionale della Lombardia dal 2005.	Politician	41		
+253	251488	'5'	0.85	1.3	0.4	'5'	'3'	"Eletto deputato all Assemblée nationale nel 1993, è il deputato più giovane della legislatura."	Politician	41		
+254	246219	'4'	0.35	0.3	0.4	'4'	'3'	"C., riuscì ad impadronirsi di Argo, che si era ribellata all arrivo delle truppe macedoni."	Politician	41		
+255	247031	'4'	-0.65	0.3	-1.6	'4'	'1'	"Il mandato terminò tuttavia pochi mesi dopo, a causa della vittoria elettorale della CDU."	Politician	41	3	
+256	257938	'4'	-0.15	0.3	-0.6	'4'	'2'	"Il distretto di Yaurisque è uno dei nove distretti della provincia di Paruro, in Perù."	PopulatedPlace	42		
+257	256044	'3'	-1.15	-0.7	-1.6	'3'	'1'	"Secondo lo United States Census Bureau, ha un area totale di 1,00 miglia quadrate ."	PopulatedPlace	42		
+258	255497	'3'	0.85	-0.7	2.4	'3'	'5'	"Csáfordjánosfa è un comune di 244 abitanti situato nella provincia di Győr-Moson-Sopron, nell Ungheria nordoccidentale."	PopulatedPlace	42		
+259	254598	'3'	-0.7	-0.7		'3'	[]	"L abitato venne fondato dai fratelli Pancracio, Nicolás, Ezequiel e Sinforoso Vargas nel 1794."	PopulatedPlace	42		
+260	256087	'4'	0.85	0.3	1.4	'4'	'4'	Appartiene al circondario di Bad Kreuznach ed è parte della comunità amministrativa di Kirn-Land.	PopulatedPlace	42	-1	
+261	259774	'4'	0.35	0.3	0.4	'4'	'3'	"Anche nell inverno 2008-2009 partecipa alla GP2 Asia, vincendola, e nel 2009 al campionato GP2."		43		
+262	258585	'4'	-0.15	0.3	-0.6	'4'	'2'	La Tyrrell fa nuovamente doppietta nel Gran Premio di Germania al Nürburgring il 1o agosto.		43		
+263	258469	'5'	0.85	1.3	0.4	'5'	'3'	Suo figlio Tim è stato anche un pilota di Formula 1 con scarsa fortuna.		43		
+264	258896	'5'	0.85	1.3	0.4	'5'	'3'	Il 1997 cominciò con le premesse del 1996 ed ebbe le stesse conclusioni deludenti.		43		
+265	259710	'5'	0.35	1.3	-0.6	'5'	'2'	"Il 1968 fu, invece, un anno tormentato sia per il pilota, che per la scuderia."		43		
+266	263629	'5'	0.85	1.3	0.4	'5'	'3'	Nei giorni seguenti Rosberg si scusò pubblicamente con Hamilton prendendosi la responsabilità per la collisione.		43		
+267	264335	'5'	-0.15	1.3	-1.6	'5'	'1'	"La stazione risulta essere molto trafficata, vista la sua popolarità tra i pendolari della zona."	Station	44		
+268	267289	'5'	0.85	1.3	0.4	'5'	'3'	Dal 15 dicembre 2013 la stazione è fornita da un sottopassaggio munito di ascensori.	Station	44		
+269	269233	'5'	0.85	1.3	0.4	'5'	'3'	"La stazione è stata inaugurata in concomitanza con la ferrovia, il 10 agosto 1924."	Station	44		
+270	264270	'4'	-0.15	0.3	-0.6	'4'	'2'	Globalmente la stazione possiede due ingressi a cui si aggiungono tre accessi diretti ai binari.	Station	44		
+271	273798	'5'	0.35	1.3	-0.6	'5'	'2'	Sopra l altare è posta una copia della Vergine nera di Częstochowa risalente al 1720.	Station	44	-1	
+272	270967	'5'	0.85	1.3	0.4	'5'	'3'	"La richiesta viene accolta, ma non sarà poi messa in pratica, probabilmente per motivi economici."		45		
+273	273085	'4'	-0.15	0.3	-0.6	'4'	'2'	"Le pareti eran ricoperte da immagine votive, tranne il presbiterio che fu affrescato nel 1700 ."		45		
+274	272889	'4'	0.35	0.3	0.4	'4'	'3'	Nel 1985 la sinagoga fu chiusa e cominciarono lunghi anni di abbandono e furti.		45		
+275	273278	'5'	-0.15	1.3	-1.6	'5'	'1'	Notevole è l apparato decorativo delle sei cappelle che si aprono sulla sinistra della chiesa.		45		
+276	270196	'4'	-0.15	0.3	-0.6	'4'	'2'	"Il campanile è una torre pendente: è infatti inclinato di circa 1,4° in direzione Est-Sud-Est ."		45		
+277	272400	[]	0.4		0.4	[]	'3'	"Nel 1927 venne ripristinata la facciata, che riflette le linee del sezionamento delle navate."		45		
+278	280438	'4'	0.35	0.3	0.4	'4'	'3'	Scorre poi lungo il confine con Meduna di Livenza e la provincia di Treviso.	River	46		
+279	276352	'2'	-1.15	-1.7	-0.6	'2'	'2'	Il Cando o Rio Cando è un piccolo torrente della Repubblica di San Marino.	River	46		
+280	280187	'3'	-0.15	-0.7	0.4	'3'	'3'	"Più a valle sbocca nel Cigüela , da sinistra, molto vicino agli Ojos del Guadiana ."	River	46		
+281	277219	'3'	-0.15	-0.7	0.4	'3'	'3'	"Dopo 104 km di corso il fiume sfocia nel Jijia, vicino alla città di Chiperești."	River	46		
+282	279836	'4'	0.85	0.3	1.4	'4'	'4'	"La Bol šaja è un fiume della Russia europea meridionale , affluente di sinistra della Kalitva ."	River	46		
+283	279151	'5'	0.35	1.3	-0.6	'5'	'2'	Il fiume ha una portata d acqua tra i 2 ed i 1500 m3/s.	River	46		
+284	282905	'5'	-0.15	1.3	-1.6	'5'	'1'	Le dimensioni della carreggiata sono poco più ampie di quelle di una normale strada statale.	River	46	1	
+285	286168	'2'	-0.65	-1.7	0.4	'2'	'3'	Il tracciato prosegue fino al raggiungimento del litorale che costeggia ininterrottamente fino al suo termine.		47		
+286	283488	'4'	-0.15	0.3	-0.6	'4'	'2'	"Il rimanente tratto, da Rezzato a Limone sul Garda, è invece rimasto all ANAS."		47		
+287	282532	'4'	-0.15	0.3	-0.6	'4'	'2'	"Superato lo svincolo di Cosenza, l autostrada attraversa le varie montagne in direzione Altilia."		47		
+288	285081	'4'	0.35	0.3	0.4	'4'	'3'	"È parte dell itinerario che congiunge Berlino alla Slesia, proseguendo in territorio polacco come A18."		47		
+289	287529	'3'	-0.65	-0.7	-0.6	'3'	'2'	La strada ha origine dallo svincolo di Castellammare del Golfo sull A29 Palermo-Mazara del Vallo.		47	-1	
+290	291428	'2'	-1.15	-1.7	-0.6	'2'	'2'	Processione di San Ferdinando D Aragona con le reliquie per le vie di Alvignano		48		
+291	290022	'1'	-2.7	-2.7		'1'	'e'	"I successivi miracoli sono indicati nella lista dei capitoli all"" Historia Miraculorum"" della ""Vita II""."		48		
+292	288214	'3'	0	-0.7	-1.6	'3'	'1'	Ben presto incominciarono a circolare voci sulla sua intensa fede e si parlava di miracoli.		48		
+293	291374	'5'	0.35	1.3	-0.6	'5'	'2'	"Le reliquie di San Claudio vennero arse nel marzo 1794, durante la Rivoluzione Francese."		48		
+294	293764	'4'	-0.15	0.3	-0.6	'4'	'2'	Sempre il 25 ottobre viene festeggiato a Monti di cui è anche Santo patrono.		48	-1	
+295	296646	'1'	-1.15	-2.7	0.4	'1'	'3'	"Il 24 marzo un convoglio entra nel campo, con la perdita dei cacciatorpediniere e ."	Ship	49		
+296	297610	'2'	-1.15	-1.7	-0.6	'2'	'2'	"Mentre transitava nel canale Kaiser Wilhelm il 14 marzo 1917, la ""Kaiserin"" si arenò."	Ship	49		
+297	299168	'1'	-1.65	-2.7	-0.6	'1'	'2'	"Esse si ritirarono subito dopo, lo ""Yugiri"" trainando lo ""Shirakumo"" rimasto senza energia motrice."	Ship	49		
+298	296963	'5'	-0.15	1.3	-1.6	'5'	'1'	A partire dal 1944 la nave fu utilizzata nel Pacifico per scortare le portaerei.	Ship	49		
+299	297409	'5'	0.35	1.3	-0.6	'5'	'2'	La nave fu infine smantellata nei cantieri Breda di Venezia nel 1923 o 1924 .	Ship	49		
+300	297634	'3'	-0.65	-0.7	-0.6	'3'	'2'	"Dopo aver raggiunto Malta l 11 settembre, la nave venne internata ad Alessandria d Egitto."	Ship	49		
+301	304880	'5'	0.35	1.3	-0.6	'5'	'2'	"Conclusa la carriera di calciatore, ha intrapreso quella di allenatore nelle categorie dilettantistiche lombarde."	SoccerPlayer	50		
+302	305457	'5'	-0.15	1.3	-1.6	'5'	'1'	Questa pagina raccoglie i dati riguardanti il Vålerenga Fotball nelle competizioni ufficiali della stagione 1999.	SoccerPlayer	50		
+303	300996	'1'	-1.65	-2.7	-0.6	'1'	'2'	"Tornato in Inghilterra, Musgrove diviene dal 1981 al 1984 l allenatore dell Exeter City."	SoccerPlayer	50		
+304	301955	'4'	0.35	0.3	0.4	'4'	'3'	"Giocò con il Castilla, la squadra filiale del Real Madrid, dal 1974 al 1980."	SoccerPlayer	50		
+305	302671	'3'	0.35	-0.7	1.4	'3'	'4'	"Viene convocato per gli Europei 2016 in Francia, in sostituzione dell infortunato Alan Dzagoev."	SoccerPlayer	50		
+306	303510	'5'	0.35	1.3	-0.6	'5'	'2'	Poi Giuseppe Viani lo fa esordire in Serie A il 20 marzo 1960 in Udinese-Milan .	SoccerPlayer	50		
+307	301080	'5'	0.35	1.3	-0.6	'5'	'2'	"Tentò così l esperienza in Europa, ma non superò un provino sostenuto con il Sunderland."	SoccerPlayer	50	1	ExSoccerPlayers?
+308	309335	'4'	-0.15	0.3	-0.6	'4'	'2'	MariaDB si compila sia su processori a 32 bit sia su processori a 64.		51		
+309	310422	'3'	0.35	-0.7	1.4	'3'	'4'	Questo sistema di plug-in è alla base di tutti i moderni software del genere.		51		
+310	307370	'2'	0.35	-1.7	2.4	'2'	'5'	MTRG fa uso del protocollo SNMP per inviare due identificatori di oggetto a un dispositivo.		51		
+311	309124	'5'	0.85	1.3	0.4	'5'	'3'	Varie librerie sono state costruite sopra OpenGL per fornire funzionalità non disponibili in OpenGL stesso:		51		
+312	308313	'3'	-0.65	-0.7	-0.6	'3'	'2'	"Se dovessero sorgere problemi, VirtualBox ha un ricompilatore dinamico, come gli altri software di virtualizzazione."		51		
+313	311874	'2'	-0.65	-1.7	0.4	'2'	'3'	Il motore di Nessus 2 e una piccola quantità di plugin sono ancora GPL.		51		
+314	313573	'4'	-0.15	0.3	-0.6	'4'	'2'	"In virtù di questo fatto, la canzone viene chiamata abitualmente ""Sappy"" per evitare confusione."	Song	52		
+315	316656	'2'	0.35	-1.7	2.4	'2'	'5'	"Come lato B, il brano è arrivato alla 53a posizione di ""Billboard Hot 100""."	Song	52		
+316	312983	'5'	0.35	1.3	-0.6	'5'	'2'	"Elton si cimenta a raggiungere note abbastanza alte, in special modo durante il ritornello."	Song	52		
+317	313679	'5'	0.85	1.3	0.4	'5'	'3'	Queste tornano poi udibili a partire dal minuto 4:37 fino alla chiusura del brano.	Song	52	-2	
+318	319314	'2'	-0.15	-1.7	1.4	'2'	'4'	"La famiglia ricorda i ragni appartenenti a quella, tuttora esistente, dei ""Leptonetidae"" e degli ""Ochyroceratidae""."		53		
+319	323775	'3'	-0.15	-0.7	0.4	'3'	'3'	"In particolare, il ""Darwinopterus robustidens"" sembra essere stato uno specialista nel cibarsi di coleotteri."		53		
+320	321421	'5'	0.35	1.3	-0.6	'5'	'2'	Carollia castanea è un Pipistrello della famiglia dei Fillostomidi diffuso nell America centrale e meridionale.		53		
+321	320690	'1'	-0.65	-2.7	1.4	'1'	'4'	"In Italia, la famiglia è rappresentata solo nel Nord, con la specie ""Cylindrotoma distinctissima""."		53		
+322	322798	'3'	-0.65	-0.7	-0.6	'3'	'2'	"È possibile che condividesse l habitat con altri grossi artropodi nuotatori, come ""Isoxys"" e ""Zhenghecaris""."		53		
+323	321016	'1'	-0.15	-2.7	2.4	'1'	'5'	"La pupa dectica è sempre definita anche exarata, ossia possiede appendici libere e distaccabili."		53		
+324	325887	'3'	-0.65	-0.7	-0.6	'3'	'2'	"Nel corso degli anni fu modificata la struttura dello stadio, ampliando la capacità dello stadio."	Stadium	54		
+325	328714	'5'	0.35	1.3	-0.6	'5'	'2'	"Dagli anni 1980, lo stadio ha ospitato per sei volte la nazionale calcistica italiana."	Stadium	54		
+326	325253	'1'	-1.65	-2.7	-0.6	'1'	'2'	Nel 2014 lo stadio è stato ampliato in modo da contenere fino a spettatori.	Stadium	54		
+327	328158	'3'	-0.15	-0.7	0.4	'3'	'3'	Lo stadio ospita anche gli incontri della Nazionale di rugby a 15 della Svizzera.	Stadium	54		
+328	324650	'4'	-0.15	0.3	-0.6	'4'	'2'	"Lo Estadio Ruta de la Plata è uno Stadio situato a Zamora, in Spagna."	Stadium	54		
+329	324737	'4'	-0.15	0.3	-0.6	'4'	'2'	Al suo interno nel 2004 è stato aperto un museo dedicato alla storia dell Amburgo.	Stadium	54		
+330	328110	'4'	0.35	0.3	0.4	'4'	'3'	Sarebbe il terzo campo dopo l Estadio La Cabañera e lo Stadio San Jorge.	Stadium	54	1	
+331	332607	'5'	-0.15	1.3	-1.6	'5'	'1'	"La divisa casalinga era completamente rossa, a strisce verticali nere, pantaloncini neri e calzettoni rossoneri."	SportsTeam	55		
+332	332398	'5'	-0.15	1.3	-1.6	'5'	'1'	Questa voce raccoglie le informazioni riguardanti la Pallavolo Chieri nelle competizioni ufficiali della stagione 2003-2004.	SportsTeam	55		
+333	334176	'5'	-0.15	1.3	-1.6	'5'	'1'	"La divisa casalinga era costituita da una maglietta a strisce rossonere, pantaloncini e calzettoni neri."	SportsTeam	55		
+334	331027	'4'	-0.15	0.3	-0.6	'4'	'2'	Questa voce raccoglie le informazioni riguardanti il FC Tokyo nelle competizioni ufficiali della stagione 2008.	SportsTeam	55		
+335	334526	'5'	0.35	1.3	-0.6	'5'	'2'	Questa voce raccoglie le informazioni riguardanti il Sorrento nelle competizioni ufficiali della stagione 1980-1981.	SportsTeam	55	-1	
+336	340722	'3'	0.35	-0.7	1.4	'3'	'4'	"Tuttavia i Rybaxel perderanno di nuovo contro i loro avversari, Cody Rhodes e Goldust."		56		
+337	339288	'3'	-0.15	-0.7	0.4	'3'	'3'	"Lo Shield ha quindi cominciato ad attaccare Kane, salvo ritirarsi quando gli Usos sono intervenuti."		56		
+338	338008	'4'	0.85	0.3	1.4	'4'	'4'	Il Comitato Olimpico Capoverdiano venne creato nel 1989 e riconosciuto dal CIO nel 1993.		56		
+339	339192	'5'	0.85	1.3	0.4	'5'	'3'	"Portabandiera alla cerimonia d apertura è stata la trentottenne Valentyna Ševčenko, alla sua quinta Olimpiade."		56		
+340	337801	'1'	-1.15	-2.7	0.4	'1'	'3'	"Anche se era ovviamente per attaccare la Kru, Konnan ha rifiutato la fiducia di Kip."		56		
+341	337903	'2'	-0.65	-1.7	0.4	'2'	'3'	Segue la rosa delle giocatrici convocate per i XVII Giochi i piccoli stati d Europa.		56		
+342	343025	'5'	0.85	1.3	0.4	'5'	'3'	Nel luglio 2006 ha reso pubblico il suo fidanzamento con la cantante australiana Candice Alley.	Swimmer	57		
+343	344851	'2'	-0.65	-1.7	0.4	'2'	'3'	"Nei 50 m stile libero invece non riuscirà a raggiungere la finale, nuotando in 25""02."	Swimmer	57		
+344	342832	[]	1.4		1.4	[]	'4'	Dati aggiornati alla conclusione dei Campionati europei di nuoto in vasca corta 2009 di Istanbul.	Swimmer	57		
+345	347017	'5'	0.85	1.3	0.4	'5'	'3'	"Durante la manifestazione prese parte anche alle finali dei 200,400 e 800 m sl."	Swimmer	57		
+346	347444	'4'	0.35	0.3	0.4	'4'	'3'	Specializzato nella farfalla ha partecipato alle Olimpiadi di Atlanta 1996 e di Sydney 2004.	Swimmer	57		
+347	342144	'4'	0.35	0.3	0.4	'4'	'3'	Alle Olimpiadi di Atene nel 2004 è arrivato settimo nella finale dei 200 m farfalla.	Swimmer	57		
+348	345166	'3'	-1.15	-0.7	-1.6	'3'	'1'	Ha gareggiato nel 100 metri dorso maschile e a pallanuoto alle Olimpiadi estive 1948.	Swimmer	57	1	
+349	349483	'5'	0.35	1.3	-0.6	'5'	'2'	"In Italia è stata trasmessa dal 1981 su reti locali con il titolo ""Koseidon""."		58		
+350	350281	'3'	-0.15	-0.7	0.4	'3'	'3'	"È una sitcom a sfondo drammatico incentrata sulle vicende dei Drombusch, una famiglia di Darmstadt."		58		
+351	353168	'3'	0.35	-0.7	1.4	'3'	'4'	"Prikoly na peremenke è una serie televisiva russa, adattamento dell italiana ""Quelli dell intervallo""."		58		
+352	349018	'4'	0.35	0.3	0.4	'4'	'3'	"James Poniewozik sul ""TIME"" la definì «splendidamente realizzata» e meglio focalizzata rispetto alla prima stagione."		58		
+353	348235	'5'	0.35	1.3	-0.6	'5'	'2'	"La serie è ambientata in Sicilia, ma è stata quasi interamente girata in Puglia."		58		
+354	348182	'5'	1.35	1.3	1.4	'5'	'4'	"I primi due film TV sono stati trasmessi dalla NBC, il terzo dalla CBS."		58		
+355	355430	'5'	0.35	1.3	-0.6	'5'	'2'	L’8 gennaio 2018 inizia la settima edizione sempre con la conduzione di Paolo Bonolis.		59		
+356	356124	'5'	-0.15	1.3	-1.6	'5'	'1'	Questo format era già stato sperimentato nel novembre 2007 ma abbandonato dopo poco tempo.		59		
+357	354161	'3'	-0.15	-0.7	0.4	'3'	'3'	Dal 2 maggio 2016 lo spazio dedicato al TG5 non va più in onda.		59		
+358	354206	'4'	0.35	0.3	0.4	'4'	'3'	L elenco che segue concerne invece le puntate realizzate durante la gestione di Giovanni Minoli.		59		
+359	354929	'5'	0.85	1.3	0.4	'5'	'3'	Astrolove è un programma televisivo che fa parte del palinsesto di Real Time dal 2013.		59		
+360	358910	'5'	0.85	1.3	0.4	'5'	'3'	"In questo programma la conduttrice per lanciare il riepilogo dei progetti usa dire """"Ricap!""""."		59		
+361	360599	'4'	-0.15	0.3	-0.6	'4'	'2'	Agli US Open esce al primo turno di qualificazioni contro la greca Maria Sakkari.		60		
+362	365950	'4'	0.85	0.3	1.4	'4'	'4'	Nonostante la sconfitta toccò il suo best ranking della carriera salendo fino alla seconda posizione.		60		
+363	365970	'2'	-1.15	-1.7	-0.6	'2'	'2'	"Fino alla finale l Errani, partendo dalle qualificazioni, ha incontrato solo tenniste americane battendole tutte."		60		
+364	360192	'5'	0.85	1.3	0.4	'5'	'3'	Anche a Los Angeles raggiunge la semifinale in cui viene sconfitto da Stefan Edberg.		60		
+365	363383	'2'	-0.65	-1.7	0.4	'2'	'3'	"In carriera ha vinto un titolo nel singolare, il WTA Swiss Open nel 1976."		60		
+366	360660	'5'	1.35	1.3	1.4	'5'	'4'	"Ha raggiunto la 27a posizione della classifica mondiale nel settembre 2016, suo attuale best ranking."		60		
+367	370083	'3'	-0.15	-0.7	0.4	'3'	'3'	Dal 1998 la Libera università di lingue e comunicazione IULM porta il nome attuale.		61		
+368	371454	'2'	-1.65	-1.7	-1.6	'2'	'1'	"L Accademia ha correntemente circa 900 studenti, almeno un quarto di essi è straniero."		61		
+369	366511	'4'	0.35	0.3	0.4	'4'	'3'	"La Middlesex University è un università che si trova nel nord di Londra, Inghilterra."		61		
+370	371792	'3'	0.35	-0.7	1.4	'3'	'4'	"Attualmente, i Membri dell ICRANet sono quattro stati e tre università e centri di ricerca."		61		
+371	370838	'5'	0.35	1.3	-0.6	'5'	'2'	L università è governata da un consiglio di facoltà e da un consiglio d amministrazione.		61		
+372	366937	'5'	1.35	1.3	1.4	'5'	'4'	Nel periodo 1874-1961 è stata l unica università del paese ad attribuire titoli accademici.		61		
+373	373915	'5'	0.85	1.3	0.4	'5'	'3'	I Big Daddy sono i grossi protettori rinchiusi in scafandri corazzati che vigilano sulle Sorelline.		62		
+374	376031	'3'	-0.15	-0.7	0.4	'3'	'3'	"Al contrario di Xiaomu, Saya è dalla parte dell organizzazione rivale della Shinra: Ouma."		62		
+375	374926	'5'	0.85	1.3	0.4	'5'	'3'	Questo è tuttavia l unico capitolo in cui Lara non guida veicoli di alcun tipo.		62		
+376	374245	'5'	0.85	1.3	0.4	'5'	'3'	"Il gioco contiene una versione elettronica de ""Il volo del calabrone"", di Nikolai Rimsky-Korsakov."		62		
+377	375245	'4'	0.35	0.3	0.4	'4'	'3'	Bomberman è l unico che può fronteggiare Wario e riportare l equilibrio nel suo mondo.		62		
+378	373856	'5'	0.35	1.3	-0.6	'5'	'2'	"Realizzato nel 2002, ""Crusader"" riscosse subito un grande plauso fra i fan del precedente capitolo."		62		
+379	381238	'1'	-1.65	-2.7	-0.6	'1'	'2'	"Nella stagione 2006-07 torna in Germania, con il Dürener Turnverein 1847, debuttando in 1."		63		
+380	380693	'5'	0.35	1.3	-0.6	'5'	'2'	"Per il campionato 2017-18 veste la maglia del Volley Milano, sempre in Serie A1."		63		
+381	382181	'2'	0.35	-1.7	2.4	'2'	'5'	"Nel gennaio 2013 passa alla Pallavolo Motta di Motta di Livenza, sempre in Serie B1."		63		
+382	381433	'4'	-0.65	0.3	-1.6	'4'	'1'	"Giulia Pincerato inizia la sua carriera pallavolistica nella squadra giovanile di Legnaro, nel 1999."		63		
+383	378432	'3'	-0.15	-0.7	0.4	'3'	'3'	A soli 16 anni debutta in Serie A1 nel San Lazzaro Pallavolo nella stagione 1985-86.		63		
+384	379910	'5'	0.35	1.3	-0.6	'5'	'2'	La carriera di İpek Soroğlu inizia nel 2002 tra le file del Galatasaray Spor Kulübü.		63		

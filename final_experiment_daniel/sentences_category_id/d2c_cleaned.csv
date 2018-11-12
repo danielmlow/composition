@@ -1,0 +1,193 @@
+﻿cluster_ids,ids,scaled_scores,unscaled_scores,s1_score_scaled,s3_score_scaled,s1_score,s3_score,s1_unscaled_score,s3_unscaled_score,category_id,category_name,sentences
+337,339288,-0.14999999999999997,3.0,-0.7,0.4,'3','3',3.0,3.0,56,SportsTeam,"Lo Shield ha quindi cominciato ad attaccare Kane, salvo ritirarsi quando gli Usos sono intervenuti."
+339,339192,0.8500000000000001,4.0,1.3,0.4,'5','3',5.0,3.0,56,SportsTeam,"Portabandiera alla cerimonia d apertura è stata la trentottenne Valentyna Ševčenko, alla sua quinta Olimpiade."
+340,337801,-1.1500000000000001,2.0,-2.7,0.4,'1','3',1.0,3.0,56,SportsTeam,"Anche se era ovviamente per attaccare la Kru, Konnan ha rifiutato la fiducia di Kip."
+118,121123,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,20,Disease,Per quanto riguarda l'origine della viremia esiste la suddivisione fra forma attiva e passiva
+119,123522,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,20,Disease,In Danimarca l'incidenza è più elevata e raggiunge i 41 casi per 100.000 persone.
+120,125570,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,20,Disease,La malattia di Crohn aumenta anche il rischio di cancro nella zona di infiammazione.
+132,132960,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,22,EthnicGroup,"Chiaramente, la tribù trae ancora grande orgoglio dalla sua prodezza e dal suo valore militari."
+133,134137,-1.15,2.0,-1.7,-0.6,'2','2',2.0,2.0,22,EthnicGroup,"Era comune praticare la poligamia e durante i primi anni di matrimonio, la residenza uxorilocale."
+13,17025,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,2,Album,"La canzone è stata bandita in molte stazioni radio, tranne in quella del Dr."
+109,112714,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,18,Decoration,L Ordine dei santi patroni d Italia fu un ordine cavalleresco della Repubblica sociale italiana.
+107,112884,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,18,Decoration,"La prima regolamentazione organica dell'onorificenza è stata approvata col Decret 22 giugno 2004, n."
+110,112553,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,18,Decoration,Sul retro la medaglia presenta un gladio romano attorniato da una corona d alloro.
+111,113701,-1.6500000000000001,1.5,-2.7,-0.6,'1','2',1.0,2.0,18,Decoration,Questi è oggi stato canonizzato dalla chiesa ortodossa ed è lodato come eroe nazionale.
+9,9857,-2.1500000000000004,1.0,-2.7,-1.6,'1','1',1.0,1.0,1,Airport,L'aeroporto è stato inaugurato nel 1940 con un volo con destinazione la capitale.
+7,8273,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,1,Airport,L'autorità aeroportuale ha in concessione l'aeroporto dalla città di New York dal 1947.
+11,6195,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,1,Airport,Il 10 settembre 2016 a Boscomantico si sono festeggiati i 100 anni dell'aeroporto.
+308,309335,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,51,Software,MariaDB si compila sia su processori a 32 bit sia su processori a 64.
+312,308313,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,51,Software,"Se dovessero sorgere problemi, VirtualBox ha un ricompilatore dinamico, come gli altri software di virtualizzazione."
+311,309124,0.8500000000000001,4.0,1.3,0.4,'5','3',5.0,3.0,51,Software,Varie librerie sono state costruite sopra OpenGL per fornire funzionalità non disponibili in OpenGL stesso
+16,18780,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,3,AmericanFootballPlayer,Il primo touchdown stagionale lo segnò nella vittoria della settimana 2 in casa dei Vikings.
+20,21927,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,3,AmericanFootballPlayer,"Nel drive successivo, Hanie guidò i Bears a un secondo touchdown in soli 82 secondi."
+17,21619,-0.14999999999999997,3.0,-0.7,0.4,'3','3',3.0,3.0,3,AmericanFootballPlayer,Nella settimana 8 fece registrare il primo intercetto stagionale nella vittoria sugli Atlanta Falcons.
+99,107981,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,17,Cyclist,"Nel 2012 ritorna in Spagna alla Movistar, che aveva lasciato al termine del 2008."
+101,106656,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,17,Cyclist,La principale vittoria da professionista fu un tappa al Giro d Italia nel 1951.
+103,104720,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,17,Cyclist,"Passò professionista all'inizio del 2010, quando venne messo sotto contratto dalla Liquigas-Doimo, squadra ProTour."
+65,68783,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,11,CelestialBody,"Con una magnitudine apparente di +3,84 è la dodicesima stella più brillante della costellazione."
+69,70680,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,11,CelestialBody,"Phi1 Orionis è una stella gigante azzurra di magnitudine 4,4 situata nella costellazione di Orione."
+68,66347,0.35,3.5,0.3,0.4,'4','3',4.0,3.0,11,CelestialBody,"HD 30197 è una stella gigante arancione di magnitudine +5,99 situata nella costellazione del Toro."
+223,218296,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,36,Mountain,"In realtà la vetta più alta è il monte Popomanaseu, che tocca quota 2335 metri."
+219,217896,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,36,Mountain,Sotto la vetta sono evidenti i resti del presidio austriaco della prima guerra mondiale.
+220,216714,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,36,Mountain,La vetta del Nelion fu scalata la prima volta da Eric Shipton nel 1929.
+151,151677,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,25,Game,"Nel 1990 la TSR pubblicò una seconda edizione del gioco, etichettandola erroneamente come terza edizione.."
+153,152181,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,25,Game,Il gioco è stato creato dal matematico Alain Rivollet e dall'informatico Gaëtan Beaujannot.
+154,154098,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,25,Game,La Grenadier Miniatures supportò il gioco con una linea di miniature prodotte su licenza.
+184,189842,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,31,MilitaryPerson,Ricevette il brevetto di sottotenente dell'Esercito degli Stati Uniti il 1o luglio del 1830.
+185,188343,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,31,MilitaryPerson,Si arruolò come soldato nel 44° Reggimento di linea allo scoppio della guerra franco-prussiana.
+186,190101,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,31,MilitaryPerson,A causa della gravissima ferita fu posto in congedo assoluto il 15 gennaio 1918
+51,49018,-0.65,2.5,0.3,-1.6,'4','1',4.0,1.0,8,Book,"Fu rivisto e adattato agli altri racconti, quando fu inserito nella raccolta Mulliner Nights."
+46,51680,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,8,Book,Joey è un ragazzo comune che frequenta le scuole superiori nella cittadina di Greenville.
+49,52326,-1.15,2.0,-1.7,-0.6,'2','2',2.0,2.0,8,Book,Un antica copia del Codex Amiatinus è tutt oggi la Bibbia personale del Papa.
+50,49566,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,8,Book,"Secondo Nielsen BookScan, il romanzo ha venduto ventinovemila copie tra il 2001 e il 2005."
+193,197558,-1.15,2.0,-1.7,-0.6,'2','2',2.0,2.0,32,MilitaryUnit,Il XIV SS-Armeekorps fu un unità militare formata nel novembre del 1944 nell'Oberrhein.
+189,192890,0.8500000000000001,4.0,1.3,0.4,'5','3',5.0,3.0,32,MilitaryUnit,"Il 28 agosto, la brigata venne trasferita in Estonia, nella zona del lago Peipus."
+190,197358,-0.14999999999999997,3.0,-0.7,0.4,'3','3',3.0,3.0,32,MilitaryUnit,"Con la totale indipendenza norvegese,venne approvata una legislazione rafforzante del sistema introdotto nel 1885."
+192,192449,0.35,3.5,0.3,0.4,'4','3',4.0,3.0,32,MilitaryUnit,"I manipoli erano unità di 60/120 uomini, tutti provenienti da una medesima classe di fanteria."
+378,373856,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,62,VideoGame,"Realizzato nel 2002, Crusader riscosse subito un grande plauso fra i fan del precedente capitolo."
+373,373915,0.8500000000000001,4.0,1.3,0.4,'5','3',5.0,3.0,62,VideoGame,I Big Daddy sono i grossi protettori rinchiusi in scafandri corazzati che vigilano sulle Sorelline.
+374,376031,-0.14999999999999997,3.0,-0.7,0.4,'3','3',3.0,3.0,62,VideoGame,"Al contrario di Xiaomu, Saya è dalla parte dell'organizzazione rivale della Shinra Ouma."
+54,55957,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,9,Building,"È divisa in due parti, corrispondenti al salone a sinistra ed all'albergo a destra."
+55,54167,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,9,Building,"Quindi, passando attraverso diversi proprietari, giunse ad essere la sede odierna della Guardia di Finanza."
+129,131874,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,21,Dog,È un cane di piccola taglia caratterizzato da un lungo pelo liscio e pesante.
+125,130678,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,21,Dog,Il cane da orso della Carelia è un cane da caccia della famiglia degli spitz.
+126,130479,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,21,Dog,Il Västgötaspets è un cane di piccole dimensioni ma con un carattere molto forte.
+368,371454,-1.65,1.5,-1.7,-1.6,'2','1',2.0,1.0,61,University,"L Accademia ha correntemente circa 900 studenti, almeno un quarto di essi è straniero."
+371,370838,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,61,University,L'università è governata da un consiglio di facoltà e da un consiglio d amministrazione.
+367,370083,-0.14999999999999997,3.0,-0.7,0.4,'3','3',3.0,3.0,61,University,Dal 1998 la Libera università di lingue e comunicazione IULM porta il nome attuale.
+4,5566,-1.15,2.0,-1.7,-0.6,'2','2',2.0,2.0,0,Aircraft,Il Portogallo ricevette ventiquattro Curtiss SB2C-5 insieme con parti di ricambio e accessori nel 1950.
+1,379,0.35,3.5,0.3,0.4,'4','3',4.0,3.0,0,Aircraft,Molti di questi velivoli furono distrutti in questo tipo di attacchi nei mesi successivi.
+2,4317,0.8500000000000001,4.0,1.3,0.4,'5','3',5.0,3.0,0,Aircraft,Queste caratteristiche lo qualificarono più come un cacciabombardiere che non come un bombardiere medio.
+31,31262,-0.65,2.5,0.3,-1.6,'4','1',4.0,1.0,5,AthleticsPlayer,"Figlia unica, ha cominciato a praticare atletica leggera all'età di 12 anni nel 2003."
+27,35224,0.8500000000000001,4.0,1.3,0.4,'5','3',5.0,3.0,5,AthleticsPlayer,Nel giugno del 2015 arriva secondo nell'Europeo per nazioni svoltosi a Čeboksary in Russia.
+28,35875,0.35,3.5,0.3,0.4,'4','3',4.0,3.0,5,AthleticsPlayer,"Dopo questo viaggio avventuroso di ventotto giorni, Airoldi, tuttavia, non poté partecipare alla maratona."
+42,44075,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,7,BasketballPlayer,"Lasciati gli Hornets, dal 1991 al 2001 fu capo allenatore dei Golden State Warriors."
+44,42957,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,7,BasketballPlayer,"Terminò la carriera universitaria con 1.344 punti, 804 rimbalzi e con il 51,5% al tiro."
+39,43065,0.35,3.5,0.3,0.4,'4','3',4.0,3.0,7,BasketballPlayer,Appena scelto fu scambiato dai Nuggets insieme a Rodney Rogers per arrivare a Antonio McDyess.
+79,78469,-0.65,2.5,0.3,-1.6,'4','1',4.0,1.0,13,ChristianBishop,Nel 1909 è stato insignito di un Master of Arts honoris causa dall Hobart College.
+77,80688,0.35,3.5,0.3,0.4,'4','3',4.0,3.0,13,ChristianBishop,"Si sposò con Rosalind Turner, dalla quale ebbe due figli James, scrittore, e Rebecca."
+147,146038,-0.65,2.5,0.3,-1.6,'4','1',4.0,1.0,24,Film,"Distribuito dalla V-L-S-E, il film uscì nelle sale cinematografiche USA il 1o novembre 1915."
+143,146607,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,24,Film,La serpe di Zanzibar è un film muto del 1928 diretto da Tod Browning.
+145,146536,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,24,Film,By the Sad Sea Waves è un cortometraggio muto del 1917 diretto da Alfred J.
+361,360599,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,60,TennisPlayer,Agli US Open esce al primo turno di qualificazioni contro la greca Maria Sakkari.
+363,365970,-1.15,2.0,-1.7,-0.6,'2','2',2.0,2.0,60,TennisPlayer,"Fino alla finale l'Errani, partendo dalle qualificazioni, ha incontrato solo tenniste americane battendole tutte."
+364,360192,0.8500000000000001,4.0,1.3,0.4,'5','3',5.0,3.0,60,TennisPlayer,Anche a Los Angeles raggiunge la semifinale in cui viene sconfitto da Stefan Edberg.
+25,25965,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,4,Artwork,"Il bacio è un dipinto a olio su tela, alto 99 e largo 81 centimetri."
+22,29269,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,4,Artwork,"Lo stesso Doni aveva commissionato a Michelangelo il famoso Tondo Doni, oggi agli Uffizi."
+24,25757,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,4,Artwork,"Il dipinto ha subito una pulitura leggera, in occasione della mostra a Firenze nel 1922."
+284,282905,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,47,Road,Le dimensioni della carreggiata sono poco più ampie di quelle di una normale strada statale.
+286,283488,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,47,Road,"Il rimanente tratto, da Rezzato a Limone sul Garda, è invece rimasto all'ANAS."
+287,282532,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,47,Road,"Superato lo svincolo di Cosenza, l'autostrada attraversa le varie montagne in direzione Altilia."
+177,182025,-1.15,2.0,-1.7,-0.6,'2','2',2.0,2.0,30,MilitaryConflict,"Sull'altro versante, da Vienna si insisteva con Gyulai per una condotta più energica."
+178,181388,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,30,MilitaryConflict,La guerra contro le tribù germaniche degli anni precedenti ne aveva solo ritardato i piani.
+182,181908,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,30,MilitaryConflict,"I tedeschi, riconoscendo l'indifendibilità della propria posizione, si ritirarono dalla Marna verso nord."
+113,117120,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,19,Diocese,"Sede vescovile è la città di Litoměřice, dove si trova la cattedrale di Santo Stefano."
+114,117247,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,19,Diocese,Il territorio della diocesi si estende su 43.110km2 ed è suddiviso in 4 parrocchie.
+117,119373,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,19,Diocese,"Sede vescovile è la città di Ica, dove si trova la cattedrale di San Gerolamo."
+229,228218,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,38,MusicalArtist,Con My Chico al Festivalbar 1988 venne premiata come Migliore Cantante Europea dell'anno.
+233,230429,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,38,MusicalArtist,"Per l'occasione Fukuyama forma un duo musicale con il coprotagonista di Galileo, Kou Shibasaki."
+234,231711,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,38,MusicalArtist,Per un periodo visse nella stessa pensione con Albert Ammons e Meade Lux Lewis.
+302,305457,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,50,SoccerPlayer,Questa pagina raccoglie i dati riguardanti il Vålerenga Fotball nelle competizioni ufficiali della stagione 1999.
+301,304880,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,50,SoccerPlayer,"Conclusa la carriera di calciatore, ha intrapreso quella di allenatore nelle categorie dilettantistiche lombarde."
+303,300996,-1.6500000000000001,1.5,-2.7,-0.6,'1','2',1.0,2.0,50,SoccerPlayer,"Tornato in Inghilterra, Musgrove diviene dal 1981 al 1984 l'allenatore dell'Exeter City."
+306,303510,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,50,SoccerPlayer,Poi Giuseppe Viani lo fa esordire in Serie A il 20 marzo 1960 in Udinese-Milan.
+262,258585,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,43,RacingDriver,La Tyrrell fa nuovamente doppietta nel Gran Premio di Germania al Nürburgring il 1o agosto.
+265,259710,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,43,RacingDriver,"Il 1968 fu, invece, un anno tormentato sia per il pilota, che per la scuderia."
+261,259774,0.35,3.5,0.3,0.4,'4','3',4.0,3.0,43,RacingDriver,"Anche nell'inverno 2008-2009 partecipa alla GP2 Asia, vincendola, e nel 2009 al campionato GP2."
+212,214802,-0.65,2.5,0.3,-1.6,'4','1',4.0,1.0,35,MotorcycleRider,Nel 2003 si presenta al Campionato Italiano Velocità Superstock 1000 come campione in carica.
+214,215833,-1.15,2.0,-0.7,-1.6,'3','1',3.0,1.0,35,MotorcycleRider,Nel 2016 è nello stesso team con un nuovo compagno di squadra Franco Morbidelli.
+211,211665,0.35,3.5,0.3,0.4,'4','3',4.0,3.0,35,MotorcycleRider,"È ottavo nel 1998 e ancora nono l'anno successivo, con una Yamaha YZF-R6."
+213,214815,0.35,3.5,0.3,0.4,'4','3',4.0,3.0,35,MotorcycleRider,"È ricordato come uno dei padri fondatori della specialità, avendo anche vinto cinque titoli francesi."
+227,224691,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,37,Museum,La produzione della miniera oscillava tra le 56 e le 84 tonnellate di rame.
+224,223085,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,37,Museum,Il museo si trova in quella che un tempo era la centrale termoelettrica di Bankside.
+275,273278,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,45,ReligiousBuilding,Notevole è l'apparato decorativo delle sei cappelle che si aprono sulla sinistra della chiesa.
+271,273798,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,45,ReligiousBuilding,Sopra l'altare è posta una copia della Vergine nera di Częstochowa risalente al 1720.
+273,273085,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,45,ReligiousBuilding,"Le pareti eran ricoperte da immagine votive, tranne il presbiterio che fu affrescato nel 1700."
+276,270196,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,45,ReligiousBuilding,"Il campanile è una torre pendente è infatti inclinato di circa 1,4° in direzione Est-Sud-Est."
+298,296963,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,49,Ship,A partire dal 1944 la nave fu utilizzata nel Pacifico per scortare le portaerei.
+296,297610,-1.15,2.0,-1.7,-0.6,'2','2',2.0,2.0,49,Ship,"Mentre transitava nel canale Kaiser Wilhelm il 14 marzo 1917, la Kaiserin si arenò."
+297,299168,-1.6500000000000001,1.5,-2.7,-0.6,'1','2',1.0,2.0,49,Ship,"Esse si ritirarono subito dopo, lo Yugiri trainando lo Shirakumo rimasto senza energia motrice."
+242,241542,-1.15,2.0,-1.7,-0.6,'2','2',2.0,2.0,40,Newspaper,Nell'ultimo numero c'è un Referendum sullo stato di salute della rivista stessa.
+244,244328,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,40,Newspaper,"Il giornale venne venduto a Hearst Corporation nel 1972, che pubblicava il rivale American Record."
+245,241225,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,40,Newspaper,Negli anni novanta la rivista continuò ad essere un punto di riferimento del settore.
+356,356124,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,59,TelevisionShow,Questo format era già stato sperimentato nel novembre 2007 ma abbandonato dopo poco tempo.
+355,355430,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,59,TelevisionShow,L’8 gennaio 2018 inizia la settima edizione sempre con la conduzione di Paolo Bonolis.
+357,354161,-0.14999999999999997,3.0,-0.7,0.4,'3','3',3.0,3.0,59,TelevisionShow,Dal 2 maggio 2016 lo spazio dedicato al TG5 non va più in onda.
+140,143723,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,23,FictionalCharacter,"Il corno viene recuperato dai soldati di Gondor, spezzato in due, e portato dal Sovrintendente."
+141,143955,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,23,FictionalCharacter,Costruisce poi una nuova spada laser blu come simbolo della sua promozione al Consiglio Jedi.
+136,139024,0.8500000000000001,4.0,1.3,0.4,'5','3',5.0,3.0,23,FictionalCharacter,"Tuttavia, durante la guerra tra Rann e Thanagar, i due inizieranno una relazione sentimentale."
+139,138428,0.35,3.5,0.3,0.4,'4','3',4.0,3.0,23,FictionalCharacter,"L'incontro con Jimmy Darmody durante una visita ai veterani, gli cambia la vita."
+279,276352,-1.15,2.0,-1.7,-0.6,'2','2',2.0,2.0,46,River,Il Cando o Rio Cando è un piccolo torrente della Repubblica di San Marino.
+283,279151,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,46,River,Il fiume ha una portata d acqua tra i 2 ed i 1500 m3/s.
+278,280438,0.35,3.5,0.3,0.4,'4','3',4.0,3.0,46,River,Scorre poi lungo il confine con Meduna di Livenza e la provincia di Treviso.
+200,199805,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,33,Mineral,"Il nome del minerale è stato attribuito in onore di Pavel'Ivanovich Stepanov, geologo russo."
+197,201755,0.8500000000000001,4.0,1.3,0.4,'5','3',5.0,3.0,33,Mineral,La bukovskýite è un minerale che prende il nome dal chimico ceco Antonin Bukovsky.
+199,200003,-0.14999999999999997,3.0,-0.7,0.4,'3','3',3.0,3.0,33,Mineral,"Inoltre la calcopirite è rinvenuta in gran quantità, raramente in forma cristallina, e meno fragile."
+209,205505,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,34,Monarch,"Morì di leucemia nella capitale egiziana nell'autunno del 1988, all'età di 67 anni."
+210,208695,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,34,Monarch,"Il coimperatore, infatti, non volle mai consumare il matrimonio perché riteneva Sofia troppo brutta."
+202,208448,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,34,Monarch,"In mancanza di eredi, gli successe come era facile prevedere, il fratello minore Leopoldo."
+203,209601,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,34,Monarch,Il giovane re divenne succube del Phraya Kalahom e fu assassinato nell'agosto del 1629.
+236,237894,-0.65,2.5,0.3,-1.6,'4','1',4.0,1.0,39,MusicGenre,"Questi nuovi complessi incorporavano gli elementi più commerciali di alternative rock, emo e post-hardcore."
+237,238794,-0.65,2.5,0.3,-1.6,'4','1',4.0,1.0,39,MusicGenre,La Frenchcore è un sottogenere musicale molto veloce e ritmato proposto soprattutto in Francia.
+235,236120,0.35,3.5,0.3,0.4,'4','3',4.0,3.0,39,MusicGenre,"Simile all'early happy hardcore, definita da un battito più leggero e sonorità rave."
+81,86750,-0.65,2.5,0.3,-1.6,'4','1',4.0,1.0,14,Company,KG è un azienda di dolciumi tedesca con sede a Bonn nel quartiere Kessenich.
+82,89591,-2.1500000000000004,1.0,-2.7,-1.6,'1','1',1.0,1.0,14,Company,Nel luglio del 2006 l'intera azienda fu acquistata dal gruppo Perfetti Van Melle.
+85,87586,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,14,Company,La società viene fondata nel 1967 da Reinhold e Robert Spieldiener e da Ali Saiko.
+247,249372,-1.15,2.0,-0.7,-1.6,'3','1',3.0,1.0,41,Politician,Nel maggio 1970 Colonna di Paliano divenne presidente della catena di grandi magazzini La Rinascente.
+255,247031,-0.65,2.5,0.3,-1.6,'4','1',4.0,1.0,41,Politician,"Il mandato terminò tuttavia pochi mesi dopo, a causa della vittoria elettorale della CDU."
+251,250187,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,41,Politician,"Era il figlio di Henry Brand, I visconte Hampden, e di sua moglie, Eliza Ellice."
+252,247212,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,41,Politician,Abelli è stato capogruppo di Forza Italia nel consiglio regionale della Lombardia dal 2005.
+87,91446,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,15,Country,"In questo settore, come del resto in tanti altri, le privatizzazioni sono state limitate."
+89,94658,-1.15,2.0,-1.7,-0.6,'2','2',2.0,2.0,15,Country,"Il Paraguay è uno degli stati aderenti alla Banca del Sud, partecipando al suo capitale."
+91,93053,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,15,Country,"A sua volta ogni comune si divide in cantoni, attualmente sono presenti 989 cantoni."
+257,256044,-1.15,2.0,-0.7,-1.6,'3','1',3.0,1.0,42,PopulatedPlace,"Secondo lo United States Census Bureau, ha un area totale di 1,00 miglia quadrate."
+256,257938,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,42,PopulatedPlace,"Il distretto di Yaurisque è uno dei nove distretti della provincia di Paruro, in Perù."
+267,264335,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,44,RailwayStation,"La stazione risulta essere molto trafficata, vista la sua popolarità tra i pendolari della zona."
+270,264270,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,44,RailwayStation,Globalmente la stazione possiede due ingressi a cui si aggiungono tre accessi diretti ai binari.
+314,313573,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,52,Song,"In virtù di questo fatto, la canzone viene chiamata abitualmente Sappy per evitare confusione."
+316,312983,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,52,Song,"Elton si cimenta a raggiungere note abbastanza alte, in special modo durante il ritornello."
+331,332607,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,55,SportsSeason,"La divisa casalinga era completamente rossa, a strisce verticali nere, pantaloncini neri e calzettoni rossoneri."
+332,332398,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,55,SportsSeason,Questa voce raccoglie le informazioni riguardanti la Pallavolo Chieri nelle competizioni ufficiali della stagione 2003-2004.
+33,40074,-0.14999999999999997,3.0,-0.7,0.4,'3','3',3.0,3.0,6,Automobile,Tale configurazione telaistica ha permesso l'ottenimento di un peso inferiore ai 950 kg.
+34,39554,0.8500000000000001,4.0,1.3,0.4,'5','3',5.0,3.0,6,Automobile,Dal 2010 non viene più utilizzata ed è stata definitivamente sostituita dal nuovo telaio.
+36,39716,-0.14999999999999997,3.0,-0.7,0.4,'3','3',3.0,3.0,6,Automobile,Il motore era di cilindrata piuttosto bassa per essere un 8 cilindri solo 1719cm3.
+292,288214,-1.15,2.0,-0.7,-1.6,'3','1',3.0,1.0,48,Saint,Ben presto incominciarono a circolare voci sulla sua intensa fede e si parlava di miracoli.
+290,291428,-1.15,2.0,-1.7,-0.6,'2','2',2.0,2.0,48,Saint,Processione di San Ferdinando D Aragona con le reliquie per le vie di Alvignano
+324,325887,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,54,SportFacility,"Nel corso degli anni fu modificata la struttura dello stadio, ampliando la capacità dello stadio."
+325,328714,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,54,SportFacility,"Dagli anni 1980, lo stadio ha ospitato per sei volte la nazionale calcistica italiana."
+326,325253,-1.6500000000000001,1.5,-2.7,-0.6,'1','2',1.0,2.0,54,SportFacility,Nel 2014 lo stadio è stato ampliato in modo da contenere fino a spettatori.
+328,324650,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,54,SportFacility,"Lo Estadio Ruta de la Plata è uno Stadio situato a Zamora, in Spagna."
+382,381433,-0.65,2.5,0.3,-1.6,'4','1',4.0,1.0,63,VolleyballPlayer,"Giulia Pincerato inizia la sua carriera pallavolistica nella squadra giovanile di Legnaro, nel 1999."
+379,381238,-1.6500000000000001,1.5,-2.7,-0.6,'1','2',1.0,2.0,63,VolleyballPlayer,"Nella stagione 2006-07 torna in Germania, con il Dürener Turnverein 1847, debuttando in 1."
+380,380693,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,63,VolleyballPlayer,"Per il campionato 2017-18 veste la maglia del Volley Milano, sempre in Serie A1."
+155,156613,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,26,IceHockeyPlayer,Bathgate ritornò in NHL per un ultima stagione ancora con i Penguins nel 1971.
+156,159039,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,26,IceHockeyPlayer,Fu scelto nell'Amateur Draft del 1963 dai Toronto Maple Leafs in ventunesima posizione.
+157,160773,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,26,IceHockeyPlayer,Il 20 luglio 2012 Fayne prolungò per altre due stagioni con i New Jersey Devils.
+349,349483,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,58,TelevisionSeason,In Italia è stata trasmessa dal 1981 su reti locali con il titolo Koseidon.
+353,348235,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,58,TelevisionSeason,"La serie è ambientata in Sicilia, ma è stata quasi interamente girata in Puglia."
+350,350281,-0.14999999999999997,3.0,-0.7,0.4,'3','3',3.0,3.0,58,TelevisionSeason,"È una sitcom a sfondo drammatico incentrata sulle vicende dei Drombusch, una famiglia di Darmstadt."
+175,174722,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,29,MetroStation,La Granja è una stazione della metropolitana di Valencia che serve la linea 4.
+172,172120,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,28,Language,Il numero dei suoi locutori varia fortemente in funzione della metodologia impiegata per calcolarlo.
+170,172388,-1.1500000000000001,2.0,-2.7,0.4,'1','3',1.0,3.0,28,Language,"Però, la frase nominativa incl. l'articolo, nome e aggettivo mostra tutte le possibilità"
+171,170821,-0.6499999999999999,2.5,-1.7,0.4,'2','3',2.0,3.0,28,Language,"Discussione di alcuni principali processi fonologici, come di importanti allofoni o di regole di assimilazione."
+173,169410,0.35,3.5,0.3,0.4,'4','3',4.0,3.0,28,Language,"Il vecchio alfabeto georgiano sembra sia stato derivato da quello aramaico, con influenze greche."
+320,321421,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,53,Species,Carollia castanea è un Pipistrello della famiglia dei Fillostomidi diffuso nell'America centrale e meridionale.
+322,322798,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,53,Species,"È possibile che condividesse l'habitat con altri grossi artropodi nuotatori, come Isoxys e Zhenghecaris."
+319,323775,-0.14999999999999997,3.0,-0.7,0.4,'3','3',3.0,3.0,53,Species,"In particolare, il Darwinopterus robustidens sembra essere stato uno specialista nel cibarsi di coleotteri."
+59,60115,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,10,Cardinal,"Oltre all'inglese e al filippino, conosce anche l'italiano, lo spagnolo e il francese."
+61,65305,-0.15,3.0,0.3,-0.6,'4','2',4.0,2.0,10,Cardinal,Dopo pochi giorni rifiutò la promozione al cardinalato preferendo rimanere solo vescovo di Tropea.
+64,62888,-1.15,2.0,-1.7,-0.6,'2','2',2.0,2.0,10,Cardinal,"Il 14 aprile 1577 fu eletto vescovo di Fermo, nonostante non fosse ancora stato ordinato."
+348,345166,-1.15,2.0,-0.7,-1.6,'3','1',3.0,1.0,57,Swimmer,Ha gareggiato nel 100 metri dorso maschile e a pallanuoto alle Olimpiadi estive 1948.
+342,343025,0.8500000000000001,4.0,1.3,0.4,'5','3',5.0,3.0,57,Swimmer,Nel luglio 2006 ha reso pubblico il suo fidanzamento con la cantante australiana Candice Alley.
+343,344851,-0.6499999999999999,2.5,-1.7,0.4,'2','3',2.0,3.0,57,Swimmer,"Nei 50m stile libero invece non riuscirà a raggiungere la finale, nuotando in 2502."
+345,347017,0.8500000000000001,4.0,1.3,0.4,'5','3',5.0,3.0,57,Swimmer,"Durante la manifestazione prese parte anche alle finali dei 200,400 e 800m sl."
+165,166959,0.35000000000000003,3.5,1.3,-0.6,'5','2',5.0,2.0,27,Island,Le isole Lupči sono un gruppo di quattro piccole isolette russe nel Mar Bianco.
+166,165037,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,27,Island,Diresse la piantagione con un pugno di ferro che portò al suo omicidio nel 1904.
+167,164509,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,27,Island,"I sadlermuit, come nella vicina isola di Southampton, si estinsero contraendo malattie dagli occidentali."
+161,164306,0.35,3.5,0.3,0.4,'4','3',4.0,3.0,27,Island,"A nord l'isola viene attraversata dal Ponte Massimiliano, che porta verso il Maximilianeum."
+97,96348,-0.15000000000000002,3.0,1.3,-1.6,'5','1',5.0,1.0,16,CyclingCompetition,"Il tedesco Bert Grabsch dominò la gara, mantenendo una velocità media di 50km/h."
+94,97941,0.35,3.5,0.3,0.4,'4','3',4.0,3.0,16,CyclingCompetition,"Presero il via da Compiègne 186 ciclisti, 92 di essi portarono a termine la gara."
+95,100002,-0.14999999999999997,3.0,-0.7,0.4,'3','3',3.0,3.0,16,CyclingCompetition,"Fu vinta dall'italiano Daniele Contrini, al traguardo con il tempo di 4h19 41."
+71,73125,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,12,ChemicalCompound,Il confronto con l'urea ricavata dall'urina lo convinse di aver sintetizzato quel composto.
+72,74564,-0.6499999999999999,2.5,-0.7,-0.6,'3','2',3.0,2.0,12,ChemicalCompound,"Alprazolam è ampiamente metabolizzato nell'organismo umano, in particolare grazie al citocromo P450 3A4."
+74,75586,-1.15,2.0,-1.7,-0.6,'2','2',2.0,2.0,12,ChemicalCompound,La biodisponibilità assoluta della molecola dopo somministrazione per os è all'incirca del 70%.

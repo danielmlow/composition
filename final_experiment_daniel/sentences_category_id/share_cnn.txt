@@ -1,0 +1,46 @@
+In c2d_cleaned.csv and d2c_cleaned.csv you'll find the experiment sentences. Then in the fmri matlab files, the ID in myTrials matches the selectedOrigIds in stimuli_experiment.mat which matches "ids" column in the .csv files.
+
+
+
+These are the feature vectors of each layer for all sentences in the dataset. We're probably only going to use: conv1, conv2, and dense_layer. 
+
+But not all rows/elements of the conv layers, but these: 
+By  choosing  sentences  of  14  and  15  wordswith the parameters we chose and tuned, the first 14 rows out of 36 (whichcorresponds to the first 1792 elements of 4608 flattened feature vector) carryinformation of the first 16 words. The last row will carry information aboutwords 14-16 and therefore, if a sentence has 14 words this last row will notbe  a  zero  vector.  The  remaining  zero-rows  (17-26)  can  be  discarded  fromanalysis. In conv2 the non-zero rows go from 1-5 (which corresponds to thefirst 1280 elements of 4352 flattened feature vector)
+
+conv1
+https://www.dropbox.com/s/0p2eccnj2pt4kqw/output_layers_whole_dataset_a.npz?dl=0
+
+pool1
+https://www.dropbox.com/s/b94zfx0fvbiv3vt/output_layers_whole_dataset_b.npz?dl=0
+
+conv2
+https://www.dropbox.com/s/o1uvlz2dtya52dq/output_layers_whole_dataset_c.npz?dl=0
+
+pool2
+https://www.dropbox.com/s/y5nd5dhb50j2l2x/output_layers_whole_dataset_d.npz?dl=0
+
+dense_layer
+https://www.dropbox.com/s/zhv00x44dnamui2/output_layers_whole_dataset_e.npz?dl=0
+
+final_dense_layer
+https://www.dropbox.com/s/wda37js6dvnbmlh/output_layers_whole_dataset_f.npz?dl=0
+
+softmax_layer
+https://www.dropbox.com/s/w5mk6191ahgjdd0/output_layers_whole_dataset_g.npz?dl=0
+
+
+Here's how you open the code and convert to matlab:
+# ============================================================================
+
+import numpy as np
+import scipy.io
+
+# Set your paths
+path = '/Users/danielmlow/Dropbox/cnn/experiment/final_model/cnn41_final_eval_all/'
+output_path = '/Users/danielmlow/Dropbox/cnn/experiment/final_model/cnn41_final_eval_all/'
+
+#Load npy file:
+a = np.load(path+'output_layers_whole_dataset_f.npz')['a']
+
+# Save to .mat
+scipy.io.savemat(output_path+'layerX.mat', {'layerX':a})
