@@ -1,18 +1,43 @@
 # composition
 Study of semantic compositionality by comparing text categorization models 
 
+contact: dlow@g.harvard.edu
+
 ## Ongoing manuscript on OverLeaf (already sent you a link)
 
+
+**Clone repository:**
+``` 
+git clone https://github.com/danielmlow/nlp_tutorial.git
+```
+
+**Dependencies**
+* python3
+* pandas
+* numpy
+* keras
+* sklearn
+* tensorflow
 
 # To do
 - I put all models within the dir /models/. So fix paths from being in the main dir to that one. 
 - Edit all files, add more comments.
-
+- Add dependencies
 
 # Files / scripts
 - MA_3120155_DM_Low
 
         Thesis
+
+
+- 6_38_full_article_6000
+
+        dataset. see thesis.
+
+- gensim_it_w2v.pkl
+
+        Needed to run cnn or lstm. Ask me for it.
+
 
 - Xtrain_w2v_mean.npy (832MB) Xtest_w2v_mean.npy (184MB) 
 
