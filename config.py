@@ -4,6 +4,8 @@ epochs = 3
 
 verbose = 0
 
+
+
 batch_size=512
 plot_RSA = True
 validation_or_test_phase = False #if False, run final test model
@@ -33,3 +35,7 @@ else:
 
 categories = ['Aircraft', 'Airport', 'Album', 'AmericanFootballPlayer', 'Artwork', 'AthleticsPlayer', 'Automobile', 'BasketballPlayer', 'Book', 'Building', 'Cardinal', 'CelestialBody', 'ChemicalCompound', 'ChristianBishop', 'Company', 'Country', 'CyclingCompetition', 'Cyclist', 'Decoration', 'Diocese', 'Disease', 'Dog', 'EthnicGroup', 'FictionalCharacter', 'Film', 'Game', 'IceHockeyPlayer', 'Island', 'Language', 'MetroStation', 'MilitaryConflict', 'MilitaryPerson', 'MilitaryUnit', 'Mineral', 'Monarch', 'MotorcycleRider', 'Mountain', 'Museum', 'MusicalArtist', 'MusicGenre', 'Newspaper', 'Politician', 'PopulatedPlace', 'RacingDriver', 'RailwayStation', 'ReligiousBuilding', 'River', 'Road', 'Saint', 'Ship', 'SoccerPlayer', 'Software', 'Song', 'Species', 'SportFacility', 'SportsSeason', 'SportsTeam', 'Swimmer', 'TelevisionSeason', 'TelevisionShow', 'TennisPlayer', 'University', 'VideoGame', 'VolleyballPlayer']
 categories_wrong = ['MusicalArtist', 'River', 'Island', 'Species', 'Automobile', 'RacingDriver', 'Dog', 'Newspaper', 'ReligiousBuilding', 'Mineral', 'AthleticsPlayer', 'Company', 'Album', 'CyclingCompetition', 'Artwork', 'ChristianBishop', 'Film', 'MetroStation', 'MotorcycleRider', 'Building', 'VolleyballPlayer', 'Aircraft', 'Diocese', 'Road', 'Disease', 'RailwayStation', 'IceHockeyPlayer', 'MusicGenre', 'MilitaryPerson', 'EthnicGroup', 'TennisPlayer', 'AmericanFootballPlayer', 'SportsTeam', 'TelevisionShow', 'Politician', 'BasketballPlayer', 'Cardinal', 'MilitaryConflict', 'Saint', 'Airport', 'Software', 'ChemicalCompound', 'CelestialBody', 'Game', 'MilitaryUnit', 'Museum', 'SportFacility', 'FictionalCharacter', 'Swimmer', 'TelevisionSeason', 'SoccerPlayer', 'Cyclist', 'SportsSeason', 'Book', 'Mountain', 'Decoration', 'Monarch', 'Ship', 'PopulatedPlace', 'University', 'Language', 'Country', 'Song', 'VideoGame']
+
+
+
+test_this_var = 'tomato'

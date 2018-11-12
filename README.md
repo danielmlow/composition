@@ -42,12 +42,13 @@ Study of semantic compositionality by comparing text categorization models
         Plotting classification report, confusion matrix, learning curve 
 
 
+- rsa.py
 
-
+        After training a model, I plotted RSMs/RDMs with dendrograms between the sentences. 
 
 - rsm.py
 
-        After training a model, I plot RSMs/RDMs with dendrograms between the sentences.
+        Used more in thesis. More refined.
 
 - rsa_similarity_experiment.py
 
@@ -77,11 +78,11 @@ https://github.com/pltrdy/rouge
 ##### Main models:
 - all "*.sh" files are files to run .py files on the cluster. Each .py has one.
 
-- cnn41_final_eval_all_epochs.py
+- cnn41_final.py
     
         Final CNN model in thesis. 
 
-- lstm18_2_layer.py
+- lstm18.py
 
         LSTM final
 

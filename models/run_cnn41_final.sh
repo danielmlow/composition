@@ -1,10 +1,10 @@
 #!/bin/bash
-#SBATCH --time=01:20:00
+#SBATCH --time=01:00:00
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:1
 #SBATCH --mem=30GB
 
-python3 lstm18_2_layer.py
+python3 cnn41_final.py
 
 
 

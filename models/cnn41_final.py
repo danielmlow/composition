@@ -1,15 +1,10 @@
 '''
-This is based on cnn35_64. This is after the first pilot. 
-Changes:
--don't filter out # in the tokenizer, tokenize both together. or save tokenizer https://stackoverflow.com/questions/45735070/keras-text-preprocessing-saving-tokenizer-object-to-file-for-scoring
--use 'number' w2v as representation for any digit
--shuffling problem should be check before advancing: plot random selection of conv1 layers. theys should all be 14 or 15.
--tune hyperparameters. 
+Python3
+
 '''
 import datetime
 import sys
 # from keras.utils import plot_model
-import plot_outputs
 import numpy as np
 import pandas as pd
 from keras.preprocessing.text import Tokenizer
@@ -18,8 +13,7 @@ from keras.layers import Input, Dense, Embedding, Conv2D, MaxPool2D
 from keras.layers import Reshape, Flatten, Dropout
 from keras.models import Model
 import os
-import data_helpers
-import config
+
 import pickle
 import matplotlib.pyplot as plt
 plt.switch_backend('agg')
@@ -36,6 +30,14 @@ from numpy.random import seed
 seed(123)
 from tensorflow import set_random_seed
 set_random_seed(123)
+
+# My modules:
+import plot_outputs
+import data_helpers
+import config
+
+
+
 
 # Parameters
 # =====================================================================
