@@ -8,7 +8,7 @@ contact: dlow@g.harvard.edu
 
 **Clone repository:**
 ``` 
-git clone https://github.com/danielmlow/nlp_tutorial.git
+git clone https://github.com/danielmlow/composition.git
 ```
 
 **Dependencies**
