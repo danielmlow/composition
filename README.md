@@ -23,22 +23,26 @@ Study of semantic compositionality by comparing text categorization models
         These are stopwords which can be removed from avg. word embeddings. 
 
 
-### Stimuli Design
 
-- cluster_layers.py
-
-        See Material section in thesis or manuscript. We clustered sentence-feature vectors from layer 1 and layer 3. Within each cluster,we chose the top 20 silhouette scores to obtain the mostrepresentative sentences from each cluster.       
-
-- stimuli_final.py
-
-        Here I create stimuli from all sentences in the dataset. 14 and 15 words that follow a certain similarity and dissimilarity pattern from layer 1 to layer 3 in the CNN. 
 
 
 ### Plotting & Analysis
 
+- config.py
+
+        Here you set paths for local and cluster, and other configuration options for your model.
+
+- data_helpers.py
+
+        Preprocessing and other useful functions.
+
+
 - plot_outputs.py
     
         Plotting classification report, confusion matrix, learning curve 
+
+
+
 
 
 - rsm.py
@@ -124,6 +128,17 @@ Example of the log files these models create. See thesis for results. The direct
 ### final_experiment_daniel
 
 Here you have the stimuli, psychtoolbox code, and more regarding the fMRI experiment. 
+
+### Stimuli Design
+
+- cluster_layers.py
+
+        See Material section in thesis or manuscript. We clustered sentence-feature vectors from layer 1 and layer 3. Within each cluster,we chose the top 20 silhouette scores to obtain the mostrepresentative sentences from each cluster.       
+
+- stimuli_final.py
+
+        Here I create stimuli from all sentences in the dataset. 14 and 15 words that follow a certain similarity and dissimilarity pattern from layer 1 to layer 3 in the CNN. 
+
 
 ### survey
 
