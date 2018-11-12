@@ -1,22 +1,17 @@
+
 local_or_cluster = True#if False, use RUG cluster
 toy = False
 epochs = 3
-
 verbose = 0
-
-
-
 batch_size=512
 plot_RSA = True
 validation_or_test_phase = False #if False, run final test model
-save_checkpoints = False#Set to True when you want to find the perfect early stopping.
-dataset = 6000 #12000
-sequence_length = 38
+save_checkpoints = False #Set to True when you want to find the perfect early stopping.
+dataset = 6000
+sequence_length = 38 #max text length
 
 if local_or_cluster:
-    # dataset_dir = '/Users/danielmlow/Dropbox/cnn/data/wikipedia/full_article_datasets/full_article_'+str(dataset)+'/' #TODO: uncomment below
-    dataset_dir = '/Users/danielmlow/Dropbox/cnn/data/wikipedia/full_article_datasets/6_38_full_article_' + str(dataset) + '/'  #
-    dataset_path = dataset_dir+'/dataset_full_article.npz'
+    dataset_dir = '/Users/danielmlow/Dropbox/cnn/data/wikipedia/full_article_datasets/6_38_full_article_' + str(dataset) + '/'
     train_path = dataset_dir+'train/'
     validation_path = dataset_dir+'validate/'
     test_path = dataset_dir+'test/'

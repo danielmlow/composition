@@ -1,31 +1,28 @@
 '''
+Daniel M. Low
+
 Python3
 
 '''
 import datetime
-import sys
-# from keras.utils import plot_model
+import os
+import pickle
+import importlib
+
 import numpy as np
 import pandas as pd
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
-from keras.layers import Input, Dense, Embedding, Conv2D, MaxPool2D
-from keras.layers import Reshape, Flatten, Dropout
+from keras.layers import Input, Dense, Embedding, Conv2D, MaxPool2D, Reshape, Flatten, Dropout
 from keras.models import Model
-import os
-
-import pickle
-import matplotlib.pyplot as plt
-plt.switch_backend('agg')
-from keras.callbacks import ModelCheckpoint
-import corr_between_layers
-import seaborn as sns
-from sklearn.metrics import classification_report, confusion_matrix
-import rsa
-import importlib
 from keras.utils import np_utils
+from keras.callbacks import ModelCheckpoint
+from sklearn.metrics import classification_report, confusion_matrix
 
+import matplotlib.pyplot as plt
+plt.switch_backend('agg') #when running on cluster, don't plot image
 
+import seaborn as sns
 from numpy.random import seed
 seed(123)
 from tensorflow import set_random_seed
@@ -35,11 +32,10 @@ set_random_seed(123)
 import plot_outputs
 import data_helpers
 import config
+import rsa
+import corr_between_layers
 
-
-
-
-# Parameters
+# Parameters, defined in config.py
 # =====================================================================
 categories = config.categories
 verbose = config.verbose
@@ -58,17 +54,14 @@ if config.local_or_cluster:
     epochs=1
     verbose=1
 
-# TODO CHANGE
-epochs = 10
-save_checkpoints = True
 
-print('running for '+str(epochs)+' epochs')
+print('running for '+str(epochs)+' epochs') #So this is saved to cluster log file.
+
+# Create directory_name
 if config.local_or_cluster:
-    # directory_name = '18-06-10-20-12-59'
     directory_name = datetime.datetime.now().strftime("%y-%m-%d-%H-%M-%S")
     file_name = 'cnn'
 else:
-    # directory_name = '18-06-10-20-12-59'
     directory_name = datetime.datetime.now().strftime("%y-%m-%d-%H-%M-%S")
     file_name = os.path.basename(__file__)
 
@@ -136,42 +129,14 @@ def load_obj(path_and_filename):
     with open(path_and_filename, 'rb') as f:
         return pickle.load(f)
 
-embeddings_index = load_obj(config.word_embeddings_path+'/gensim_it_w2v.pkl') #dictionary embeddings_index.get('è') returns word embedding
+#dictionary embeddings_index.get('è') returns word embedding
+embeddings_index = load_obj(config.word_embeddings_path+'/gensim_it_w2v.pkl')
 
-# from scipy import spatial
-# res = spatial.distance.cosine(embeddings_index.get('uno'), embeddings_index.get('dieci'))
+# this will be all embeddings for my vocabulary
+embedding_matrix = np.zeros((len(word_index) + 1, embedding_dim))
 
-
-# Add embedding for numbers:
-# numbers = []
-# for i in word_index:
-#     if "#" in i:
-#         if i in numbers:
-#             continue
-#         else:
-#             numbers.append(i)
-
-# possible_year = np.random.normal(0.005, 0.23, 300)
-# other_number = np.random.normal(0.005, 0.23, 300)
-#
-# embedding_matrix = np.zeros((len(word_index) + 1, embedding_dim)) #this will be all embeddings for my vocabulary
-
-# for word, i in word_index.items():
-#     embedding_vector = embeddings_index.get(word)
-#     if embedding_vector is not None:
-#         # words not found in embedding index will be all-zeros.
-#         embedding_matrix[i] = embedding_vector
-#     elif word=='####' or word=='###':
-#         embedding_matrix[i] = possible_year
-#     elif "#" in word:
-#         embedding_matrix[i] = other_number
-#     else:
-#         embedding_matrix[i] = np.random.normal(0.005, 0.23, 300) #if not number, assign unique random vector
-
+# words not found in embedding index will be all-zeros.
 number = np.random.normal(0., 0.23, 300)
-
-embedding_matrix = np.zeros((len(word_index) + 1, embedding_dim))  # this will be all embeddings for my vocabulary
-
 for word, i in word_index.items():
     embedding_vector = embeddings_index.get(word)
     if embedding_vector is not None:
@@ -179,31 +144,10 @@ for word, i in word_index.items():
         embedding_matrix[i] = embedding_vector
     elif "#" in word:
         embedding_matrix[i] = number
-    # else:
-    #     embedding_matrix[i] = np.random.normal(0., 0.23, 300)
 
-# counter = 0
-# for i in embedding_matrix:
-#     if np.sum(i)==0:
-#         counter+=1
 
-# # Is the distr normal?
-# from scipy.stats import normaltest
-#
-# counter = 0
-# p_values = []
-# for i in embedding_matrix[2000:4000]:
-#     res = normaltest(i)[1]
-#     if res < 0.05:
-#         counter += 1
-#     p_values.append(res)
-#
-# np.mean(p_values)
-#
-# pd.DataFrame(embedding_matrix).describe().mean(axis=1)
-# s = np.random.normal(0.0005, 0.23, 300)
-
-# # leverage our embedding_index dictionary and our word_index to compute our embedding matrix
+# # First time, do this manually (instead of gensim_it_w2v.pkl'
+#  leverage our embedding_index dictionary and our word_index to compute our embedding matrix
 # # ============================================================================================================
 # embedding_matrix = np.zeros((len(word_index) + 1, embedding_dim))
 #
@@ -214,25 +158,16 @@ for word, i in word_index.items():
 #         embedding_matrix[i] = embedding_vector
 #
 
-
-
-
-
-
+# Create output directory
 path_to_dir = os.path.join(config.save_to, directory_name + '/')
 try: os.makedirs(path_to_dir)
 except: pass
 print('directory_name: '+directory_name)
 print('path_to_dir: '+path_to_dir)
 
-
-
 # Model
 ## ======================================================================================================
 print("Creating Model...")
-
-
-
 
 inputs = Input(shape=(sequence_length,), dtype='int32')
 embedding = Embedding(input_dim=len(word_index) + 1, weights=[embedding_matrix],output_dim=embedding_dim, input_length=sequence_length,trainable=True)(inputs)
@@ -255,8 +190,10 @@ dropout_4 = Dropout(drop)(dense_1)
 dense_final = Dense(units=dense_final_neurons, activation=activation2, name='dense_final')(dropout_4)
 dropout_5 = Dropout(drop)(dense_final)
 softmax_final = Dense(units=len(categories), activation='softmax', name='softmax_final')(dropout_5)
+# Compile model
 model = Model(inputs=inputs, outputs=softmax_final)
 model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
+# Save checkpoints?
 if save_checkpoints:
     filepath = path_to_dir + "weights-improvement-{epoch:02d}-{val_acc:.4f}.hdf5"  # https://machinelearningmastery.com/check-point-deep-learning-models-keras/
     checkpoint = ModelCheckpoint(filepath, monitor='val_acc', verbose=verbose, save_best_only=True, mode='auto')
@@ -268,19 +205,24 @@ else:
     history = model.fit(Xtrain_encoded, Ytrain_encoded, batch_size=batch_size, epochs=epochs,
                         verbose=verbose)  # starts training
 
+# outputs:
+# ============================================================================================================================
+
+
+# Create log file
 with open(path_to_dir + 'log.txt', 'a+') as f:
     f.write(file_name + '\n')
     f.write(directory_name+ '\n\n')
 
-# outputs:
-# ============================================================================================================================
-# SAVE
-
-model.save(path_to_dir + 'model.h5', overwrite=True) #Save model #TODO: not working nor checkpoint save model
+# SAVE model
+model.save(path_to_dir + 'model.h5', overwrite=True) #Save model
 model.save_weights(path_to_dir +"model_weights.h5", overwrite=True)
 # plot_model(model, to_file=path_to_dir + 'model.png') # Save plot of model
 np.save(path_to_dir + 'history_dict.npy', history.history) #Save history
 
+
+# Save classification metrics
+# ================================================================================================================
 plot_outputs.learning_curve(history.history, path_to_dir) #'loss' 'both' #learning curve
 accuracy = model.evaluate(Xtest_encoded,Ytest_encoded,verbose=verbose)  # TODO:change to test set for final model.
 Ypredict = model.predict(Xtest_encoded, batch_size=batch_size, verbose=verbose)  # TODO:change to test set for final model.
@@ -294,6 +236,8 @@ pd.DataFrame(cm, columns=categories, index=categories).to_csv(path_to_dir+'cm.cs
 index_min = df_clas_rep['f1_score'].idxmin()
 index_max = df_clas_rep['f1_score'].idxmax()
 
+# Write down shape of each layer
+# ================================================================================================================
 a2 = conv_1.shape[:]
 a2 = str(a2[1])+'*'+str(a2[3])+'='+str(a2[1]*a2[3])
 a3 = maxpool_1.shape[1:3]
@@ -305,6 +249,8 @@ a5 = str(a5[0])+'*'+str(a5[1])+'='+str(a5[0]*a5[1])
 
 reporting = [len(categories),sequence_length,embedding.shape[1:],a2,a3,a4,a5,[''], dense_final_neurons,[''],activation, num_filters, filter_sizes,padding, pool_size, stride_size, drop, epochs, [''], df_clas_rep['f1_score'][len(categories)], [df_clas_rep['class'][index_min],df_clas_rep['f1_score'][index_min]], [df_clas_rep['class'][index_max],df_clas_rep['f1_score'][index_max]]]
 
+# write log file
+# ================================================================================================================
 with open(path_to_dir + 'log.txt', 'a+') as f:
     f.write(file_name+'\n')
     f.write(directory_name)
@@ -318,7 +264,8 @@ with open(path_to_dir + 'log.txt', 'a+') as f:
     for i in reporting:
         f.write(str(i)+'\n')
 
-
+# Load model
+# ================================================================================================================
 # loaded_model = load_model(path_to_dir+'model.h5')
 # model.compile(optimizer='Adam', loss='categorical_crossentropy', metrics=['accuracy'])
 # model = load_model('/Users/danielmlow/Dropbox/cnn/experiment/final_model/cnn41_final/'+'model.h5')
@@ -326,7 +273,22 @@ with open(path_to_dir + 'log.txt', 'a+') as f:
 #
 # path_to_dir = '/Users/danielmlow/Dropbox/cnn/experiment/final_model/'
 
-# Save output_layers
+# Save output_layers only for test set
+# ================================================================================================================
+# conv_1 = get_output(model, 'conv_1', layer_2d_or_1d='2d', Xtest=Xtest_encoded)
+# pool_1 = get_output(model, 'pool_1', layer_2d_or_1d='2d', Xtest=Xtest_encoded)
+# conv_2 = get_output(model, 'conv_2', layer_2d_or_1d='2d', Xtest=Xtest_encoded)
+# pool_2 = get_output(model, 'pool_2', layer_2d_or_1d='2d', Xtest=Xtest_encoded)
+# dense_1 = get_output(model, 'dense_1', layer_2d_or_1d='1d', Xtest=Xtest_encoded)
+# dense_final = get_output(model, 'dense_final', layer_2d_or_1d='1d', Xtest=Xtest_encoded)
+# softmax_final = get_output(model, 'softmax_final', layer_2d_or_1d='1d', Xtest=Xtest_encoded)
+#
+# np.savez_compressed(path_to_dir+'output_layers.npz', a=conv_1, b=pool_1,c=conv_2, d=pool_2, e=dense_1, f=dense_final, g=softmax_final)
+
+
+
+# Save output_layers all sentences (train, validation, test)
+# ================================================================================================================
 # conv_1 = get_output(model, 'conv_1', layer_2d_or_1d='2d', Xtest=X_encoded)
 # pool_1 = get_output(model, 'pool_1', layer_2d_or_1d='2d', Xtest=X_encoded)
 # conv_2 = get_output(model, 'conv_2', layer_2d_or_1d='2d', Xtest=X_encoded)
@@ -343,24 +305,15 @@ with open(path_to_dir + 'log.txt', 'a+') as f:
 # np.savez_compressed(path_to_dir + 'output_layers_whole_dataset_f.npz', a=dense_final)
 # np.savez_compressed(path_to_dir + 'output_layers_whole_dataset_g.npz', a=softmax_final)
 
+# Save predictions
+# ================================================================================================================
 # Ypredict = model.predict(X_encoded, batch_size=batch_size, verbose=verbose)  # TODO:change to test set for final model.
 # Ypredict_encoded = np_utils.to_categorical(Ypredict.argmax(axis=-1))
 # Ypredict_integer = Ypredict.argmax(axis=-1)
 # acc = np.sum(Ypredict_integer==np.array(y))/len(y)
 
-# Save output_layers
-# conv_1 = get_output(model, 'conv_1', layer_2d_or_1d='2d', Xtest=Xtest_encoded)
-# pool_1 = get_output(model, 'pool_1', layer_2d_or_1d='2d', Xtest=Xtest_encoded)
-# conv_2 = get_output(model, 'conv_2', layer_2d_or_1d='2d', Xtest=Xtest_encoded)
-# pool_2 = get_output(model, 'pool_2', layer_2d_or_1d='2d', Xtest=Xtest_encoded)
-# dense_1 = get_output(model, 'dense_1', layer_2d_or_1d='1d', Xtest=Xtest_encoded)
-# dense_final = get_output(model, 'dense_final', layer_2d_or_1d='1d', Xtest=Xtest_encoded)
-# softmax_final = get_output(model, 'softmax_final', layer_2d_or_1d='1d', Xtest=Xtest_encoded)
-#
-# np.savez_compressed(path_to_dir+'output_layers.npz', a=conv_1, b=pool_1,c=conv_2, d=pool_2, e=dense_1, f=dense_final, g=softmax_final)
-
-
-
+# top-1, -2, -3, -5 accuracy
+# ================================================================================================================
 # softmax_final = np.load('/Users/danielmlow/Dropbox/cnn/experiment/final_model/cnn41_final_eval_all/output_layers.npz')['g']
 # softmax = np.array(softmax_final)
 #
@@ -419,7 +372,7 @@ with open(path_to_dir + 'log.txt', 'a+') as f:
 #     f.write('Top-3 Accuracy: ' + str(top3_accuracy) + '\n')
 #     f.write('Top-5 Accuracy: ' + str(top5_accuracy) + '\n')
 #
-#
+## ================================================================================================================
 #
 #
 #
