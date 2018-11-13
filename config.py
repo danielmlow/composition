@@ -16,7 +16,7 @@ if local_or_cluster:
     validation_path = dataset_dir+'validate/'
     test_path = dataset_dir+'test/'
     word_embeddings_path = '/Users/danielmlow/Dropbox/cnn/data/wiki.it/'
-    save_to = '/Users/danielmlow/Dropbox/cnn/thesis/runs_cluster/'
+    save_to = '/Users/danielmlow/Dropbox/cnn/composition/runs/'
 
 else:
     dataset_dir = '../../../../data/s3120155/wiki2/full_article_datasets/6_38_full_article_'+str(dataset)+'/'

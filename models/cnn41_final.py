@@ -57,15 +57,6 @@ if config.local_or_cluster:
 
 print('running for '+str(epochs)+' epochs') #So this is saved to cluster log file.
 
-# Create directory_name
-if config.local_or_cluster:
-    directory_name = datetime.datetime.now().strftime("%y-%m-%d-%H-%M-%S")
-    file_name = 'cnn'
-else:
-    directory_name = datetime.datetime.now().strftime("%y-%m-%d-%H-%M-%S")
-    file_name = os.path.basename(__file__)
-
-print('running '+directory_name+' '+file_name)
 
 # Model parameters
 activation = 'elu'
@@ -157,6 +148,16 @@ for word, i in word_index.items():
 #         # words not found in embedding index will be all-zeros.
 #         embedding_matrix[i] = embedding_vector
 #
+
+# Create directory_name
+if config.local_or_cluster:
+    directory_name = datetime.datetime.now().strftime("%y-%m-%d-%H-%M-%S")
+    file_name = 'cnn'
+else:
+    directory_name = datetime.datetime.now().strftime("%y-%m-%d-%H-%M-%S")
+    file_name = os.path.basename(__file__)
+
+print('running '+directory_name+' '+file_name)
 
 # Create output directory
 path_to_dir = os.path.join(config.save_to, directory_name + '/')

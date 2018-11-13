@@ -282,7 +282,7 @@ def load_whole_dataset(train_path,validation_path, test_path,categories,load_all
 
 
 
-
+# The preprocessing
 def load_all_data(train_path,validation_path, categories,shuffle=False,one_hot=False):
     labels = []
     x_text_list = []
