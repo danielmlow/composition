@@ -8,6 +8,7 @@ import datetime
 import os
 import pickle
 import importlib
+from pprint import pprint
 
 import numpy as np
 import pandas as pd
@@ -17,8 +18,9 @@ from keras.layers import Input, Dense, Embedding, Conv2D, MaxPool2D, Reshape, Fl
 from keras.models import Model
 from keras.utils import np_utils
 from keras.callbacks import ModelCheckpoint
+from keras.models import Model
+from keras.models import load_model
 from sklearn.metrics import classification_report, confusion_matrix
-
 import matplotlib.pyplot as plt
 plt.switch_backend('agg') #when running on cluster, don't plot image
 
@@ -151,11 +153,12 @@ for word, i in word_index.items():
 
 # Create directory_name
 if config.local_or_cluster:
-    directory_name = datetime.datetime.now().strftime("%y-%m-%d-%H-%M-%S")
     file_name = 'cnn'
+    directory_name = datetime.datetime.now().strftime(file_name+"_%y-%m-%d-%H-%M-%S")
+
 else:
-    directory_name = datetime.datetime.now().strftime("%y-%m-%d-%H-%M-%S")
     file_name = os.path.basename(__file__)
+    directory_name = datetime.datetime.now().strftime(file_name+"_%y-%m-%d-%H-%M-%S")
 
 print('running '+directory_name+' '+file_name)
 
@@ -237,18 +240,7 @@ pd.DataFrame(cm, columns=categories, index=categories).to_csv(path_to_dir+'cm.cs
 index_min = df_clas_rep['f1_score'].idxmin()
 index_max = df_clas_rep['f1_score'].idxmax()
 
-# Write down shape of each layer
-# ================================================================================================================
-a2 = conv_1.shape[:]
-a2 = str(a2[1])+'*'+str(a2[3])+'='+str(a2[1]*a2[3])
-a3 = maxpool_1.shape[1:3]
-a3 = str(a3[0])+'*'+str(a3[1])+'='+str(a3[0]*a3[1])
-a4 = conv_2.shape[:]
-a4 = str(a4[1])+'*'+str(a4[3])+'='+str(a4[1]*a4[3])
-a5 = maxpool_2.shape[1:3]
-a5 = str(a5[0])+'*'+str(a5[1])+'='+str(a5[0]*a5[1])
 
-reporting = [len(categories),sequence_length,embedding.shape[1:],a2,a3,a4,a5,[''], dense_final_neurons,[''],activation, num_filters, filter_sizes,padding, pool_size, stride_size, drop, epochs, [''], df_clas_rep['f1_score'][len(categories)], [df_clas_rep['class'][index_min],df_clas_rep['f1_score'][index_min]], [df_clas_rep['class'][index_max],df_clas_rep['f1_score'][index_max]]]
 
 # write log file
 # ================================================================================================================
@@ -262,17 +254,18 @@ with open(path_to_dir + 'log.txt', 'a+') as f:
         f.write(name+': '+str(np.round(accuracy[i], 6))+'\n')
     f.write('\n\n')
     f.write('Classification Report: \n'+df_clas_rep_latex)
-    for i in reporting:
-        f.write(str(i)+'\n')
+    f.write('Lowest f1: ' + str(df_clas_rep['class'][index_min])+' '+str(df_clas_rep['f1_score'][index_min])+'\n')
+    f.write('Highest f1: ' + str(df_clas_rep['class'][index_max]) + ' ' + str(df_clas_rep['f1_score'][index_max]) + '\n')
+    f.write('\n Complete configuration: \n\n')
+    pprint(model.get_config(), stream=f)
 
 # Load model
 # ================================================================================================================
-# loaded_model = load_model(path_to_dir+'model.h5')
-# model.compile(optimizer='Adam', loss='categorical_crossentropy', metrics=['accuracy'])
-# model = load_model('/Users/danielmlow/Dropbox/cnn/experiment/final_model/cnn41_final/'+'model.h5')
-# model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
-#
-# path_to_dir = '/Users/danielmlow/Dropbox/cnn/experiment/final_model/'
+loaded_model = load_model(path_to_dir+'model.h5')
+loaded_model.compile(optimizer='Adam', loss='categorical_crossentropy', metrics=['accuracy'])
+loaded_model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
+
+path_to_dir = '/Users/danielmlow/Dropbox/cnn/experiment/final_model/'
 
 # Save output_layers only for test set
 # ================================================================================================================
