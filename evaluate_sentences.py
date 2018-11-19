@@ -140,12 +140,12 @@ directory_name = datetime.datetime.now().strftime("%y-%m-%d-%H-%M-%S")
 output_dir = output_dir+ directory_name + '/'
 os.makedirs(output_dir)
 
-# Main
-sentences, sentences_encoded = load_sentences(load_sentences_from, input_dir)
-for model_to_use in models:
-    loaded_model = load_model(input_dir+'models/'+model_to_use+'/model.h5')
-    loaded_model.compile('sgd','mse')
-    evaluate_sentences(model_to_use, loaded_model,sentences_encoded)
+if __name__ == "__main__":
+    sentences, sentences_encoded = load_sentences(load_sentences_from, input_dir)
+    for model_to_use in models:
+        loaded_model = load_model(input_dir+'models/'+model_to_use+'/model.h5')
+        loaded_model.compile('sgd','mse')
+        evaluate_sentences(model_to_use, loaded_model,sentences_encoded)
 
 
 

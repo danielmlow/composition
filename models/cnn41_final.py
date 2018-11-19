@@ -35,7 +35,7 @@ import plot_outputs
 import data_helpers
 import config
 import rsa
-import corr_between_layers
+# import corr_between_layers
 
 # Parameters, defined in config.py
 # =====================================================================
@@ -45,16 +45,27 @@ toy = config.toy
 save_checkpoints = config.save_checkpoints
 plot_RSA = config.plot_RSA
 
-if toy: #if toy=True then it will run 3 categories instead of 64 and 1 epoch instead of 3 to just test the script.
-    # categories = categories[:4]
-    epochs = 1 #it will probably need more.
-else:
-    epochs = config.epochs  # it will probably need more.
 
-if config.local_or_cluster:
-    categories = categories[:3]
-    epochs=1
-    verbose=1
+
+# TODO uncomment change (but for now i'm running on my PC)
+epochs = config.epochs  # it will probably need more.
+
+
+# if toy: #if toy=True then it will run 3 categories instead of 64 and 1 epoch instead of 3 to just test the script.
+#     # categories = categories[:4]
+#     epochs = 1 #it will probably need more.
+# else:
+#     epochs = config.epochs  # it will probably need more.
+#
+# if config.local_or_cluster:
+#     categories = categories[:3]
+#     epochs=1
+#     verbose=1
+
+
+
+
+
 
 
 print('running for '+str(epochs)+' epochs') #So this is saved to cluster log file.
@@ -269,15 +280,15 @@ path_to_dir = '/Users/danielmlow/Dropbox/cnn/experiment/final_model/'
 
 # Save output_layers only for test set
 # ================================================================================================================
-# conv_1 = get_output(model, 'conv_1', layer_2d_or_1d='2d', Xtest=Xtest_encoded)
-# pool_1 = get_output(model, 'pool_1', layer_2d_or_1d='2d', Xtest=Xtest_encoded)
-# conv_2 = get_output(model, 'conv_2', layer_2d_or_1d='2d', Xtest=Xtest_encoded)
-# pool_2 = get_output(model, 'pool_2', layer_2d_or_1d='2d', Xtest=Xtest_encoded)
-# dense_1 = get_output(model, 'dense_1', layer_2d_or_1d='1d', Xtest=Xtest_encoded)
-# dense_final = get_output(model, 'dense_final', layer_2d_or_1d='1d', Xtest=Xtest_encoded)
-# softmax_final = get_output(model, 'softmax_final', layer_2d_or_1d='1d', Xtest=Xtest_encoded)
-#
-# np.savez_compressed(path_to_dir+'output_layers.npz', a=conv_1, b=pool_1,c=conv_2, d=pool_2, e=dense_1, f=dense_final, g=softmax_final)
+conv_1 = get_output(model, 'conv_1', layer_2d_or_1d='2d', Xtest=Xtest_encoded)
+pool_1 = get_output(model, 'pool_1', layer_2d_or_1d='2d', Xtest=Xtest_encoded)
+conv_2 = get_output(model, 'conv_2', layer_2d_or_1d='2d', Xtest=Xtest_encoded)
+pool_2 = get_output(model, 'pool_2', layer_2d_or_1d='2d', Xtest=Xtest_encoded)
+dense_1 = get_output(model, 'dense_1', layer_2d_or_1d='1d', Xtest=Xtest_encoded)
+dense_final = get_output(model, 'dense_final', layer_2d_or_1d='1d', Xtest=Xtest_encoded)
+softmax_final = get_output(model, 'softmax_final', layer_2d_or_1d='1d', Xtest=Xtest_encoded)
+
+np.savez_compressed(path_to_dir+'output_layers.npz', a=conv_1, b=pool_1,c=conv_2, d=pool_2, e=dense_1, f=dense_final, g=softmax_final)
 
 
 
