@@ -24,7 +24,7 @@ git clone https://github.com/danielmlow/composition.git
 - Edit all files, add more comments.
 - Add dependencies
 
-# Files / scripts
+# Files
 - MA_3120155_DM_Low
 
         Thesis
@@ -60,6 +60,11 @@ git clone https://github.com/danielmlow/composition.git
 - data_helpers.py
 
         Preprocessing and other useful functions.
+
+
+- evaluate_sentences.py
+
+        Include sentences in txt, csv or manually and it will output vectors from the cnn model to the /evaluated_sentences directory (expandible to other models).
 
 
 - plot_outputs.py
