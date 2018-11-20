@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd9d4047-5941-47e8-b5b7-1dc95fe1d400" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config_evaluate_sentences.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/evaluate_sentences.py" afterPath="$PROJECT_DIR$/evaluate_sentences.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,23 +15,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cnn41_final.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cnn41_final.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/cnn41_final.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="-61">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="evaluate_sentences.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="evaluate_sentences.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/evaluate_sentences.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="90" lean-forward="false" selection-start-line="4" selection-start-column="90" selection-end-line="4" selection-end-column="90" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#209#239#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -285,7 +283,7 @@
         <state relative-caret-position="2190">
           <caret line="155" column="0" lean-forward="true" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#209#239#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -303,7 +301,7 @@
         <state relative-caret-position="2010">
           <caret line="143" column="4" lean-forward="false" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#209#239#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -337,7 +335,7 @@
         <state relative-caret-position="2145">
           <caret line="143" column="4" lean-forward="false" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#209#239#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -474,21 +472,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/evaluate_sentences.py">
+    <entry file="file://$PROJECT_DIR$/models/cnn41_final.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-61">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/cnn41_final.py">
+    <entry file="file://$PROJECT_DIR$/evaluate_sentences.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="60">
+          <caret line="4" column="90" lean-forward="false" selection-start-line="4" selection-start-column="90" selection-end-line="4" selection-end-column="90" />
+          <folding>
+            <element signature="e#209#239#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,3 +1,17 @@
+'''
+Daniel M. Low
+
+Input sentences through .txt .csv or manually in ./evaluated_sentences/ directory
+It will return directory inside ./evaluated_sentences/ with vectors for each layer in an .csv  
+
+
+'''
+
+
+
+
+
+
 from keras.models import Model
 from keras.models import load_model
 from keras.preprocessing.text import Tokenizer
