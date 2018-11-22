@@ -48,9 +48,6 @@ git clone https://github.com/danielmlow/composition.git
         These are stopwords which can be removed from avg. word embeddings. 
 
 
-
-
-
 ### Plotting & Analysis
 
 - config.py
@@ -64,7 +61,7 @@ git clone https://github.com/danielmlow/composition.git
 
 - evaluate_sentences.py
 
-        Include sentences in txt, csv or manually and it will output vectors from the cnn model to the /evaluated_sentences directory (expandible to other models).
+        Include sentences in txt, csv or manually in ./evaluated_sentence/ directory and and it will output vectors from the cnn model to the ./evaluated_sentences/model_name_date_time/ directory (need to adjust code for other types of models).
 
 
 - plot_outputs.py

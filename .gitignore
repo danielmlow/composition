@@ -1,6 +1,11 @@
 /runs/
 /evaluated_sentences/
 
+# Exceptions
+/runs/.gitkeep
+/evaluated_sentences/.gitkeep
+/evaluated_sentences/sentences_example.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

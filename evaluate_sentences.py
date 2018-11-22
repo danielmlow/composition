@@ -20,6 +20,7 @@ import config
 # Paths
 load_sentences_from = 'txt'  # Other options: 'csv' 'manually'
 input_dir = './evaluated_sentences/'
+model_dir = './runs/'
 output_dir = './evaluated_sentences/'
 verbose = 0
 
