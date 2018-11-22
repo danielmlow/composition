@@ -231,7 +231,7 @@ with open(path_to_dir + 'log.txt', 'a+') as f:
 
 # SAVE model
 model.save(path_to_dir + 'model.h5', overwrite=True) #Save model
-model.save_weights(path_to_dir +"model_weights.h5", overwrite=True)
+# model.save_weights(path_to_dir +"model_weights.h5", overwrite=True)
 # plot_model(model, to_file=path_to_dir + 'model.png') # Save plot of model
 np.save(path_to_dir + 'history_dict.npy', history.history) #Save history
 
@@ -267,16 +267,8 @@ with open(path_to_dir + 'log.txt', 'a+') as f:
     f.write('Classification Report: \n'+df_clas_rep_latex)
     f.write('Lowest f1: ' + str(df_clas_rep['class'][index_min])+' '+str(df_clas_rep['f1_score'][index_min])+'\n')
     f.write('Highest f1: ' + str(df_clas_rep['class'][index_max]) + ' ' + str(df_clas_rep['f1_score'][index_max]) + '\n')
-    f.write('\n Complete configuration: \n\n')
-    pprint(model.get_config(), stream=f)
-
-# Load model
-# ================================================================================================================
-loaded_model = load_model(path_to_dir+'model.h5')
-loaded_model.compile(optimizer='Adam', loss='categorical_crossentropy', metrics=['accuracy'])
-loaded_model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
-
-path_to_dir = '/Users/danielmlow/Dropbox/cnn/experiment/final_model/'
+    # f.write('\n Complete configuration: \n\n')
+    # pprint(model.get_config(), stream=f)
 
 # Save output_layers only for test set
 # ================================================================================================================
@@ -290,7 +282,10 @@ softmax_final = get_output(model, 'softmax_final', layer_2d_or_1d='1d', Xtest=Xt
 
 np.savez_compressed(path_to_dir+'output_layers.npz', a=conv_1, b=pool_1,c=conv_2, d=pool_2, e=dense_1, f=dense_final, g=softmax_final)
 
-
+# Load model
+# ================================================================================================================
+# loaded_model = load_model(path_to_dir+'model.h5')
+# loaded_model.compile(optimizer='Adam', loss='categorical_crossentropy', metrics=['accuracy']) #load_model does this if model was already compiled
 
 # Save output_layers all sentences (train, validation, test)
 # ================================================================================================================

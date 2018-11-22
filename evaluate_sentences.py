@@ -6,23 +6,16 @@ It will return directory inside ./evaluated_sentences/ with vectors for each lay
 
 
 '''
-
-
-
-
-
-
 from keras.models import Model
 from keras.models import load_model
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 import pandas as pd
-import data_helpers #TODO: comment sklearn for Scott.
+import data_helpers
 import numpy as np
 import datetime
 import os
 import config
-
 
 # Paths
 load_sentences_from = 'txt'  # Other options: 'csv' 'manually'
@@ -33,18 +26,13 @@ verbose = 0
 # Parameters
 '''
 Here you can specify which model/s you want to use. For example, set 
-models=['lstm0'] #for 1 model
+models=['cnn41'] #for 1 model
 models=['lstm0', 'cnn4', etc. ] for several models 
 ['lstm0', 'lstm1', 'lstm2', 'lstm3', 'lstm4', 'lstm5', 'lstm6', 'lstm7', 'cnn0', 'cnn1', 'cnn2', 'cnn3']
 '''
-models = ['cnn41_new']
+models = ['cnn41']
 sequence_length = 38
 categories = config.categories
-
-# Save to new directory so each evaluation doesn't overwrite previous
-directory_name = datetime.datetime.now().strftime(models[0]+"_%y-%m-%d-%H-%M-%S")
-output_dir = output_dir+ directory_name + '/'
-os.makedirs(output_dir)
 
 
 def load_sentences(load_sentences_from, input_dir):
@@ -70,6 +58,7 @@ def load_sentences(load_sentences_from, input_dir):
     sentences_encoded = pad_sequences(sequences, maxlen=sequence_length, padding='post')
     return sentences, sentences_encoded
 
+# This needs to be edited to load LSTM
 # def get_output(model, layer_name, batch_size=512, Xtest=None, layer_3d=False, hidden_layer=False):
 #     intermediate_layer_model = Model(inputs=model.input,outputs=model.get_layer(layer_name).output)
 #     layer_output = intermediate_layer_model.predict(Xtest, batch_size=batch_size, verbose=0)
@@ -89,33 +78,22 @@ def get_output(model, layer_name, batch_size=512, Xtest=None, layer_2d_or_1d='2d
     layer_output = pd.DataFrame(layer_output)
     return layer_output
 
-
-
-
-
-
-def evaluate_sentences(model_to_use, loaded_model, sentences_encoded):
+def evaluate_sentences(model_to_use='cnn41', loaded_model='.path/model.h5', sentences_encoded=None):
     model_name = model_to_use+'model_'
     # Evaluate sentences in each layer; layers depends on model_to_use
     if model_to_use in ['lstm18']: #TODO
         print('Error: need to implement latest model')
         return
-        # # All LSTMS (above) have these three layers
+        # # All LSTMS  have these layers
         # lstm_1 = get_output(loaded_model, 'lstm_1', hidden_layer=True, Xtest=sentences_encoded)
         # lstm_2 = get_output(loaded_model, 'lstm_2', hidden_layer=True, Xtest=sentences_encoded)
         # lstm_3 = get_output(loaded_model, 'lstm_3', Xtest=sentences_encoded)
-        # if model_to_use in ['lstm0', 'lstm1', 'lstm2', 'lstm3', 'lstm5', 'lstm6']:
-        #     # These ones end in a softmax which is the input to the loss function, softmax_layer is useless for correlations I think.
-        #     softmax_layer = get_output(loaded_model, 'dense_1', Xtest=sentences_encoded)  # TODO: Check name
-        # elif model_to_use in ['lstm7']:
-        #     # I changed softmax function to sigmoid which is useful for correlations. So one more layer
-        #     sigmoid_layer = get_output(loaded_model, 'dense_1', Xtest=sentences_encoded)  # TODO: Check name
-        # elif model_to_use in ['lstm4']:
+        # if model_to_use in ['lstm4']:
         #     # These have to fully connected layers plus a softmax (useless) layer.
         #     dense_4 = get_output(loaded_model, 'dense_4', Xtest=sentences_encoded)
         #     dense_5 = get_output(loaded_model, 'dense_5', Xtest=sentences_encoded)
-        #     softmax_layer = get_output(loaded_model, 'dense_1', Xtest=sentences_encoded)  # TODO: Check name
-    elif model_to_use in ['cnn41_old', 'cnn41_new']: #TODO rename dir and change here
+        #     softmax_layer = get_output(loaded_model, 'dense_1', Xtest=sentences_encoded)
+    elif model_to_use in ['cnn41']:
         # These have 4 main layers: conv1, conv2, dense1 and dense_final
         conv_1_reshaped = get_output(loaded_model, 'conv_1', Xtest=sentences_encoded,
                                      layer_2d_or_1d='2d')  # Each sentence is a matrix So we turn into vector for easier correlations
@@ -124,7 +102,7 @@ def evaluate_sentences(model_to_use, loaded_model, sentences_encoded):
         pool_2_reshaped = get_output(loaded_model, 'pool_2', Xtest=sentences_encoded, layer_2d_or_1d='2d')
         dense_1 = get_output(loaded_model, 'dense_1', Xtest=sentences_encoded, layer_2d_or_1d='1d')
         dense_final = get_output(loaded_model, 'dense_final', Xtest=sentences_encoded, layer_2d_or_1d='1d')
-        softmax_final = get_output(loaded_model, 'softmax_final', Xtest=sentences_encoded, layer_2d_or_1d='1d')  # TODO: Check name
+        softmax_final = get_output(loaded_model, 'softmax_final', Xtest=sentences_encoded, layer_2d_or_1d='1d')
     # Save to files.
     # try: #TODO
     #     lstm_1.to_csv(output_dir + model_name + 'lstm_1.csv')
@@ -133,13 +111,17 @@ def evaluate_sentences(model_to_use, loaded_model, sentences_encoded):
     # except:
     #     pass
     try:
-        conv_1_reshaped.to_csv(output_dir + model_name + 'conv_1_reshaped.csv')
-        pool_1_reshaped.to_csv(output_dir + model_name + 'pool_1_reshaped.csv')
-        conv_2_reshaped.to_csv(output_dir + model_name + 'conv_2_reshaped.csv')
-        pool_2_reshaped.to_csv(output_dir + model_name + 'pool_2_reshaped.csv')
-        dense_1.to_csv(output_dir + model_name + 'dense_1.csv')
-        dense_final.to_csv(output_dir + model_name + 'dense_final.csv')
-        softmax_final.to_csv(output_dir + model_name + 'softmax_final.csv')
+        # Save to new directory so each evaluation doesn't overwrite previous
+        directory_name = datetime.datetime.now().strftime(model_to_use + "_%y-%m-%d-%H-%M-%S")
+        new_dir = output_dir + directory_name + '/'
+        os.makedirs(new_dir)
+        conv_1_reshaped.to_csv(new_dir + model_name + 'conv_1_reshaped.csv')
+        pool_1_reshaped.to_csv(new_dir + model_name + 'pool_1_reshaped.csv')
+        conv_2_reshaped.to_csv(new_dir + model_name + 'conv_2_reshaped.csv')
+        pool_2_reshaped.to_csv(new_dir + model_name + 'pool_2_reshaped.csv')
+        dense_1.to_csv(new_dir + model_name + 'dense_1.csv')
+        dense_final.to_csv(new_dir + model_name + 'dense_final.csv')
+        softmax_final.to_csv(new_dir + model_name + 'softmax_final.csv')
     except:
         pass
     print('Sentence evaluations have been saved. ')
@@ -152,21 +134,18 @@ if __name__ == "__main__":
     sentences, sentences_encoded = load_sentences(load_sentences_from, input_dir)
     for model in models:
         loaded_model = load_model(os.path.join('runs',model,'model.h5'))
-        loaded_model.compile(optimizer='Adam', loss='categorical_crossentropy', metrics=['accuracy']) #see how each model was compiled in cnn41_final.py
-        evaluate_sentences(model, loaded_model,sentences_encoded)
+        dense_final = get_output(model, 'dense_final', layer_2d_or_1d='1d', Xtest=Xtest_encoded)
+        dense_final = evaluate_sentences(model_to_use = model, loaded_model = loaded_model, sentences_encoded = sentences_encoded) #TODO erase output
 
-
-# tests
-old = './evaluated_sentences/cnn41_old_18-11-20-11-46-41/'
-new = './evaluated_sentences/cnn41_new_18-11-20-12-05-21/'
-files_old = os.listdir(old)
-files_new = os.listdir(new)
-
-for i in range(7):
-    old_file = pd.read_csv(old+files_old[i])
-    new_file = pd.read_csv(new+files_new[i])
-    print('Needs to be True: '+str(old_file == new_file))
-
-
-# I should run it and then compare to new.
-# Also, compare loading model with loading weights.
+## Tests
+# ========================================================================================================================
+# Load the model, and compare to Xtest sentence saved during run.
+# 'volò solo come prototipo e non venne mai avviato alla produzione in serie ma rimane l unico idrovolante ad avere superato la velocità del suono'
+# evaluate this sentences it should be equal to dense_final[4]
+# Xtest[4]
+# Xtest_encoded[4]
+# sent4_encoded = np.array([[7740,   89,   31, 1856,    4,   36,   61,  344, 3884,   26,  397, 6,   81,   58,  798,   14,  511, 8546,   43,  483, 2021,    3, 481,    9, 2642,    0,    0,    0,    0,    0,    0,    0,    0, 0,    0,    0,    0,    0]])
+# loaded_model = load_model(os.path.join('runs',model,'model.h5'))
+# dense_final = evaluate_sentences(model, loaded_model,sent4_encoded)
+# dense_final == Xtest.iloc[4,:]
+# # Worked

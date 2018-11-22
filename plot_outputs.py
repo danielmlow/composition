@@ -92,7 +92,7 @@ def learning_curve(history, output_dir):
     for result in acc_results:
         list1 = history[result]
         list1.insert(0, 0)
-        plt.xticks(range(11))
+        plt.xticks(range(4))
         plt.plot(list1)
     plt.legend(acc_results, loc='lower right')
     plt.xlabel('Epoch')
@@ -108,7 +108,7 @@ def learning_curve(history, output_dir):
     plt.legend(loss_results, loc='lower left')
     plt.ylabel('Loss')
     plt.xlabel('Epoch')
-    plt.xticks(range(11))
+    plt.xticks(range(4))
     # plt.xticks(range(config.epochs+1))
     plt.rc('font', **font)
     plt.savefig(output_dir+'learning_curve_loss'+'.eps', format='eps', dpi=100)
