@@ -1,10 +1,12 @@
-/runs/
-/evaluated_sentences/
-
 # Exceptions
 !/runs/.gitkeep
 !/evaluated_sentences/.gitkeep
 !/evaluated_sentences/sentences_example.txt
+
+# Ignore
+runs.zip
+/runs/
+/evaluated_sentences/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
