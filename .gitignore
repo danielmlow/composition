@@ -1,5 +1,5 @@
-/runs
-/evaluated_sentences
+/runs/
+/evaluated_sentences/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
