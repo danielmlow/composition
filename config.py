@@ -1,6 +1,6 @@
 
 local_or_cluster = True#if False, use RUG cluster
-toy = False
+toy = True #True = fast check which only uses 3 categories and 1 epochs; set to False to run full model with all categories and for 3 epochs
 epochs = 3
 verbose = 0
 batch_size=512

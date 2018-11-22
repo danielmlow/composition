@@ -7,9 +7,7 @@ Python3
 import datetime
 import os
 import pickle
-import importlib
 from pprint import pprint
-
 import numpy as np
 import pandas as pd
 from keras.preprocessing.text import Tokenizer
@@ -22,9 +20,7 @@ from keras.models import Model
 from keras.models import load_model
 from sklearn.metrics import classification_report, confusion_matrix
 import matplotlib.pyplot as plt
-plt.switch_backend('agg') #when running on cluster, don't plot image
-
-import seaborn as sns
+plt.switch_backend('agg') #when running on cluster, don't show image plot automatically
 from numpy.random import seed
 seed(123)
 from tensorflow import set_random_seed
@@ -34,8 +30,6 @@ set_random_seed(123)
 import plot_outputs
 import data_helpers
 import config
-import rsa
-# import corr_between_layers
 
 # Parameters, defined in config.py
 # =====================================================================
@@ -45,27 +39,12 @@ toy = config.toy
 save_checkpoints = config.save_checkpoints
 plot_RSA = config.plot_RSA
 
-
-
-# TODO uncomment change (but for now i'm running on my PC)
-epochs = config.epochs  # it will probably need more.
-
-
-# if toy: #if toy=True then it will run 3 categories instead of 64 and 1 epoch instead of 3 to just test the script.
-#     # categories = categories[:4]
-#     epochs = 1 #it will probably need more.
-# else:
-#     epochs = config.epochs  # it will probably need more.
-#
-# if config.local_or_cluster:
-#     categories = categories[:3]
-#     epochs=1
-#     verbose=1
-
-
-
-
-
+if toy: #if toy=True then it will run few categories instead of 64 and 1 epoch instead of 3 to just test the script.
+    categories = categories[:3]
+    epochs = 1
+    verbose = 1
+else:
+    epochs = config.epochs
 
 
 print('running for '+str(epochs)+' epochs') #So this is saved to cluster log file.
@@ -267,8 +246,8 @@ with open(path_to_dir + 'log.txt', 'a+') as f:
     f.write('Classification Report: \n'+df_clas_rep_latex)
     f.write('Lowest f1: ' + str(df_clas_rep['class'][index_min])+' '+str(df_clas_rep['f1_score'][index_min])+'\n')
     f.write('Highest f1: ' + str(df_clas_rep['class'][index_max]) + ' ' + str(df_clas_rep['f1_score'][index_max]) + '\n')
-    # f.write('\n Complete configuration: \n\n')
-    # pprint(model.get_config(), stream=f)
+    f.write('\n Complete configuration: \n\n')
+    pprint(model.get_config(), stream=f)
 
 # Save output_layers only for test set
 # ================================================================================================================
@@ -281,11 +260,6 @@ dense_final = get_output(model, 'dense_final', layer_2d_or_1d='1d', Xtest=Xtest_
 softmax_final = get_output(model, 'softmax_final', layer_2d_or_1d='1d', Xtest=Xtest_encoded)
 
 np.savez_compressed(path_to_dir+'output_layers.npz', a=conv_1, b=pool_1,c=conv_2, d=pool_2, e=dense_1, f=dense_final, g=softmax_final)
-
-# Load model
-# ================================================================================================================
-# loaded_model = load_model(path_to_dir+'model.h5')
-# loaded_model.compile(optimizer='Adam', loss='categorical_crossentropy', metrics=['accuracy']) #load_model does this if model was already compiled
 
 # Save output_layers all sentences (train, validation, test)
 # ================================================================================================================
@@ -304,6 +278,13 @@ np.savez_compressed(path_to_dir+'output_layers.npz', a=conv_1, b=pool_1,c=conv_2
 # np.savez_compressed(path_to_dir + 'output_layers_whole_dataset_e.npz', a=dense_1)
 # np.savez_compressed(path_to_dir + 'output_layers_whole_dataset_f.npz', a=dense_final)
 # np.savez_compressed(path_to_dir + 'output_layers_whole_dataset_g.npz', a=softmax_final)
+
+
+# Load model
+# ================================================================================================================
+# loaded_model = load_model(path_to_dir+'model.h5')
+# loaded_model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
+
 
 # Save predictions
 # ================================================================================================================

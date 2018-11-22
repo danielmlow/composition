@@ -11,6 +11,11 @@ contact: dlow@g.harvard.edu
 git clone https://github.com/danielmlow/composition.git
 ```
 
+**Run this in terminal so the models in ./models/ with import modules like config.py**
+```
+export PYTHONPATH="${PYTHONPATH}:/path/composition"
+```
+
 **Dependencies**
 * python3
 * pandas
