@@ -4,6 +4,7 @@
 !/evaluated_sentences/sentences_example.txt
 
 # Ignore
+config.py
 runs.zip
 /runs/
 /evaluated_sentences/

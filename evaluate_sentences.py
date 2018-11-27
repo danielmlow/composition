@@ -125,6 +125,7 @@ def evaluate_sentences(model_to_use='cnn41', loaded_model='.path/model.h5', sent
         softmax_final.to_csv(new_dir + model_name + 'softmax_final.csv')
     except:
         pass
+    print('======================================')
     print('Sentence evaluations have been saved. ')
     return
 
@@ -135,8 +136,7 @@ if __name__ == "__main__":
     sentences, sentences_encoded = load_sentences(load_sentences_from, input_dir)
     for model in models:
         loaded_model = load_model(os.path.join('runs',model,'model.h5'))
-        dense_final = get_output(model, 'dense_final', layer_2d_or_1d='1d', Xtest=Xtest_encoded)
-        dense_final = evaluate_sentences(model_to_use = model, loaded_model = loaded_model, sentences_encoded = sentences_encoded) #TODO erase output
+        evaluate_sentences(model_to_use = model, loaded_model = loaded_model, sentences_encoded = sentences_encoded)
 
 ## Tests
 # ========================================================================================================================
