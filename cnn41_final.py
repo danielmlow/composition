@@ -125,9 +125,9 @@ X_encoded = pad_sequences(sequences3, maxlen=sequence_length, padding='post')
 # embeddings_index = load_obj(config.word_embeddings_path+'/gensim_it_w2v.pkl') #Load presaved as pickle
 # Create
 embeddings_index = {}
-# with open(os.path.join(config.word_embeddings_path,'GoogleNews-vectors-negative300.bin')) as f:
+with open(os.path.join(config.word_embeddings_path,'GoogleNews-vectors-negative300.bin')) as f:
 
-with open(os.path.join(config.word_embeddings_path,'glove.6B.'+str(embedding_dim)+'d.txt')) as f:
+# with open(os.path.join(config.word_embeddings_path,'glove.6B.'+str(embedding_dim)+'d.txt')) as f:
     for line in f:
         values = line.split()
         word = values[0]

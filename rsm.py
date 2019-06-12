@@ -52,13 +52,21 @@ def plot_cluster_map(output_dir, df, column_names, output_file_name='lstm_1'):
     cg.savefig(output_dir + 'RSA_ward_'+ output_file_name+ '.eps', format='eps', dpi=100)
 
 
-def plot_heatmap(output_dir , df_corr, column_names,output_file_name = 'similarity_experiment', with_corr_values=True, ):
+def plot_heatmap(output_dir , df_corr, column_names,output_file_name = 'similarity_experiment', with_corr_values=True, value_range=[-1,1]):
+    if value_range == [-1,1]:
+        vmin = -1.0
+        vmax = 1.0
+        ticks = [-1., -0.5, 0.0, 0.5, 1.0]
+    if value_range == [0, 1]:
+        vmin = 0.
+        vmax = 1.0
+        ticks = [0, 0.25, 0.5, 0.75, 1.0]
     # layer_name is just used to define the output layer name
     plt.clf()
     df_corr.columns = column_names
     df_corr.index = column_names
     sns.set(font_scale=1.2)
-    sns.heatmap(df_corr,cmap="RdBu_r", vmin = -1., vmax=1.0, cbar_kws={"ticks":[-1., -0.5, 0.0, 0.5, 1.0]}, annot=with_corr_values)
+    sns.heatmap(df_corr,cmap="RdBu_r", vmin = vmin, vmax=vmax , cbar_kws={"ticks":ticks }, annot=with_corr_values)
     plt.yticks(rotation=0)
     plt.xticks(rotation=90)
     plt.tight_layout(1.8)
